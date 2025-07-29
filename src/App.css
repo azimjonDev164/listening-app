@@ -1,4 +1,5 @@
-.container {
-      max-width: 1080px;
-      margin: 10px auto;
+body {
+      padding-left: 300px;
+      padding-top: 75px;
+      max-width: 1000px;
 }

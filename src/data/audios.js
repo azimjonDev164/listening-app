@@ -1,0 +1,27 @@
+import lis1Part1 from "../audios/listening1/Part 1.mp3";
+import lis1Part2 from "../audios/listening1/Part 2.mp3";
+import lis1Part3 from "../audios/listening1/Part 3.mp3";
+import lis1Part4 from "../audios/listening1/Part 4.mp3";
+import lis2Part1 from "../audios/listening2/Part 1.mp3";
+import lis2Part2 from "../audios/listening2/Part 2.mp3";
+import lis2Part3 from "../audios/listening2/Part 3.mp3";
+import lis2Part4 from "../audios/listening2/Part 4.mp3";
+import lis3Part1 from "../audios/listening3/Part 1.m4a";
+import lis3Part2 from "../audios/listening3/Part 2.m4a";
+import lis3Part3 from "../audios/listening3/Part 3.m4a";
+import lis3Part4 from "../audios/listening3/Part 4.m4a";
+
+export default {
+  lis1Part1,
+  lis1Part2,
+  lis1Part3,
+  lis1Part4,
+  lis2Part1,
+  lis2Part2,
+  lis2Part3,
+  lis2Part4,
+  lis3Part1,
+  lis3Part2,
+  lis3Part3,
+  lis3Part4,
+};

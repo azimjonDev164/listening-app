@@ -1,0 +1,577 @@
+multiple-choice
+{
+            part: 1,
+            title: "Questions 1-5",
+            description:
+              "Complete the notes below. Write no more than two words and/or a number for each answer.",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 1,
+                question: "Where does the man work?",
+                type: "multiple-choice",
+                options: ["School", "Library"],
+                answer: "Library",
+              },
+              {
+                number: 2,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 3,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 4,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+            ],
+          },
+
+
+matching
+{
+            part: 2,
+            title: "Questions 6-10",
+            question:
+              "What does Jack tell his tutor about each of the following course options",
+            description:
+              "Complete the notes below. Write no more than a word for each answer. ",
+            type: "matching",
+            items: [
+              "he'll definitely do it",
+              "he may or may not do it",
+              "he won't do it",
+            ],
+            questions: [
+              {
+                number: 6,
+                option: "Media Studies",
+                answer: "A",
+              },
+              {
+                number: 7,
+                option: "Women and Power",
+                answer: "B",
+              },
+              {
+                number: 8,
+                option: "Culture and Society",
+                answer: "C",
+              },
+            ],
+          },
+
+note_completion
+  {
+            part: 1,
+            title: "Adventure Camp",
+            questions_range: "Questions 1-10",
+            description: "Write ONE WORD AND/OR A NUMBER for each answer.",
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "Accommodation:",
+                question_text: [
+                  {
+                    number: 1,
+                    text: "•	Tents are provided.",
+                  },
+                  {
+                    number: 1,
+                    text: "•	The camp can take up to 1) * @ * people.",
+                  },
+                ],
+              },
+              {
+                prompt: "Cost:",
+                question_text: [
+                  {
+                    number: 2,
+                    text: "2) * @ * for wo days",
+                  },
+                  {
+                    number: 2,
+                    text: "•	Transport is not included.",
+                  },
+                ],
+              },
+              {
+                prompt: "DAY ONE",
+                question_text: [
+                  {
+                    number: 2,
+                    text: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Moming:",
+                question_text: [
+                  {
+                    number: 3,
+                    text: "•	A lesson in riding a 3) * @ *",
+                  },
+                ],
+              },
+              {
+                prompt: "Afternoon:",
+                question_text: [
+                  {
+                    number: 4,
+                    text: "•	Go down the river by 4) * @ *",
+                  },
+                  {
+                    number: 5,
+                    text: "•	Explore one of the 5) * @ *",
+                  },
+                  {
+                    number: 6,
+                    text: "−	(a 6 * @ * is provided)",
+                  },
+                ],
+              },
+              {
+                prompt: "Evening:",
+                question_text: [
+                  {
+                    number: 7,
+                    text: "• Dinner − either a barbecue, 7) * @ * or pizza",
+                  },
+                  {
+                    number: 5,
+                    text: "Explore one of the 5) * @ *",
+                  },
+                  {
+                    number: 6,
+                    text: "−	(a 6 * @ * is provided)",
+                  },
+                ],
+              },
+              {
+                prompt: "DAY TWO",
+                question_text: [
+                  {
+                    number: 2,
+                    text: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Evening:",
+                question_text: [
+                  {
+                    number: 8,
+                    text: "• Cycle to a 8) * @ * and back",
+                  },
+                  {
+                    number: 8,
+                    text: "• Free time",
+                  },
+                ],
+              },
+              {
+                prompt: "Evening:",
+                question_text: [
+                  {
+                    number: 9,
+                    text: "•	Play 9) * @ *",
+                  },
+                  {
+                    number: 10,
+                    text: "• Leam how to make 10) * @ *",
+                  },
+                ],
+              },
+            ],
+          },
+
+
+sentence_completion
+   {
+            part: 1,
+            title: "Spices",
+            questions_range: "Questions 31-34",
+            description: "Write ONE WORD ONLY for each answer",
+            type: "sentence_completion",
+            questions: [
+              {
+                number: 31,
+                question_text:
+                  "The ancient Greeks and Romans used spices in cooking food and also in the preparation of * @ *",
+              },
+              {
+                number: 32,
+                question_text:
+                  "The ancient Romans used certain spices to display their* @ *",
+              },
+              {
+                number: 33,
+                question_text:
+                  "The search for spices contributed to the * @ * of the New World.",
+              },
+              {
+                number: 34,
+                question_text:
+                  "34	Spices were used as medicine and it was also believed they could change a person's * @ *",
+              },
+            ],
+          },
+        
+
+table_completion
+   {
+            part: 2,
+            title: "",
+            questions_range: "Questions 35-37",
+            description: "Write NO MORE THAN TWO WORDS for each answer.",
+            type: "table_completion",
+            columns: ["Spice", "Health uses", "Other uses"],
+            rows: [
+              {
+                number: 35,
+                values: ["Nutmeg", "to treat colds", ""],
+              },
+              {
+                number: 35,
+                values: ["", "to reduce the pain of 35) * @ *", ""],
+              },
+              {
+                number: 36,
+                values: [
+                  "Peppercorns",
+                  "to treat rheumatism",
+                  "to take the place of 36) * @ *.",
+                ],
+              },
+              {
+                number: 37,
+                values: ["Bumt spices", "", "to hide domestic 37) * @ *."],
+              },
+            ],
+          },  
+
+
+ skeleton        
+ {
+    title: "IELTS Listening  2",
+    audioUrl: "https://example.com/audio/test2.mp3",
+    sections: [
+      {
+        section: 1,
+        audioUrl: audios.lis2Part1,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 1-5",
+            description:
+              "Complete the notes below. Write no more than two words and/or a number for each answer.",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 1,
+                question: "Where does the man work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Old School", "Kindergarden"],
+                answer: "Library",
+              },
+              {
+                number: 2,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 3,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 4,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 6-10",
+            description:
+              "Complete the notes below. Write no more than a word for each answer. ",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 1,
+                question: "Where does the man work?",
+                type: "multiple-choice",
+                options: ["School", "Library"],
+                answer: "Library",
+              },
+              {
+                number: 2,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 3,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 4,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 2,
+        audioUrl: audios.lis2Part2,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 1-5",
+            description:
+              "Complete the notes below. Write no more than two words and/or a number for each answer.",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 1,
+                question: "Where does the man work?",
+                type: "multiple-choice",
+                options: ["School", "Library"],
+                answer: "Library",
+              },
+              {
+                number: 2,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 3,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 4,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 6-10",
+            description:
+              "Complete the notes below. Write no more than a word for each answer. ",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 1,
+                question: "Where does the man work?",
+                type: "multiple-choice",
+                options: ["School", "Library"],
+                answer: "Library",
+              },
+              {
+                number: 2,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 3,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 4,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 3,
+        audioUrl: audios.lis2Part3,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 1-5",
+            description:
+              "Complete the notes below. Write no more than two words and/or a number for each answer.",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 1,
+                question: "Where does the man work?",
+                type: "multiple-choice",
+                options: ["School", "Library"],
+                answer: "Library",
+              },
+              {
+                number: 2,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 3,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 4,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 6-10",
+            description:
+              "Complete the notes below. Write no more than a word for each answer. ",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 1,
+                question: "Where does the man work?",
+                type: "multiple-choice",
+                options: ["School", "Library"],
+                answer: "Library",
+              },
+              {
+                number: 2,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 3,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 4,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 4,
+        audioUrl: audios.lis2Part4,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 1-5",
+            description:
+              "Complete the notes below. Write no more than two words and/or a number for each answer.",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 1,
+                question: "Where does the man work?",
+                type: "multiple-choice",
+                options: ["School", "Library"],
+                answer: "Library",
+              },
+              {
+                number: 2,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 3,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+              {
+                number: 4,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 6-10",
+            description:
+              "Complete the notes below. Write no more than a word for each answer. ",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 1,
+                question: "Where does the man work?",
+                type: "multiple-choice",
+                options: ["School", "Library"],
+                answer: "Library",
+              },
+              {
+                number: 2,
+                question: "Where does the woman work?",
+                type: "multiple-choice",
+                options: ["School", "Library", "Hospital"],
+                answer: "Library",
+              },
+            
+            ],
+          },
+        ],
+      },
+    ],
+  },      
