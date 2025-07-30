@@ -40,7 +40,7 @@ const Sentence = ({ data, handleChange }) => {
                   idx % 2 === 0 ? "bg-white" : "bg-gray-50"
                 } border-b border-gray-200`}
               >
-                <td className="p-4 flex gap-1">
+                <td className="p-4">
                   <strong>{item?.number}.</strong>
                   {wordHandler(item.question_text, item.number)}
                 </td>

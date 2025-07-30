@@ -32,7 +32,7 @@ const Table = ({ data, handleChange }) => {
               {data.columns.map((item, idx) => (
                 <th
                   key={idx}
-                  className="px-4 py-2 text-center text-base font-medium text-gray-700 border-b border-gray-300"
+                  className="px-4 py-2 text-center text-base font-medium text-gray-700 border border-gray-300"
                 >
                   {item}
                 </th>
@@ -45,12 +45,12 @@ const Table = ({ data, handleChange }) => {
                 key={rowIdx}
                 className={`${
                   rowIdx % 2 === 0 ? "bg-white" : "bg-gray-50"
-                } border-2 border-solid border-gray-600`}
+                } hover:bg-blue-50 transition-colors`}
               >
                 {row.values.map((cell, cellIdx) => (
                   <td
                     key={cellIdx}
-                    className="px-4 py-2 border-r border-2 border-gray-600"
+                    className="border border-gray-300 p-1 text-gray-800"
                   >
                     {wordHandler(cell, row.number)}
                   </td>

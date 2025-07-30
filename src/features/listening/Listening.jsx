@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleNotch, faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { tests } from "../../data/db";
 import MultipleChoise from "../../components/MultipleChoise";
 import Matching from "../../components/Matching";
@@ -22,6 +24,7 @@ const Listening = () => {
   const [finished, setFinished] = useState(false);
   const [data, setData] = useState({});
   const [ANSWERS, setANSWERS] = useState({});
+  const [currentAudio, setCurrentAudio] = useState("");
 
   let num = id - 1;
 
@@ -70,14 +73,14 @@ const Listening = () => {
     setData(tests[num]);
   }, [id]);
   return (
-    <section>
-      <div className="h-14 sticky top-[68px] z-50 bg-white border-b-2 border-red-500 flex items-center">
+    <section className="w-full">
+      <div className="sticky top-[68px] z-50 bg-white border-b-2 border-red-500 flex items-center">
         <ul className="menu menu-horizontal px-1">
           {data.title ? (
             data.sections.map((item, idx) => (
               <li
                 key={idx}
-                className="text-[15px] font-bold hover:text-red-500 "
+                className="text-[12px] md:text-[15px] font-bold hover:text-red-500 "
               >
                 <a href={`#part${item.section}`}>{`Part ${item.section}`}</a>
               </li>
@@ -89,12 +92,12 @@ const Listening = () => {
         <p className="items-center">{data?.title}</p>
       </div>
       {finished ? (
-        <>
-          <ol className="space-y-3 mt-4 flex flex-row flex-wrap gap-1">
+        <div className="w-full">
+          <ol className="space-y-3 mt-4 w-full flex flex-wrap gap-1 mx-auto">
             {Object.keys(answersObj).map((key) => (
               <li
                 key={key}
-                className={`flex items-center w-[240px] justify-between p-4 border rounded-lg shadow-sm ${
+                className={`flex items-center w-full mx-auto md:w-[240px] justify-between p-4 border rounded-lg shadow-sm ${
                   answersObj[key]
                     ? "bg-green-50 border-green-200"
                     : "bg-red-50 border-red-200"
@@ -119,7 +122,7 @@ const Listening = () => {
               reset
             </button>
           </div>
-        </>
+        </div>
       ) : (
         <>
           {data.title ? (
@@ -127,13 +130,13 @@ const Listening = () => {
               <section
                 key={idx}
                 id={`part${section?.section}`}
-                className="p-6 max-w-4xl mx-auto text-gray-800 mt-1"
+                className="p-6 w-full px-1 md:max-w-4xl mx-auto text-gray-800 mt-1"
               >
                 <h2 className="text-2xl font-bold mb-4 mt-6 text-center">
                   Part {section?.section}
                 </h2>
 
-                <audio className="w-full" controls>
+                <audio className="w-full" controls key={section.audioUrl}>
                   <source src={section.audioUrl} type="audio/mp3" />
                   Your browser does not support the audio element.
                 </audio>

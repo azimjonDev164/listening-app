@@ -46,14 +46,10 @@ const Note = ({ data, handleChange }) => {
                       data?.flex === 1 ? "flex-col" : "flex-row justify-between"
                     }`}
                   >
-                    <h3 className="text-[17px] font-semibold text-gray-800">
+                    <h3 className="text-[17px] flex-1/4 font-semibold text-gray-800">
                       {item.prompt}
                     </h3>
-                    <ul
-                      className={`space-y-1 text-left ${
-                        data?.flex === 1 ? "w-full" : "w-[400px]"
-                      }`}
-                    >
+                    <ul className={`space-y-1 text-left flex-1/2`}>
                       {item.question_text.map((p, i) => (
                         <li key={i} className="leading-8 md:leading-5">
                           {wordHandler(p.text, p?.number)}

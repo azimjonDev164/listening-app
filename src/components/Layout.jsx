@@ -14,7 +14,7 @@ const Layout = () => {
     <div>
       <Navbar displayHandler={displayHandler} />
       <Sidebar display={display} />
-      <main className="max-w-[1000px] mx-auto pt-[70px] md:pl-[180px] p-4">
+      <main className="w-full px-3 mx-auto md:max-w-[1000px]  pt-[70px] lg:pl-[180px] p-4">
         <Outlet />
       </main>
     </div>

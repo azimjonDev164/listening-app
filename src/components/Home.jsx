@@ -34,7 +34,6 @@ const Home = () => {
   return (
     <div className="max-w-5xl mx-auto p-6 space-y-6">
       <div className="container px-3">
-        <img src="" alt="" />
         <h1 className="text-3xl font-bold text-center">
           Hi! <FontAwesomeIcon icon={faHand} className="text-yellow-400" /> I'm
           Azimjon <br />

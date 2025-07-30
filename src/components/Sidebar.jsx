@@ -9,7 +9,7 @@ const Sidebor = ({ display }) => {
     <div
       className={`${
         display ? "block" : "hidden"
-      } md:block fixed top-[68px] bottom-0 left-0 z-[999] w-64 bg-white shadow-lg border-r border-gray-200`}
+      } xl:block fixed top-[68px] bottom-0 left-0 z-[999] w-64 bg-white shadow-lg border-r border-gray-200`}
     >
       <SignedOut>
         <div className="flex justify-center">
@@ -28,7 +28,7 @@ const Sidebor = ({ display }) => {
               onClick={() => setIndex(idx)}
               className={`${
                 index == idx ? "bg-red-400 text-white" : "text-gray-800"
-              } rounded-md`}
+              } rounded-md border-1 border-red-500`}
             >
               <Link
                 to={`/listening/${idx + 1}`}
