@@ -1,4 +1,5 @@
 import audios from "./audios";
+import imges from "./imges";
 export const tests = [
   {
     title: "IELTS Listening Test 1",
@@ -1397,6 +1398,516 @@ export const tests = [
       38: "dog",
       39: "noise",
       40: "combination",
+    },
+  },
+  {
+    title: "IELTS Listening  4",
+    audioUrl: "https://example.com/audio/test2.mp3",
+    sections: [
+      {
+        section: 1,
+        audioUrl: audios.lis4Part1,
+        parts: [
+          {
+            part: 1,
+            title: "Furniture Rental Companies",
+            questions_range: "Questions 1–10",
+            description:
+              "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer",
+            type: "table_completion",
+            object: 1,
+            columns: [
+              "Name of company",
+              "Information about costs",
+              "Additional notes",
+            ],
+            rows: [
+              {
+                number: 1,
+                values: [
+                  [
+                    {
+                      number: 1,
+                      text: "Peak Rentals",
+                    },
+                  ],
+                  [
+                    {
+                      number: 1,
+                      text: "Prices range from $105 to$ 1) * @ * per room per month",
+                    },
+                  ],
+                  [
+                    {
+                      number: 2,
+                      text: "The furniture is very 2) * @ *",
+                    },
+                    {
+                      number: 2,
+                      text: "Delivers in 1–2 days ",
+                    },
+                    {
+                      number: 2,
+                      text: "Special offer:",
+                    },
+                    {
+                      number: 3,
+                      text: "free 3) * @ * with every living room set",
+                    },
+                  ],
+                  ,
+                ],
+              },
+              {
+                number: 1,
+                values: [
+                  [
+                    {
+                      number: 4,
+                      text: "4) * @ * and Oliver",
+                    },
+                  ],
+                  [
+                    {
+                      number: 5,
+                      text: "Mid-range prices 12% monthly fee for 5) * @ *",
+                    },
+                  ],
+                  [
+                    {
+                      number: 2,
+                      text: "Also offers a cleaning service",
+                    },
+                  ],
+                  ,
+                ],
+              },
+              {
+                number: 1,
+                values: [
+                  [
+                    {
+                      number: 6,
+                      text: "Larch Furniture",
+                    },
+                  ],
+                  [
+                    {
+                      number: 6,
+                      text: "Offers cheapest prices for renting and 6) * @ * items ",
+                    },
+                  ],
+                  [
+                    {
+                      number: 7,
+                      text: "Must have own 7) * @ * Minimum contract length: six months",
+                    },
+                  ],
+                  ,
+                ],
+              },
+              {
+                number: 1,
+                values: [
+                  [
+                    {
+                      number: 8,
+                      text: "8) * @ * Rentals",
+                    },
+                  ],
+                  [
+                    {
+                      number: 9,
+                      text: "See the 9) * @ * for the most up-to-date prices",
+                    },
+                  ],
+                  [
+                    {
+                      number: 10,
+                      text: "10) * @ * are allowed within 7 days of delivery ",
+                    },
+                  ],
+                  ,
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 2,
+        audioUrl: audios.lis4Part2,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 11–16",
+            description: "Choose the correct letter, A, B or C",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 11,
+                question:
+                  "Who was responsible for starting the community project?",
+                type: "multiple-choice",
+                options: [
+                  "the castle owners",
+                  "a national charity ",
+                  "the local council",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 12,
+                question: "12	How was the gold coin found?",
+                type: "multiple-choice",
+                options: [
+                  "Heavy rain had removed some of the soil.",
+                  "The ground was dug up by wild rabbits.",
+                  "A person with a metal detector searched the area.",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 13,
+                question:
+                  "What led the archaeologists to believe there was an ancient village on this site?",
+                type: "multiple-choice",
+                options: [
+                  "the lucky discovery of old records",
+                  "the bases of several structures visible in the grass ",
+                  "the unusual stones found near the castle",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 14,
+                question: "What are the team still hoping to find?",
+                type: "multiple-choice",
+                options: [
+                  "everyday pottery",
+                  "animal bones",
+                  "pieces of jewellery",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 15,
+                question:
+                  "What was found on the other side of the river to the castle?",
+                type: "multiple-choice",
+                options: [
+                  "the remains of a large palace",
+                  "the outline of fields",
+                  "a number of small huts",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 16,
+                question:
+                  "What do the team plan to do after work ends this summer?",
+                type: "multiple-choice",
+                options: [
+                  "prepare a display for a museum",
+                  "take part in a television programme",
+                  "start to organise school visits",
+                ],
+                answer: "Library",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Bidcaster Archaeological Dig",
+            questions_range: "Questions 17–20",
+            description:
+              "Label the map below.Drag the correct letter, A–G, next to Questions 17–20",
+            type: "map",
+            image: imges.img4,
+            questions: [
+              {
+                number: 17,
+                option: "bridge foundations",
+                answer: "A",
+              },
+              {
+                number: 18,
+                option: "rubbish pit",
+                answer: "B",
+              },
+              {
+                number: 19,
+                option: "meeting hall",
+                answer: "C",
+              },
+              {
+                number: 20,
+                option: "fish pond",
+                answer: "C",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 3,
+        audioUrl: audios.lis4Part3,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 21-26",
+            description: "Choose the correct letter, A, B or C.",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 21,
+                question: "Finn was pleased to discover that their topic",
+                type: "multiple-choice",
+                options: [
+                  "was not familiar to their module leader.",
+                  "had not been chosen by other students",
+                  "did not prove to be difficult to research.",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 22,
+                question:
+                  "Maya says a mistaken belief about theatre programmes is that",
+                type: "multiple-choice",
+                options: [
+                  "theatres pay companies to produce them.",
+                  "few theatre-goers buy them nowadays.",
+                  "hey contain far more adverts than previously.",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 23,
+                question:
+                  "Finn was surprised that, in early British theatre, programmes",
+                type: "multiple-choice",
+                options: [
+                  "were difficult for audiences to obtain",
+                  "were given out free of charge",
+                  "were seen as a kind of contract",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 24,
+                question:
+                  "Maya feels their project should include an explanation of why companies of actors",
+                type: "multiple-choice",
+                options: [
+                  "promoted their own plays.",
+                  "performed plays outdoors",
+                  "had to tour with their plays",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 25,
+                question:
+                  "Finn and Maya both think that, compared to nineteenth-century programmes, those from the eighteenth century",
+                type: "multiple-choice",
+                options: [
+                  "were more original",
+                  "were more colourful.",
+                  "were more informative",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 26,
+                question:
+                  "Maya doesn’t fully understand why, in the twentieth century,",
+                type: "multiple-choice",
+                options: [
+                  "very few theatre programmes were printed in the USA",
+                  "British theatre programmes failed to develop for so long",
+                  "theatre programmes in Britain copied fashions from the USA.",
+                ],
+                answer: "Library",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 27-30",
+            question:
+              "What comment is made about the programme for each of the following shows?",
+            description:
+              "Choose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+            type: "matching",
+            items: [
+              "Its origin is somewhat controversial.",
+              "It is historically significant for a country",
+              "It was effective at attracting audiences.",
+              "It is included in a recent project",
+              "It contains insights into the show.",
+              "It resembles an artwork.",
+            ],
+            questions: [
+              {
+                number: 27,
+                option: "Ruy Blas",
+                answer: "A",
+              },
+              {
+                number: 28,
+                option: "Man of La Mancha",
+                answer: "B",
+              },
+              {
+                number: 29,
+                option: "The Tragedy of Jane Shore",
+                answer: "C",
+              },
+              {
+                number: 30,
+                option: "The Sailors’ Festival",
+                answer: "C",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 4,
+        audioUrl: audios.lis4Part4,
+        parts: [
+          {
+            part: 1,
+            title: "Inclusive design",
+            questions_range: "Questions 31–40",
+            description:
+              "Complete the notes below. Write ONE WORD ONLY for each answer",
+            flex: 1,
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "Definition:",
+                question_text: [
+                  {
+                    number: 31,
+                    text: "Designing products that can be accessed by a diverse range of people without the need for any 31) * @ *",
+                  },
+                  {
+                    number: 32,
+                    text: "Not the same as universal design: that is design for everyone, including catering for people with 32) * @ * problems.",
+                  },
+                ],
+              },
+              {
+                prompt: "Examples of inclusive design:",
+                question_text: [
+                  {
+                    number: 33,
+                    text: "33) * @ * which are adjustable, avoiding back or neck problems",
+                  },
+                  {
+                    number: 34,
+                    text: "34) * @ * in public toilets which are easier to use ",
+                  },
+                  {
+                    number: 34,
+                    text: "To assist the elderly:",
+                  },
+                  {
+                    number: 35,
+                    text: "-designers avoid using 35) * @ * in interfaces",
+                  },
+                  {
+                    number: 36,
+                    text: "-people can make commands using a mouse, keyboard or their 36) * @ *",
+                  },
+                ],
+              },
+              {
+                prompt: "Impact of non-inclusive designs",
+                question_text: [
+                  {
+                    number: 2,
+                    text: "Access",
+                  },
+                  {
+                    number: 2,
+                    text: "-Loss of independence for disabled people.",
+                  },
+                  {
+                    number: 2,
+                    text: "Safety",
+                  },
+                  {
+                    number: 37,
+                    text: "-Seatbelts are especially problematic for 37) * @ * women.",
+                  },
+                  {
+                    number: 38,
+                    text: "-PPE jackets are often unsuitable because of the size of women’s 38) * @ *",
+                  },
+                  {
+                    number: 39,
+                    text: "-PPE for female 39) * @ * officers dealing with emergencies is the worst.",
+                  },
+                ],
+              },
+              {
+                prompt: "Comfort in the workplace:",
+                question_text: [
+                  {
+                    number: 40,
+                    text: "-The 40) * @ * in offices is often too low for women.",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    answers: {
+      1: "239 / two hundred thirty-nine / two hundred and thirty-nine",
+      2: "modern",
+      3: "lamp",
+      4: "Aaron",
+      5: "damage",
+      6: "electronic",
+      7: "insurance",
+      8: "space / Space",
+      9: "app",
+      10: "exchanges",
+      11: "B",
+      12: "A",
+      13: "A",
+      14: "C",
+      15: "B",
+      16: "C",
+      17: "B",
+      18: "A",
+      19: "G",
+      20: "E",
+      21: "B",
+      22: "A",
+      23: "C",
+      24: "A",
+      25: "C",
+      26: "B",
+      27: "F",
+      28: "E",
+      29: "B",
+      30: "D",
+      31: "adaptation",
+      32: "cognitive",
+      33: "desks",
+      34: "taps",
+      35: "blue",
+      36: "voice",
+      37: "pregnant",
+      38: "shoulders",
+      39: "police",
+      40: "temperature",
     },
   },
 ];

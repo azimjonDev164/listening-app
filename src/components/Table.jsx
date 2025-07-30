@@ -47,14 +47,29 @@ const Table = ({ data, handleChange }) => {
                   rowIdx % 2 === 0 ? "bg-white" : "bg-gray-50"
                 } hover:bg-blue-50 transition-colors`}
               >
-                {row.values.map((cell, cellIdx) => (
-                  <td
-                    key={cellIdx}
-                    className="border border-gray-300 p-1 text-gray-800"
-                  >
-                    {wordHandler(cell, row.number)}
-                  </td>
-                ))}
+                {data?.object !== 1
+                  ? row.values.map((cell, cellIdx) => (
+                      <td
+                        key={cellIdx}
+                        className="border border-gray-300 p-1 text-gray-800"
+                      >
+                        {wordHandler(cell, row.number)}
+                      </td>
+                    ))
+                  : row.values.map((cell, cellIdx) => (
+                      <td
+                        key={cellIdx}
+                        className="border border-gray-300 p-1 text-gray-800"
+                      >
+                        <ul>
+                          {cell.map((item, idx) => (
+                            <li key={idx}>
+                              {wordHandler(item.text, item.number)}
+                            </li>
+                          ))}
+                        </ul>
+                      </td>
+                    ))}
               </tr>
             ))}
           </tbody>

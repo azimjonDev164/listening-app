@@ -8,6 +8,7 @@ import Matching from "../../components/Matching";
 import Note from "../../components/Note";
 import Sentence from "../../components/Sentence";
 import Table from "../../components/Table";
+import Map from "../../components/Map";
 
 const Listening = () => {
   const { id } = useParams();
@@ -164,6 +165,8 @@ const Listening = () => {
                     />
                   ) : item?.type === "table_completion" ? (
                     <Table key={idx} data={item} handleChange={handleChange} />
+                  ) : item?.type === "map" ? (
+                    <Map key={idx} data={item} handleChange={handleChange} />
                   ) : (
                     ""
                   )

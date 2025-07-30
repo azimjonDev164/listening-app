@@ -260,6 +260,38 @@ table_completion
             ],
           },  
 
+map
+ {
+            part: 2,
+            title: "Bidcaster Archaeological Dig",
+            questions_range: "Questions 17–20",
+            description:
+              "Label the map below.Drag the correct letter, A–G, next to Questions 17–20",
+            type: "map",
+            image: imges.img4,
+            questions: [
+              {
+                number: 17,
+                option: "bridge foundations",
+                answer: "A",
+              },
+              {
+                number: 18,
+                option: "rubbish pit",
+                answer: "B",
+              },
+              {
+                number: 19,
+                option: "meeting hall",
+                answer: "C",
+              },
+              {
+                number: 20,
+                option: "fish pond",
+                answer: "C",
+              },
+            ],
+          },
 
  skeleton        
  {
