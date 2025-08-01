@@ -260,6 +260,131 @@ table_completion
             ],
           },  
 
+table_completion better {
+            part: 1,
+            title: "Furniture Rental Companies",
+            questions_range: "Questions 1–10",
+            description:
+              "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer",
+            type: "table_completion",
+            object: 1,
+            columns: [
+              "Name of company",
+              "Information about costs",
+              "Additional notes",
+            ],
+            rows: [
+              {
+                number: 1,
+                values: [
+                  [
+                    {
+                      number: 1,
+                      text: "Peak Rentals",
+                    },
+                  ],
+                  [
+                    {
+                      number: 1,
+                      text: "Prices range from $105 to$ 1) * @ * per room per month",
+                    },
+                  ],
+                  [
+                    {
+                      number: 2,
+                      text: "The furniture is very 2) * @ *",
+                    },
+                    {
+                      number: 2,
+                      text: "Delivers in 1–2 days ",
+                    },
+                    {
+                      number: 2,
+                      text: "Special offer:",
+                    },
+                    {
+                      number: 3,
+                      text: "free 3) * @ * with every living room set",
+                    },
+                  ],
+                  ,
+                ],
+              },
+              {
+                number: 1,
+                values: [
+                  [
+                    {
+                      number: 4,
+                      text: "4) * @ * and Oliver",
+                    },
+                  ],
+                  [
+                    {
+                      number: 5,
+                      text: "Mid-range prices 12% monthly fee for 5) * @ *",
+                    },
+                  ],
+                  [
+                    {
+                      number: 2,
+                      text: "Also offers a cleaning service",
+                    },
+                  ],
+                  ,
+                ],
+              },
+              {
+                number: 1,
+                values: [
+                  [
+                    {
+                      number: 6,
+                      text: "Larch Furniture",
+                    },
+                  ],
+                  [
+                    {
+                      number: 6,
+                      text: "Offers cheapest prices for renting and 6) * @ * items ",
+                    },
+                  ],
+                  [
+                    {
+                      number: 7,
+                      text: "Must have own 7) * @ * Minimum contract length: six months",
+                    },
+                  ],
+                  ,
+                ],
+              },
+              {
+                number: 1,
+                values: [
+                  [
+                    {
+                      number: 8,
+                      text: "8) * @ * Rentals",
+                    },
+                  ],
+                  [
+                    {
+                      number: 9,
+                      text: "See the 9) * @ * for the most up-to-date prices",
+                    },
+                  ],
+                  [
+                    {
+                      number: 10,
+                      text: "10) * @ * are allowed within 7 days of delivery ",
+                    },
+                  ],
+                  ,
+                ],
+              },
+            ],
+          },"
+
 map
  {
             part: 2,

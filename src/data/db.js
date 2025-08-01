@@ -2879,4 +2879,1056 @@ export const tests = [
       40: "soil",
     },
   },
+  {
+    title: "IELTS Listening 7",
+    audioUrl: "https://example.com/audio/test2.mp3",
+    sections: [
+      {
+        section: 1,
+        audioUrl: audios.lis7Part1,
+        parts: [
+          {
+            part: 1,
+            title: "",
+            questions_range: "Questions 1–10",
+            description:
+              "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer",
+            type: "table_completion",
+            object: 1,
+            columns: [
+              "Name of Restaurant",
+              "Location",
+              "Reason for Recommendation",
+              "Other Comments",
+            ],
+            rows: [
+              {
+                number: 1,
+                values: [
+                  [
+                    {
+                      number: 1,
+                      text: "The Junction",
+                    },
+                  ],
+                  [
+                    {
+                      number: 1,
+                      text: "Greyson Street, near the station",
+                    },
+                  ],
+                  [
+                    {
+                      number: 1,
+                      text: "Good for people who are especially keen on 1) * @ *..",
+                    },
+                  ],
+                  [
+                    {
+                      number: 2,
+                      text: "Quite expensive.The 2) * @ *. is a good place for a drink.",
+                    },
+                  ],
+                  ,
+                ],
+              },
+              {
+                number: 1,
+                values: [
+                  [
+                    {
+                      number: 2,
+                      text: "Paloma",
+                    },
+                  ],
+                  [
+                    {
+                      number: 2,
+                      text: "In Bow Street, next to the cinema",
+                    },
+                  ],
+                  [
+                    {
+                      number: 3,
+                      text: "3) * @ *.. food, good for sharing",
+                    },
+                  ],
+                  [
+                    {
+                      number: 3,
+                      text: "Staff are very friendly.Need to pay £50 deposit.",
+                    },
+                    {
+                      number: 4,
+                      text: "A limited selection of 4) * @ *.. food on the menu.",
+                    },
+                  ],
+                ],
+              },
+              {
+                number: 1,
+                values: [
+                  [
+                    {
+                      number: 5,
+                      text: "The 5 * @ *..",
+                    },
+                  ],
+                  [
+                    {
+                      number: 6,
+                      text: "At the top of a 6) * @ *..",
+                    },
+                  ],
+                  [
+                    {
+                      number: 7,
+                      text: "A famous chef. All the 7)	* @ *.. are very good.",
+                    },
+                    {
+                      number: 8,
+                      text: "Only uses 8) * @ *.. ingredients.",
+                    },
+                  ],
+                  [
+                    {
+                      number: 9,
+                      text: "Set lunch costs: 9£ * @ *.. per person. ",
+                    },
+                    {
+                      number: 10,
+                      text: "Portions probably of 10 * @ *..size",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 2,
+        audioUrl: audios.lis7Part2,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 11-16",
+            description: "Choose the correct letter, A, B, or C.",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 11,
+                question:
+                  "Heather says pottery differs from other art forms because",
+                type: "multiple-choice",
+                options: [
+                  "it lasts longer in the ground",
+                  "it is practised by more people.",
+                  "it can be repaired more easily.",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 12,
+                question:
+                  "Archaeologists sometimes identify the use of ancient pottery from",
+                type: "multiple-choice",
+                options: [
+                  "the clay it was made with",
+                  "the marks that are on it. ",
+                  "the basic shape of it.",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 13,
+                question:
+                  "Some people join Heather’s pottery class because they want to",
+                type: "multiple-choice",
+                options: [
+                  "create an item that looks very old.",
+                  "find something that they are good at.",
+                  "make something that will outlive them",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 14,
+                question: "What does Heather value most about being a potter?",
+                type: "multiple-choice",
+                options: [
+                  "its calming effect",
+                  "its messy nature",
+                  "its physical benefits",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 15,
+                question: "Most of the visitors to Edelman Pottery",
+                type: "multiple-choice",
+                options: [
+                  "bring friends to join courses.",
+                  "have never made a pot before.",
+                  "try to learn techniques too quickly",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 16,
+                question: "Heather reminds her visitors that they should",
+                type: "multiple-choice",
+                options: [
+                  "put on their aprons",
+                  "change their clothes",
+                  "take off their jewellery.",
+                ],
+                answer: "Library",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 17-18",
+            question: "Which TWO things does Heather explain about kilns?",
+            description: "Choose TWO letters, A–E.",
+            type: "matching",
+            items: [
+              "what their function is",
+              "when they were invented",
+              "ways of keeping them safe",
+              "where to put one in your home",
+              "what some people use instead of one",
+            ],
+            questions: [
+              {
+                number: 17,
+                option: "",
+                answer: "A",
+              },
+              {
+                number: 18,
+                option: "",
+                answer: "B",
+              },
+            ],
+          },
+          {
+            part: 3,
+            title: "Questions 19-20",
+            question:
+              "Which TWO points does Heather make about a potter’s tools?",
+            description: "Choose TWO letters, A–E.",
+            type: "matching",
+            items: [
+              "Some are hard to hold",
+              "Some are worth buying",
+              "Some are essential items.",
+              "Some have memorable names.",
+              "Some are available for use by participants",
+            ],
+            questions: [
+              {
+                number: 19,
+                option: "",
+                answer: "A",
+              },
+              {
+                number: 20,
+                option: "",
+                answer: "B",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 3,
+        audioUrl: audios.lis7Part3,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 21-22",
+            question:
+              "Which TWO things do the students both believe are responsible for the increase in loneliness?",
+            description: "Choose TWO letters, A–E.",
+            type: "matching",
+            items: [
+              "social media",
+              "smaller nuclear families",
+              "urban design",
+              "longer lifespans",
+              "a mobile workforce",
+            ],
+            questions: [
+              {
+                number: 21,
+                option: "",
+                answer: "A",
+              },
+              {
+                number: 22,
+                option: "",
+                answer: "B",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 23-24",
+            question:
+              "Which TWO health risks associated with loneliness do the students agree are based on solid evidence?",
+            description: "Choose TWO letters, A–E.",
+            type: "matching",
+            items: [
+              "a weakened immune system",
+              "dementia",
+              "cancer",
+              "obesity",
+              "cardiovascular disease",
+            ],
+            questions: [
+              {
+                number: 23,
+                option: "",
+                answer: "A",
+              },
+              {
+                number: 24,
+                option: "",
+                answer: "B",
+              },
+            ],
+          },
+          {
+            part: 3,
+            title: "Questions 25-26",
+            question:
+              "Which TWO opinions do both the students express about the evolutionary theory of loneliness?",
+            description: "Choose TWO letters, A–E.",
+            type: "matching",
+            items: [
+              "It has little practical relevance.",
+              "It needs further investigation.",
+              "It is misleading.",
+              "It should be more widely accepted.",
+              "It is difficult to understand.",
+            ],
+            questions: [
+              {
+                number: 25,
+                option: "",
+                answer: "A",
+              },
+              {
+                number: 26,
+                option: "",
+                answer: "B",
+              },
+            ],
+          },
+          {
+            part: 4,
+            title: "Questions 27-30",
+            description:
+              "Choose the correct letter, A, B, or C. Loneliness and mental health",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 27,
+                question:
+                  "When comparing loneliness to depression, the students",
+                type: "multiple-choice",
+                options: [
+                  "doubt that there will ever be a medical cure for loneliness",
+                  "claim that the link between loneliness and mental health is overstated",
+                  "express frustration that loneliness is not taken more seriously.",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 28,
+                question:
+                  "Why do the students decide to start their presentation with an example from their own experience?",
+                type: "multiple-choice",
+                options: [
+                  "to explain how difficult loneliness can be",
+                  "to highlight a situation that most students will recognise",
+                  "to emphasise that feeling lonely is more common for men than women",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 29,
+                question:
+                  "The students agree that talking to strangers is a good strategy for dealing with loneliness because",
+                type: "multiple-choice",
+                options: [
+                  "It creates a sense of belonging",
+                  "it builds self-confidence.",
+                  "it makes people feel more positive.",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 30,
+                question:
+                  "The students find it difficult to understand why solitude is considered to be",
+                type: "multiple-choice",
+                options: [
+                  "similar to loneliness",
+                  "necessary for mental health.",
+                  "an enjoyable experience.",
+                ],
+                answer: "Library",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 4,
+        audioUrl: audios.lis7Part4,
+        parts: [
+          {
+            part: 1,
+            title: "Reclaiming urban rivers",
+            questions_range: "Questions 31-40",
+            description:
+              "Complete the note below. Write ONE WORD ONLY for each answer.",
+            flex: 1,
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "Historical Background:",
+                question_text: [
+                  {
+                    number: 1,
+                    text: "• Nearly all major cities were built on a river.",
+                  },
+                  {
+                    number: 1,
+                    text: "•	Rivers were traditionally used for transport, fishing, and recreation.",
+                  },
+                  {
+                    number: 1,
+                    text: "• Industrial development and rising populations later led to:",
+                  },
+                  {
+                    number: 1,
+                    text: "-More sewage from houses being discharged into the river.",
+                  },
+                  {
+                    number: 31,
+                    text: "-Pollution from 31) * @ *.. on the river bank.",
+                  },
+                  {
+                    number: 32,
+                    text: "In 1957, the River Thames in London was declared biologically 32) * @ *..",
+                  },
+                ],
+              },
+              {
+                prompt: "Recent Improvements:",
+                question_text: [
+                  {
+                    number: 33,
+                    text: "Seals and even a 33) * @ *.. have been seen in the River Thames.",
+                  },
+                  {
+                    number: 34,
+                    text: "Riverside warehouses are converted to restaurants and 34) * @ *..",
+                  },
+                  {
+                    number: 1,
+                    text: "In Los Angeles, there are plans to:",
+                  },
+                  {
+                    number: 35,
+                    text: "-Build a riverside 35) * @ *..",
+                  },
+                  {
+                    number: 36,
+                    text: "-Display 36) * @ *.. projects.",
+                  },
+                  {
+                    number: 37,
+                    text: "In Paris, 37) * @ *.. are created on the sides of the river every summer.",
+                  },
+                ],
+              },
+              {
+                prompt: "Transport Possibilities",
+                question_text: [
+                  {
+                    number: 38,
+                    text: "Over 2 billion passengers already travel by 38) * @ *.. in cities round the world.",
+                  },
+                  {
+                    number: 38,
+                    text: "Changes in shopping habits mean the number of deliveries that are made is increasing.",
+                  },
+                  {
+                    number: 39,
+                    text: "Instead of road transoer, goods be transported by large freight barges and electric 39) * @ * or",
+                  },
+                  {
+                    number: 40,
+                    text: "in future, by 40) * @ *.. . ",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    answers: {
+      1: "fish",
+      2: "roof",
+      3: "Spanish",
+      4: "vegetarian",
+      5: "Audley",
+      6: "hotel",
+      7: "reviews",
+      8: "local",
+      9: "30 / thirty",
+      10: "average",
+      11: "A",
+      12: "B",
+      13: "C",
+      14: "A",
+      15: "B",
+      16: "C",
+      17: "A",
+      18: "E",
+      19: "C",
+      20: "E",
+      21: "C",
+      22: "E",
+      23: "A",
+      24: "C",
+      25: "A",
+      26: "B",
+      27: "A",
+      28: "B",
+      29: "A",
+      30: "C",
+      31: "factories",
+      32: "dead",
+      33: "whale",
+      34: "apartments",
+      35: "park",
+      36: "art",
+      37: "beaches",
+      38: "ferry",
+      39: "bikes",
+      40: "drone",
+    },
+  },
+  {
+    title: "IELTS Listening 8",
+    audioUrl: "https://example.com/audio/test2.mp3",
+    sections: [
+      {
+        section: 1,
+        audioUrl: audios.lis8Part1,
+        parts: [
+          {
+            part: 1,
+            title: "Second-hand Cars",
+            questions_range: "Questions 1-10",
+            description: "Write ONE WORD AND/OR A NUMBER for each answer.",
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "Cars Available",
+                question_text: [
+                  {
+                    number: 1,
+                    text: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Noda ( silver):",
+                question_text: [
+                  {
+                    number: 1,
+                    text: "•	Tents are provided.",
+                  },
+                  {
+                    number: 1,
+                    text: "• One 1) * @ * is broken",
+                  },
+                ],
+              },
+              {
+                prompt: "Comina (white):",
+                question_text: [
+                  {
+                    number: 2,
+                    text: "• Used to belong to the 2) * @ *",
+                  },
+                ],
+              },
+              {
+                prompt: "Telsta (orange)",
+                question_text: [
+                  {
+                    number: 3,
+                    text: "•  It's an 3 .* @ * model",
+                  },
+                  {
+                    number: 4,
+                    text: "•	Has got new 4 .* @ *",
+                  },
+                ],
+              },
+              {
+                prompt: "Abrada (red):",
+                question_text: [
+                  {
+                    number: 5,
+                    text: "•	Only 5) * @ * years old",
+                  },
+                ],
+              },
+              {
+                prompt: "Other Information",
+                question_text: [
+                  {
+                    number: 4,
+                    text: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Garage address:",
+                question_text: [
+                  {
+                    number: 6,
+                    text: "6) * @ * Road, Mitchell",
+                  },
+                ],
+              },
+              {
+                prompt: "Day/Time:",
+                question_text: [
+                  {
+                    number: 7,
+                    text: "on 7) .* @ * at 9: 30am",
+                  },
+                ],
+              },
+              {
+                prompt: "Ask for:",
+                question_text: [
+                  {
+                    number: 8,
+                    text: "8) .* @ * Smith",
+                  },
+                ],
+              },
+              {
+                prompt: "Parking available:",
+                question_text: [
+                  {
+                    number: 9,
+                    text: "outside the 9) .* @ *",
+                  },
+                ],
+              },
+              {
+                prompt: "What to bring:",
+                question_text: [
+                  {
+                    number: 10,
+                    text: "10) .* @ * (for a test drive)",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 2,
+        audioUrl: audios.lis8Part2,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 11-16",
+            description:
+              "Choose the correct letter A, B or C. The Middletown Urban Farming Scheme (MUFS)",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 11,
+                question: "Who founded the Middletown Urban Farming Scheme?",
+                type: "multiple-choice",
+                options: [
+                  "university specialists",
+                  "business people ",
+                  "town planners",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 12,
+                question: "What was the original reason for starting the MUFS?",
+                type: "multiple-choice",
+                options: [
+                  "to encourage more efficient land use",
+                  "to help lessen CO2 emissions",
+                  "to improve people's eating habits",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 13,
+                question:
+                  "For the coming year, the MUFS will focus on recruiting members from",
+                type: "multiple-choice",
+                options: ["schools.", "companies.", "community centres"],
+                answer: "Library",
+              },
+              {
+                number: 14,
+                question:
+                  "What kind of information is available from members of the MUFS committee?",
+                type: "multiple-choice",
+                options: [
+                  "practical gardening tips",
+                  "plant science",
+                  "location of local garden sites",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 15,
+                question:
+                  "What are provided by the MUFS for the physically disabled?",
+                type: "multiple-choice",
+                options: [
+                  "soil and compost",
+                  "containers for plants",
+                  "gardening tools",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 16,
+                question:
+                  "According to school teachers, what has been an unexpected advantage of the MUFS?",
+                type: "multiple-choice",
+                options: [
+                  "its usefulness as an aid for teaching science",
+                  "its contribution to reducing costs of school meals",
+                  "its help in encouraging community pride among students",
+                ],
+                answer: "Library",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 17-20",
+            question:
+              "What free goods or services are offered by each of the following providers?",
+            description:
+              "Choose FOUR answers from the box and write the correct letter A-F next to questions 17-20. ",
+            type: "matching",
+            items: [
+              "fertilisers",
+              "cooking lessons ",
+              "advice on soil ",
+              "eat-to-keep-fit course ",
+              "use of a greenhouse ",
+              "market stalls",
+            ],
+            questions: [
+              {
+                number: 17,
+                option: "City hospital",
+                answer: "A",
+              },
+              {
+                number: 18,
+                option: "Local government",
+                answer: "B",
+              },
+              {
+                number: 19,
+                option: "University",
+                answer: "C",
+              },
+              {
+                number: 20,
+                option: "Supermarket",
+                answer: "C",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 3,
+        audioUrl: audios.lis8Part3,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 21-26",
+            description:
+              "Choose the correct letter A ,B or C. Research on the effect of walking on creativity",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 21,
+                question:
+                  "Daniel mentions the research about walking and creativity to Katie because",
+                type: "multiple-choice",
+                options: [
+                  "she has read it too.",
+                  "what she says reminds him of it.",
+                  "he thinks she might like to do similar research.",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 22,
+                question:
+                  "In the experiments, researchers compared participants'creativity when walking and when",
+                type: "multiple-choice",
+                options: ["sitting.", "running.", "listening to music."],
+                answer: "Library",
+              },
+              {
+                number: 23,
+                question:
+                  "Daniel says that in each experiment, there was a different",
+                type: "multiple-choice",
+                options: [
+                  "type of control group.",
+                  "pattern of activities.",
+                  "way of selecting participants",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 24,
+                question: "Daniel thinks the experiment with words is ",
+                type: "multiple-choice",
+                options: [
+                  "biased in favour of certain people",
+                  "a good indicator of creativity.",
+                  "open to personal interpretation.",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 25,
+                question:
+                  "What is Katie and Daniels attitude to the experiment on focused thinking?",
+                type: "multiple-choice",
+                options: [
+                  "they are doubtful about its aims.",
+                  "they are confused by its methods.",
+                  "they are cautious about its conclusions.",
+                ],
+                answer: "Library",
+              },
+              {
+                number: 26,
+                question:
+                  "Katie thinks that the best way forward is to consider",
+                type: "multiple-choice",
+                options: [
+                  "whether other types of exercise affect creativity",
+                  "the cause of the improvement in creativity.",
+                  "how the results can be applied to creativity in real life",
+                ],
+                answer: "Library",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 27-30",
+            question:
+              "What is the main physical benefit of each of the following walking situations?",
+            description:
+              "Choose FOUR answers from the box and write the correct letter, A-G, next to questions 27-30. ",
+            type: "matching",
+            items: [
+              "improved balance",
+              "greater stamina",
+              "better eyesight",
+              "lower blood pressure",
+              "regular sleeping pat",
+              "stronger bones",
+              "weight red",
+            ],
+            questions: [
+              {
+                number: 27,
+                option: "walking with thin-soled footwear",
+                answer: "A",
+              },
+              {
+                number: 28,
+                option: "walking in the mountains",
+                answer: "B",
+              },
+              {
+                number: 29,
+                option: "walking for the elderly",
+                answer: "C",
+              },
+              {
+                number: 30,
+                option: "walking long distances",
+                answer: "C",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 4,
+        audioUrl: audios.lis8Part4,
+        parts: [
+          {
+            part: 1,
+            title: "Gamification",
+            questions_range: "Questions 31-40",
+            description:
+              "Complete the notes below. Write ONE WORD ONLY for each answer.",
+            flex: 1,
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "Gamification:",
+                question_text: [
+                  {
+                    number: 1,
+                    text: "•	The use of gaming techniques in non-game situations",
+                  },
+                  {
+                    number: 31,
+                    text: "•	In business, it is frequently used for 31) * @ *.",
+                  },
+                  {
+                    number: 31,
+                    text: "•	Uses people's desire to win a reward",
+                  },
+                  {
+                    number: 32,
+                    text: "•	Not a new idea, e.g. incentive schemes were first used by 32) * @ *.",
+                  },
+                ],
+              },
+              {
+                prompt: "Uses:",
+                question_text: [
+                  {
+                    number: 33,
+                    text: "•	To get online 33) * @ *.quickly",
+                  },
+                  {
+                    number: 34,
+                    text: "•	To persuade people to change their 34) * @ *.",
+                  },
+                  {
+                    number: 34,
+                    text: "•	For training purposes, e.g. simulators used by 35) * @ * .and town planners",
+                  },
+                ],
+              },
+              {
+                prompt: "Successful examples",
+                question_text: [
+                  {
+                    number: 2,
+                    text: "•	Official campaigns",
+                  },
+                  {
+                    number: 36,
+                    text: "- Australian government: to encourage people to 36) * @ *.more - overseas local authority: to reward drivers for not speeding",
+                  },
+                  {
+                    number: 2,
+                    text: "•	Health",
+                  },
+                  {
+                    number: 37,
+                    text: "-	a staircase at a station that worked like a 37) * @ *.",
+                  },
+                  {
+                    number: 38,
+                    text: "-	a game that helps recovery when old people hurt their 38) * @ *.in a fall",
+                  },
+                ],
+              },
+              {
+                prompt: "Things to consider:",
+                question_text: [
+                  {
+                    number: 39,
+                    text: "•	It's important for gamification to be 39) * @ *.",
+                  },
+                  {
+                    number: 40,
+                    text: "•	Need to think about the laws regarding 40) * @ *.",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    answers: {
+      1: "light",
+      2: "manager",
+      3: "automatic",
+      4: "tires",
+      5: "8",
+      6: "Station",
+      7: "Thursday",
+      8: "GERALD",
+      9: "supermarket",
+      10: "Identification",
+      11: "B",
+      12: "A",
+      13: "C",
+      14: "A",
+      15: "B",
+      16: "C",
+      17: "B",
+      18: "E",
+      19: "C",
+      20: "D",
+      21: "B",
+      22: "A",
+      23: "B",
+      24: "A",
+      25: "C",
+      26: "B",
+      27: "F",
+      28: "C",
+      29: "E",
+      30: "B",
+      31: "marketing",
+      32: "airline",
+      33: "feedback",
+      34: "behavior",
+      35: "pilots",
+      36: "exercise",
+      37: "piano",
+      38: "hand",
+      39: "fun",
+      40: "privacy",
+    },
+  },
 ];
