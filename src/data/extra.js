@@ -1,122 +1,103 @@
 const test = {
-  title: "IELTS Listening 8",
+  title: "IELTS Listening  9",
   audioUrl: "https://example.com/audio/test2.mp3",
   sections: [
     {
       section: 1,
-      audioUrl: audios.lis8Part1,
+      audioUrl: audios.lis9Part1,
       parts: [
         {
           part: 1,
-          title: "Second-hand Cars",
+          title: "Oz Housesitters-home Owner Registration Form",
           questions_range: "Questions 1-10",
           description: "Write ONE WORD AND/OR A NUMBER for each answer.",
           type: "note_completion",
           questions: [
             {
-              prompt: "Cars Available",
+              prompt: "Name:",
               question_text: [
                 {
                   number: 1,
-                  text: "",
+                  text: "Jenny Hall",
                 },
               ],
             },
             {
-              prompt: "Noda ( silver):",
+              prompt: "Address:",
               question_text: [
                 {
                   number: 1,
-                  text: "•	Tents are provided.",
-                },
-                {
-                  number: 1,
-                  text: "• One 1) * @ * is broken",
+                  text: "14 1) * @ * St Greenfield",
                 },
               ],
             },
             {
-              prompt: "Comina (white):",
+              prompt: "Mobile no:",
               question_text: [
                 {
                   number: 2,
-                  text: "• Used to belong to the 2) * @ *",
+                  text: "2) * @ *",
                 },
               ],
             },
             {
-              prompt: "Telsta (orange)",
+              prompt: "Date required from:",
               question_text: [
                 {
                   number: 3,
-                  text: "•  It's an 3 .* @ * model",
-                },
-                {
-                  number: 4,
-                  text: "•	Has got new 4 .* @ *",
+                  text: "3) * @ * ",
                 },
               ],
             },
             {
-              prompt: "Abrada (red):",
+              prompt: "Length of time required:",
+              question_text: [
+                {
+                  number: 4,
+                  text: "4) * @ * weeks",
+                },
+              ],
+            },
+            {
+              prompt: "House features:",
               question_text: [
                 {
                   number: 5,
-                  text: "•	Only 5) * @ * years old",
+                  text: "-	it has a new 5) * @ *",
                 },
-              ],
-            },
-            {
-              prompt: "Other Information",
-              question_text: [
                 {
-                  number: 4,
-                  text: "",
+                  number: 5,
+                  text: "-	it is near a station",
                 },
-              ],
-            },
-            {
-              prompt: "Garage address:",
-              question_text: [
                 {
                   number: 6,
-                  text: "6) * @ * Road, Mitchell",
+                  text: "-	there is room for the housesitter’s 6) * @ *",
                 },
               ],
             },
             {
-              prompt: "Day/Time:",
+              prompt: "Special duties required:",
               question_text: [
                 {
                   number: 7,
-                  text: "on 7) .* @ * at 9: 30am",
+                  text: "-	water the 7) * @ * tree",
                 },
               ],
             },
             {
-              prompt: "Ask for:",
+              prompt: "Housesitter requirements:",
               question_text: [
                 {
                   number: 8,
-                  text: "8) .* @ * Smith",
+                  text: "-	the house is large so a 8) * @ * is preferred.",
                 },
-              ],
-            },
-            {
-              prompt: "Parking available:",
-              question_text: [
                 {
                   number: 9,
-                  text: "outside the 9) .* @ *",
+                  text: "-	no 9) * @ * allowed",
                 },
-              ],
-            },
-            {
-              prompt: "What to bring:",
-              question_text: [
                 {
                   number: 10,
-                  text: "10) .* @ * (for a test drive)",
+                  text: "-	would like a check carried out by the 10) * @ *",
                 },
               ],
             },
@@ -126,78 +107,82 @@ const test = {
     },
     {
       section: 2,
-      audioUrl: audios.lis8Part2,
+      audioUrl: audios.lis9Part2,
       parts: [
         {
           part: 1,
           title: "Questions 11-16",
           description:
-            "Choose the correct letter A, B or C. The Middletown Urban Farming Scheme (MUFS)",
+            "Choose the correct letter A, B, or C.Becoming a millionaire",
           type: "multiple-choice",
           questions: [
             {
               number: 11,
-              question: "Who founded the Middletown Urban Farming Scheme?",
+              question:
+                "Arthur feels that when starting a business, mistakes should be ",
               type: "multiple-choice",
               options: [
-                "university specialists",
-                "business people ",
-                "town planners",
+                "seen as an opportunity to learn.",
+                "predicted and minimised.",
+                "avoided at all costs",
               ],
               answer: "Library",
             },
             {
               number: 12,
-              question: "What was the original reason for starting the MUFS?",
+              question: "Recent American studies found that confidence will ",
               type: "multiple-choice",
               options: [
-                "to encourage more efficient land use",
-                "to help lessen CO2 emissions",
-                "to improve people's eating habits",
+                "sometimes reduce people's chances of success",
+                "be increased by reading self-help books.",
+                "ensure good results on business courses.",
               ],
               answer: "Library",
             },
             {
               number: 13,
               question:
-                "For the coming year, the MUFS will focus on recruiting members from",
+                "The American studies recommended that new entrepreneurs",
               type: "multiple-choice",
-              options: ["schools.", "companies.", "community centres"],
+              options: [
+                "listen to their colleagues' advice.",
+                "get professional help when things go wrong.",
+                "remain concentrated on their aims",
+              ],
               answer: "Library",
             },
             {
               number: 14,
               question:
-                "What kind of information is available from members of the MUFS committee?",
+                "What does Arthur say about his own experience of marketing?",
               type: "multiple-choice",
               options: [
-                "practical gardening tips",
-                "plant science",
-                "location of local garden sites",
+                "He relied on what he already knew",
+                "He hired an expert to take care of it.",
+                "He realised its importance too late.",
               ],
               answer: "Library",
             },
             {
               number: 15,
               question:
-                "What are provided by the MUFS for the physically disabled?",
+                "What does Arthur think Is an important quality shared by good leaders?",
               type: "multiple-choice",
               options: [
-                "soil and compost",
-                "containers for plants",
-                "gardening tools",
+                "They are ambitious for their company.",
+                "They can deal with difficult people.",
+                "They earn the respect of their workforce.",
               ],
               answer: "Library",
             },
             {
               number: 16,
-              question:
-                "According to school teachers, what has been an unexpected advantage of the MUFS?",
+              question: "What does Arthur say about taking risks?",
               type: "multiple-choice",
               options: [
-                "its usefulness as an aid for teaching science",
-                "its contribution to reducing costs of school meals",
-                "its help in encouraging community pride among students",
+                "He advises being cautions.",
+                "He favours a long-term view.",
+                "He believes it is financially advantageous",
               ],
               answer: "Library",
             },
@@ -205,40 +190,55 @@ const test = {
         },
         {
           part: 2,
-          title: "Questions 17-20",
+          title: "Questions 17-18",
           question:
-            "What free goods or services are offered by each of the following providers?",
-          description:
-            "Choose FOUR answers from the box and write the correct letter A-F next to questions 17-20. ",
+            "Which TWO things does Arthur say people should focus on when developing their business idea?",
+          description: "Choose TWO letters, A-E",
           type: "matching",
           items: [
-            "fertilisers",
-            "cooking lessons ",
-            "advice on soil ",
-            "eat-to-keep-fit course ",
-            "use of a greenhouse ",
-            "market stalls",
+            "making sure the idea is original",
+            "offering a better deal than competitors",
+            "being committed to it",
+            "paying attention to detail",
+            "fixing realistic prices",
           ],
           questions: [
             {
               number: 17,
-              option: "City hospital",
+              option: "",
               answer: "A",
             },
             {
               number: 18,
-              option: "Local government",
+              option: "",
               answer: "B",
             },
+          ],
+        },
+        {
+          part: 2,
+          title: "Questions 19-20",
+          question:
+            "Which TWO things does Arthur say helped him get his business started?",
+          description: "Choose TWO letters, A-E",
+          type: "matching",
+          items: [
+            "family support",
+            "getting a loan from a bank",
+            "good business advice",
+            "a favourable economic climate",
+            "an effective approach to business",
+          ],
+          questions: [
             {
               number: 19,
-              option: "University",
-              answer: "C",
+              option: "",
+              answer: "A",
             },
             {
               number: 20,
-              option: "Supermarket",
-              answer: "C",
+              option: "",
+              answer: "B",
             },
           ],
         },
@@ -246,119 +246,82 @@ const test = {
     },
     {
       section: 3,
-      audioUrl: audios.lis8Part3,
+      audioUrl: audios.lis9Part3,
       parts: [
         {
           part: 1,
           title: "Questions 21-26",
+          question: "What is said about each of the following experiments?",
           description:
-            "Choose the correct letter A ,B or C. Research on the effect of walking on creativity",
-          type: "multiple-choice",
+            "Choose SIX answers from the box and we the correct letter, A-H next to questions 21- 26",
+          type: "matching",
+          items: [
+            "making sure the idea is original",
+            "offering a better deal than competitors",
+            "being committed to it",
+            "paying attention to detail",
+            "fixing realistic prices",
+          ],
           questions: [
             {
               number: 21,
-              question:
-                "Daniel mentions the research about walking and creativity to Katie because",
-              type: "multiple-choice",
-              options: [
-                "she has read it too.",
-                "what she says reminds him of it.",
-                "he thinks she might like to do similar research.",
-              ],
-              answer: "Library",
+              option: "Steam engine",
+              answer: "A",
             },
             {
               number: 22,
-              question:
-                "In the experiments, researchers compared participants'creativity when walking and when",
-              type: "multiple-choice",
-              options: ["sitting.", "running.", "listening to music."],
-              answer: "Library",
+              option: "Breakfast cereals",
+              answer: "B",
             },
             {
               number: 23,
-              question:
-                "Daniel says that in each experiment, there was a different",
-              type: "multiple-choice",
-              options: [
-                "type of control group.",
-                "pattern of activities.",
-                "way of selecting participants",
-              ],
-              answer: "Library",
+              option: "Bouncing balls",
+              answer: "A",
             },
             {
               number: 24,
-              question: "Daniel thinks the experiment with words is ",
-              type: "multiple-choice",
-              options: [
-                "biased in favour of certain people",
-                "a good indicator of creativity.",
-                "open to personal interpretation.",
-              ],
-              answer: "Library",
+              option: "Making paper",
+              answer: "B",
             },
             {
               number: 25,
-              question:
-                "What is Katie and Daniels attitude to the experiment on focused thinking?",
-              type: "multiple-choice",
-              options: [
-                "they are doubtful about its aims.",
-                "they are confused by its methods.",
-                "they are cautious about its conclusions.",
-              ],
-              answer: "Library",
+              option: "Tie-dyeing",
+              answer: "B",
             },
             {
               number: 26,
-              question: "Katie thinks that the best way forward is to consider",
-              type: "multiple-choice",
-              options: [
-                "whether other types of exercise affect creativity",
-                "the cause of the improvement in creativity.",
-                "how the results can be applied to creativity in real life",
-              ],
-              answer: "Library",
+              option: "Glue from milk",
+              answer: "B",
             },
           ],
         },
         {
           part: 2,
-          title: "Questions 27-30",
-          question:
-            "What is the main physical benefit of each of the following walking situations?",
+          title: "",
+          questions_range: "Questions 27–30",
           description:
-            "Choose FOUR answers from the box and write the correct letter, A-G, next to questions 27-30. ",
-          type: "matching",
-          items: [
-            "improved balance",
-            "greater stamina",
-            "better eyesight",
-            "lower blood pressure",
-            "regular sleeping pat",
-            "stronger bones",
-            "weight red",
-          ],
+            "Label the diagram below. Write the correct letter, A-G, next to questions 27-30.",
+          type: "map",
+          image: imges.img9,
           questions: [
             {
               number: 27,
-              option: "walking with thin-soled footwear",
+              option: "Metal container",
               answer: "A",
             },
             {
               number: 28,
-              option: "walking in the mountains",
+              option: "Integral strainer",
               answer: "B",
             },
             {
               number: 29,
-              option: "walking for the elderly",
+              option: "Drip to",
               answer: "C",
             },
             {
               number: 30,
-              option: "walking long distances",
+              option: "Pottery container",
               answer: "C",
             },
           ],
@@ -367,89 +330,85 @@ const test = {
     },
     {
       section: 4,
-      audioUrl: audios.lis8Part4,
+      audioUrl: audios.lis9Part4,
       parts: [
         {
           part: 1,
-          title: "Gamification",
+          title: "Office Design",
           questions_range: "Questions 31-40",
           description:
-            "Complete the notes below. Write ONE WORD ONLY for each answer.",
+            "Complete the notes below. Write ONEWORDONLY for each answer.",
           type: "note_completion",
           questions: [
             {
-              prompt: "Gamification:",
+              prompt: "Early 20th Century:",
               question_text: [
                 {
-                  number: 1,
-                  text: "•	The use of gaming techniques in non-game situations",
+                  number: 31,
+                  text: "-	workers employed to do 31) * @ * were arranged in rows",
                 },
+              ],
+            },
+            {
+              prompt: "1960s to present:",
+              question_text: [
                 {
                   number: 31,
-                  text: "•	In business, it is frequently used for 31) * @ *.",
-                },
-                {
-                  number: 31,
-                  text: "•	Uses people's desire to win a reward",
+                  text: "Variations in design of open-plan offices:",
                 },
                 {
                   number: 32,
-                  text: "•	Not a new idea, e.g. incentive schemes were first used by 32) * @ *.",
+                  text: "-	first, workers had individual 32) * @ *",
                 },
-              ],
-            },
-            {
-              prompt: "Uses:",
-              question_text: [
                 {
                   number: 33,
-                  text: "•	To get online 33) * @ *.quickly",
+                  text: "-	later, they had cubicles with high or low 33) * @ *",
                 },
                 {
                   number: 34,
-                  text: "•	To persuade people to change their 34) * @ *.",
-                },
-                {
-                  number: 34,
-                  text: "•	For training purposes, e.g. simulators used by 35) * @ * .and town planners",
+                  text: "-	nowadays, workers may have to 34) * @ * a work area",
                 },
               ],
             },
             {
-              prompt: "Successful examples",
+              prompt: "Survey results",
               question_text: [
                 {
-                  number: 2,
-                  text: "•	Official campaigns",
+                  number: 35,
+                  text: "Attitudes of employees to open-plan designs:",
+                },
+                {
+                  number: 35,
+                  text: "-	there is a lack of 35) * @ *",
                 },
                 {
                   number: 36,
-                  text: "- Australian government: to encourage people to 36) * @ *.more - overseas local authority: to reward drivers for not speeding",
-                },
-                {
-                  number: 2,
-                  text: "•	Health",
+                  text: "and 36) * @ *",
                 },
                 {
                   number: 37,
-                  text: "-	a staircase at a station that worked like a 37) * @ *.",
-                },
-                {
-                  number: 38,
-                  text: "-	a game that helps recovery when old people hurt their 38) * @ *.in a fall",
+                  text: "-	they pose a risk to our 37) * @ * (staff records support this)",
                 },
               ],
             },
             {
-              prompt: "Things to consider:",
+              prompt: "Attitudes of employers to open-plan designs:",
               question_text: [
                 {
+                  number: 38,
+                  text: "-	they significantly reduce rent and 38) * @ * costs",
+                },
+                {
+                  number: 38,
+                  text: "-	they improve teamwork and communication",
+                },
+                {
                   number: 39,
-                  text: "•	It's important for gamification to be 39) * @ *.",
+                  text: "-	they can make 39) * @ * staff easier",
                 },
                 {
                   number: 40,
-                  text: "•	Need to think about the laws regarding 40) * @ *.",
+                  text: "In reality, employees are unhappy and they are often distracted by the 40) * @ * the office.",
                 },
               ],
             },
@@ -459,45 +418,46 @@ const test = {
     },
   ],
   answers: {
-    1: "light",
-    2: "manager",
-    3: "automatic",
-    4: "tires",
-    5: "8",
-    6: "Station",
-    7: "Thursday",
-    8: "GERALD",
-    9: "supermarket",
-    10: "Identification",
-    11: "B",
+    1: "Gray",
+    2: "0491577248",
+    3: "29th September",
+    4: "3",
+    5: "pool",
+    6: "car",
+    7: "lemon",
+    8: "couple",
+    9: "smoking",
+    10: "Police",
+    11: "A",
     12: "A",
     13: "C",
-    14: "A",
-    15: "B",
-    16: "C",
-    17: "B",
-    18: "E",
-    19: "C",
-    20: "D",
+    14: "B",
+    15: "C",
+    16: "A",
+    17: "B/C",
+    18: "C/B",
+    19: "A/E",
+    20: "E/A",
     21: "B",
-    22: "A",
-    23: "B",
+    22: "G",
+    23: "F",
     24: "A",
-    25: "C",
-    26: "B",
-    27: "F",
-    28: "C",
-    29: "E",
-    30: "B",
-    31: "marketing",
-    32: "airline",
-    33: "feedback",
-    34: "behavior",
-    35: "pilots",
-    36: "exercise",
-    37: "piano",
-    38: "hand",
-    39: "fun",
-    40: "privacy",
+    25: "H",
+    26: "E",
+    27: "D",
+    28: "F",
+    29: "G",
+    30: "C",
+    31: "typing",
+    32: "desks",
+    33: "screens",
+    34: "share",
+    35: "privacy",
+    36: "security",
+    37: "health",
+    38: "energy",
+    39: "training",
+    40: "noise",
   },
 };
+

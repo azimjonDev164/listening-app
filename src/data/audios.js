@@ -30,6 +30,10 @@ import lis8Part1 from "../audios/listening8/Part 1.mp3";
 import lis8Part2 from "../audios/listening8/Part 2.mp3";
 import lis8Part3 from "../audios/listening8/Part 3.mp3";
 import lis8Part4 from "../audios/listening8/Part 4.mp3";
+import lis9Part1 from "../audios/listening9/Part 1.mp3";
+import lis9Part2 from "../audios/listening9/Part 2.mp3";
+import lis9Part3 from "../audios/listening9/Part 3.mp3";
+import lis9Part4 from "../audios/listening9/Part 4.mp3";
 
 export default {
   lis1Part1,
@@ -64,4 +68,8 @@ export default {
   lis8Part2,
   lis8Part3,
   lis8Part4,
+  lis9Part1,
+  lis9Part2,
+  lis9Part3,
+  lis9Part4,
 };
