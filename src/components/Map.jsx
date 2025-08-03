@@ -22,7 +22,7 @@ const Map = ({ data, handleChange }) => {
                 key={data?.image}
                 src={data?.image}
                 alt="map"
-                className="h-[500px] mx-auto"
+                className="h-[300px] md:h-[500px] mx-auto"
               />
               <ul>
                 {data.questions.map((item, idx) => (

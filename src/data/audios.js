@@ -34,6 +34,14 @@ import lis9Part1 from "../audios/listening9/Part 1.mp3";
 import lis9Part2 from "../audios/listening9/Part 2.mp3";
 import lis9Part3 from "../audios/listening9/Part 3.mp3";
 import lis9Part4 from "../audios/listening9/Part 4.mp3";
+import lis10Part1 from "../audios/listening10/Part 1.mp3";
+import lis10Part2 from "../audios/listening10/Part 2.mp3";
+import lis10Part3 from "../audios/listening10/Part 3.mp3";
+import lis10Part4 from "../audios/listening10/Part 4.mp3";
+import lis11Part1 from "../audios/listening11/Part 1.mp3";
+import lis11Part2 from "../audios/listening11/Part 2.mp3";
+import lis11Part3 from "../audios/listening11/Part 3.mp3";
+import lis11Part4 from "../audios/listening11/Part 4.mp3";
 
 export default {
   lis1Part1,
@@ -72,4 +80,12 @@ export default {
   lis9Part2,
   lis9Part3,
   lis9Part4,
+  lis10Part1,
+  lis10Part2,
+  lis10Part3,
+  lis10Part4,
+  lis11Part1,
+  lis11Part2,
+  lis11Part3,
+  lis11Part4,
 };
