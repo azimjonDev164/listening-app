@@ -8,124 +8,89 @@ const test = {
       parts: [
         {
           part: 1,
-          title: "Arrangements for this year",
-          questions_range: "Questions 1–4",
-          description:
-            "Complete the table below. Write ONE WORD ONLY for each answer. School Art Competition",
-          type: "table_completion",
-          object: 1,
-          columns: ["Age group", "Theme", " Type of art", "Prize"],
-          rows: [
-            {
-              number: 1,
-              values: [
-                [
-                  {
-                    number: 1,
-                    text: "Junior students",
-                  },
-                ],
-                [
-                  {
-                    number: 1,
-                    text: " 1) * @ * ",
-                  },
-                ],
-                [
-                  {
-                    number: 2,
-                    text: "a drawing",
-                  },
-                ],
-                [
-                  {
-                    number: 2,
-                    text: "	2) * @ * Tickets",
-                  },
-                ],
-              ],
-            },
-            {
-              number: 1,
-              values: [
-                [
-                  {
-                    number: 3,
-                    text: "Senior students",
-                  },
-                ],
-                [
-                  {
-                    number: 3,
-                    text: "the 3) * @ *",
-                  },
-                ],
-                [
-                  {
-                    number: 2,
-                    text: "a photograph",
-                  },
-                ],
-                [
-                  {
-                    number: 4,
-                    text: "a 4) * @ * voucher",
-                  },
-                ],
-              ],
-            },
-          ],
-        },
-
-        {
-          part: 2,
-          title: "Further Details",
-          questions_range: "Questions 5-10",
+          title: "Holiday Cottages and Town Information",
+          questions_range: "Questions 1-10",
           description:
             "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          flex: 1,
           type: "note_completion",
           questions: [
             {
-              prompt: "Submitting the artwork",
+              prompt: "Aster Cottage",
               question_text: [
                 {
+                  number: 1,
+                  text: "Available for week beginning 1) * @ *",
+                  answer: "",
+                },
+                {
+                  number: 2,
+                  text: "Cost for the week: 2) $ * @ *",
+                  answer: "",
+                },
+              ],
+            },
+            {
+              prompt: "Periwinkle Cottage",
+              question_text: [
+                {
+                  number: 3,
+                  text: "The same price as Aster Cottage last year",
+                  answer: "",
+                },
+                {
+                  number: 3,
+                  text: "Part of a building that was first used as a 3) * @ * ",
+                  answer: "",
+                },
+                {
+                  number: 4,
+                  text: "The living room leads out to the 4) * @ *",
+                  answer: "",
+                },
+                {
                   number: 5,
-                  text: "-When: no later than 5) * @ *",
+                  text: "View of the 5) * @ *from the bedroom",
                   answer: "",
                 },
                 {
                   number: 6,
-                  text: "-Where: at the 6) * @ *",
+                  text: "Bring our own 6) * @ *.",
+                  answer: "",
+                },
+                {
+                  number: 7,
+                  text: "Doesn't have a 7) * @ * ",
                   answer: "",
                 },
               ],
             },
             {
-              prompt: "Competition judge",
+              prompt: "The town",
               question_text: [
                 {
-                  number: 7,
-                  text: "Name: Rebecca 7) * @ *",
+                  number: 8,
+                  text: "The owner recommends the 8) * @ * restaurant",
                   answer: "",
                 },
                 {
                   number: 8,
-                  text: "Her phone number: 8) * @ *",
+                  text: "The town is well know for this antique shopes",
                   answer: "",
                 },
               ],
             },
             {
-              prompt: "After the judging",
+              prompt: "Payment",
               question_text: [
                 {
                   number: 9,
-                  text: "The artwork will appear in a 9) * @ *",
+                  text: "Deposit: 9)$ * @ *",
                   answer: "",
                 },
                 {
                   number: 10,
-                  text: "The art exhibition will be followed by a 10) * @ * produced by the school",
+                  text: "Deadline for final payment: final day of 10) * @ *",
                   answer: "",
                 },
               ],
@@ -141,40 +106,46 @@ const test = {
         {
           part: 1,
           title: "Questions 11-14",
-          question:
-            "What feature of each of the following walks does the speaker recommend?",
           description:
-            "Choose FOUR answers from the box and write the correct letter, A-G, next to questions 11-14.",
-          type: "matching",
-          items: [
-            "picnic area",
-            "historic building",
-            "flat paths",
-            "seashore",
-            "art works",
-            "wildlife",
-            "views",
-          ],
+            "Choose the correct letter, A, B or C. Bridge to Brisbane Fun Run",
+          type: "multiple-choice",
           questions: [
             {
               number: 11,
-              option: "Boundary Walk",
-              answer: "",
+              question: "On the day of the race the speaker recommends parking",
+              type: "multiple-choice",
+              options: [
+                "in the sports ground",
+                "by the river",
+                "in the shopping centre",
+              ],
+              answer: "in the shopping centre",
             },
             {
               number: 12,
-              option: "Loop Track",
-              answer: "",
+              question: "The timing Chip should be attached to",
+              type: "multiple-choice",
+              options: ["the shirt or singlet", "a shoe", "the wristband"],
+              answer: "a shoe",
             },
             {
               number: 13,
-              option: "Puriri Walk",
-              answer: "",
+              question: "Which group will run first?",
+              type: "multiple-choice",
+              options: ["yellow", "red", "purple"],
+              answer: "red",
             },
             {
               number: 14,
-              option: "North Head",
-              answer: "",
+              question:
+                "The race organisers still need to find volunteers to help with",
+              type: "multiple-choice",
+              options: [
+                "giving first aid",
+                "handing out water",
+                "starting the race",
+              ],
+              answer: "handing out water",
             },
           ],
         },
@@ -183,33 +154,38 @@ const test = {
           title: "Hotel's outdoor facilities",
           questions_range: "Questions 15–20",
           description:
-            "Label the map below.Write the correct letter, A-J, next to questions 15-20.",
+            "Label the map below.Write the correct letter, A- I, next to questions 15-20.",
           type: "map",
-          image: imges.img11,
+          image: imges.img12,
           questions: [
             {
+              number: 15,
+              option: "Stage",
+              answer: "A",
+            },
+            {
               number: 16,
-              option: "Safe swimming beach",
+              option: "T-shirt Stand",
               answer: "A",
             },
             {
               number: 17,
-              option: "Old ship",
+              option: "Bag Collection Area",
               answer: "B",
             },
             {
               number: 18,
-              option: "Stony Batter",
+              option: "Information Centre",
               answer: "C",
             },
             {
               number: 19,
-              option: "Settlers' Monument",
+              option: "Prize Draw Box",
               answer: "C",
             },
             {
               number: 20,
-              option: "Kiosk",
+              option: "Water Station",
               answer: "C",
             },
           ],
@@ -222,121 +198,120 @@ const test = {
       parts: [
         {
           part: 1,
-          title: "Questions 21 and 22",
-          question:
-            "Which TWO points did students most frequently make about their musical background before starting a music degree?",
-          description: "Choose TWO letters, A-E.",
-          type: "matching",
-          options: [
-            "They had already composed music.",
-            "They had several music qualifications.",
-            "They could play more than one instrument.",
-            "They had performed in public.",
-            "They had had piano lessons.",
-          ],
+          title: "Questions 21-26",
+          description:
+            "Choose the correct letter, A, B or C.Farmers' attitudes to new developments in agriculture",
+          type: "multiple-choice",
           questions: [
             {
               number: 21,
-              option: "",
-              answer: "",
+              question:
+                "What does Dr Owen advise Joel to include in the title of his project?",
+              type: "multiple-choice",
+              options: [
+                "the location of the farms",
+                "the number of farmers",
+                "the types of farming",
+              ],
+              answer: "the location of the farms",
             },
             {
               number: 22,
-              option: "",
-              answer: "",
+              question: "Why has Joel decided to do face-to-face interviews?",
+              type: "multiple-choice",
+              options: [
+                "to see the farmers' workplaces",
+                "to limit the time he spends on the project",
+                "to get fuller answers",
+              ],
+              answer: "to get fuller answers",
+            },
+            {
+              number: 23,
+              question:
+                "Joel agrees to investigate how farmers get information on new developments",
+              type: "multiple-choice",
+              options: [
+                "by showing them a series of pictures",
+                "by asking them open questions",
+                "by sending them a checklist in advance",
+              ],
+              answer: "by asking them open questions",
+            },
+            {
+              number: 24,
+              question:
+                "Concerning government communication with farmers, the speakers agree that",
+              type: "multiple-choice",
+              options: [
+                "much of it is irrelevant",
+                "it is often insufficient for farmers' needs",
+                "the wording is sometimes unclear",
+              ],
+              answer: "the wording is sometimes unclear",
+            },
+            {
+              number: 25,
+              question:
+                "According to Joel's reading about the cost of making changes, many British farmers",
+              type: "multiple-choice",
+              options: [
+                "leave investment decisions to their accountants",
+                "have too little time to calculate the costs of new methods",
+                "are reluctant to spend money on improvements",
+              ],
+              answer: "are reluctant to spend money on improvements",
+            },
+            {
+              number: 26,
+              question:
+                "Survey of Australian sheep farmers found that most of them",
+              type: "multiple-choice",
+              options: [
+                "are usually reluctant to make changes",
+                "make changes based on limited research",
+                "want plenty of evidence before they make changes",
+              ],
+              answer: "want plenty of evidence before they make changes",
             },
           ],
         },
         {
           part: 2,
-          title: "Questions 23 and 24",
-          question:
-            "Which TWO points did students most frequently make about music practice?",
-          description: "Choose TWO letters, A-E.",
-          type: "matching",
-          options: [
-            "They prefer to practise alone.",
-            "They try to practise every day.",
-            "They are motivated to practise by fear.",
-            "They feel they don't do enough practice.",
-            "They enjoy the challenge of a difficult piece.",
-          ],
-          questions: [
-            {
-              number: 23,
-              option: "",
-              answer: "",
-            },
-            {
-              number: 24,
-              option: "",
-              answer: "",
-            },
-          ],
-        },
-        {
-          part: 3,
-          title: "Questions 25 and 26",
-          question:
-            "Which TWO points were most frequently made by students about the pieces they select for assessed performances?",
-          description: "Choose TWO letters, A-E.",
-          type: "matching",
-          options: [
-            "They like to hear others performing the same pieces.",
-            "They like to choose little-known pieces.",
-            "They like to play pieces from memory.",
-            "They like their tutor to choose their pieces.",
-            "They like to choose technically demanding pieces.",
-          ],
-          questions: [
-            {
-              number: 25,
-              option: "",
-              answer: "",
-            },
-            {
-              number: 26,
-              option: "",
-              answer: "",
-            },
-          ],
-        },
-        {
-          part: 3,
           title: "Questions 27–30",
           question:
-            "Which comment did most students make about each of the following aspects of performance?",
+            "What opinion is expressed about each of the following books?",
           description:
-            "Choose FOUR answers from the box and write the correct letter, A-G, next to questions 27–30.",
+            "Choose FOUR answers from the boy and write the correct letter, A-G, next to questions 27- 30",
           type: "matching",
           items: [
-            "This is very beneficial.",
-            "This is difficult but enjoyable.",
-            "This can affect relationships.",
-            "This makes them very nervous.",
-            "This is time-consuming.",
-            "This is easy.",
-            "This happens infrequently.",
+            "It's badly organised.",
+            "It's out of date.",
+            "It's clear.",
+            "It's essential reading.",
+            "It's inaccurate.",
+            "It's well illustrated.",
+            "It's boring.",
           ],
           questions: [
             {
               number: 27,
-              option: "Performing solo",
+              option: "Contemporary Farming Manual",
               answer: "",
             },
             {
               number: 28,
-              option: "Deciding which pieces to perform",
+              option: "Running a Small Farm",
               answer: "",
             },
             {
               number: 29,
-              option: "Performing with musicians from a different genre",
+              option: "Agriculture and Economics",
               answer: "",
             },
             {
               number: 30,
-              option: "Performing with musicians who play the same instrument",
+              option: "How to Survive in Farming",
               answer: "",
             },
           ],
@@ -349,129 +324,94 @@ const test = {
       parts: [
         {
           part: 1,
-          title: "Gastropods (Snails and Slugs)",
+          title: "Aboriginal Textile Design",
           questions_range: "Questions 31-40",
           description:
-            "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+            "Complete the notes below.Write ONE WORD ONLY for each answer.",
           flex: 1,
           type: "note_completion",
           questions: [
             {
-              prompt: "Evolution",
+              prompt: "Ernabella Arts Centre",
               question_text: [
                 {
                   number: 31,
-                  text: "•	minerals in the bodies of gastropods are like those in the 31) * @ *",
+                  text: "Artists produce craft and learn new techniques",
                   answer: "",
                 },
                 {
                   number: 31,
-                  text: "•	fossils date back 500 million years ",
+                  text: "Initially, artists produced rugs made from 31) * @ *",
+                  answer: "",
+                },
+                {
+                  number: 31,
+                  text: "Later artists made batik and screen-printed fabrics",
                   answer: "",
                 },
               ],
             },
             {
-              prompt: "Physical features",
+              prompt: "Tiwi Designs",
               question_text: [
                 {
                   number: 32,
-                  text: "•	single, muscular foot",
-                  answer: "",
-                },
-                {
-                  number: 32,
-                  text: "•	radula (used for feeding)",
-                  answer: "",
-                },
-                {
-                  number: 32,
-                  text: "•	Shell (snails only)",
-                  answer: "",
-                },
-                {
-                  number: 32,
-                  text: "•	size: British shells range from 1.5-50 mm",
-                  answer: "",
-                },
-                {
-                  number: 32,
-                  text: "form: most shells coil to the 32) * @ *.",
+                  text: "Early designs included 32) * @ * images",
                   answer: "",
                 },
                 {
                   number: 33,
-                  text: "some shells have ribs, spines or 33) * @ *.",
-                  answer: "",
-                },
-                {
-                  number: 33,
-                  text: "•	they have various colours and patterns",
+                  text: "Designs are linked to traditional beliefs, e.g. Some designs are believed to bring 33) * @ *.",
                   answer: "",
                 },
               ],
             },
             {
-              prompt: "Feeding habits",
+              prompt: "Jimmy Pike",
               question_text: [
-                {
-                  number: 33,
-                  text: "•	mainly feed on rotting plants, fungi or algae",
-                  answer: "",
-                },
                 {
                   number: 34,
-                  text: "some eat live animals, e.g. shied slugs eat 34) * @ *.",
-                  answer: "",
-                },
-              ],
-            },
-            {
-              prompt: "Predators",
-              question_text: [
-                {
-                  number: 35,
-                  text: "•	birds, frogs, flies",
+                  text: "Inspired by the Australian landscape, especially the 34) * @ *.",
                   answer: "",
                 },
                 {
                   number: 35,
-                  text: "humans - snails were probably introduced to Britain as food in the 35) * @ *.",
+                  text: "Started creating art when he was in 35) * @ *.",
                   answer: "",
                 },
                 {
                   number: 36,
-                  text: "many gastropods have particular types of 36) * @ *. e.g. glutinous snail makes itself slippery.",
+                  text: "His textiles were used to make 36) * @ *.",
                   answer: "",
                 },
               ],
             },
             {
-              prompt: "Habitats",
+              prompt: "Bronwyn Bancroft",
               question_text: [
                 {
                   number: 37,
-                  text: "•	gastropods prefer dampness and shade",
-                  answer: "",
-                },
-                {
-                  number: 37,
-                  text: "37) * @ * conditions are worst",
+                  text: "Her work is a modern look at 37) * @ * and nature",
                   answer: "",
                 },
                 {
                   number: 38,
-                  text: "biggest variety is found in old, natural habitats, e.g. 38) * @ *. and meadowland",
+                  text: "1995 - painted a successful Aboriginal athlete's jeans with lizards and a 38) * @ *",
                   answer: "",
                 },
                 {
                   number: 39,
-                  text: "•	highly specialised species live in unusual habitats, e.g. blind snail lives entirely below the 39) * @ *",
+                  text: "2001 - designed a 'Journey of a Nation' parade outfit with part of a 39) * @ * on it",
                   answer: "",
                 },
+              ],
+            },
+            {
+              prompt: "Copyright Issues",
+              question_text: [
                 {
                   number: 40,
-                  text: "good indicators of the quality of the 400 * @ *",
+                  text: "Exploiting Aboriginal imagery affects the artists and the cultural group, e.g. 'The 40) * @ *. Case'",
                   answer: "",
                 },
               ],
@@ -482,45 +422,45 @@ const test = {
     },
   ],
   answers: {
-  1: "animals",
-  2: "zoo",
-  3: "city",
-  4: "travel",
-  5: "18(th) May",
-  6: "Library",
-  7: "LEIGH",
-  8: "04076254633",
-  9: "magazine",
-  10: "dinner",
-  11: "D",
-  12: "G",
-  13: "A",
-  14: "F",
-  15: "D",
-  16: "F",
-  17: "J",
-  18: "E",
-  19: "C",
-  20: "I",
-  21: "D",
-  22: "E",
-  23: "C",
-  24: "E",
-  25: "A",
-  26: "C",
-  27: "B",
-  28: "E",
-  29: "G",
-  30: "A",
-  31: "sea",
-  32: "right",
-  33: "hair",
-  34: "worms",
-  35: "1ST Century",
-  36: "defences/defenses",
-  37: "dry",
-  38: "forests",
-  39: "ground",
-  40: "environment"
-}
+    1: "September 14(th)/September 14",
+    2: "835",
+    3: "school",
+    4: "deck",
+    5: "river",
+    6: "towel",
+    7: "garage",
+    8: "Chinese",
+    9: "200",
+    10: "July",
+    11: "A",
+    12: "B",
+    13: "A",
+    14: "B",
+    15: "F",
+    16: "A",
+    17: "B",
+    18: "H",
+    19: "G",
+    20: "I",
+    21: "A",
+    22: "C",
+    23: "B",
+    24: "A",
+    25: "B",
+    26: "B",
+    27: "G",
+    28: "E",
+    29: "D",
+    30: "B",
+    31: "wool",
+    32: "bird",
+    33: "rain",
+    34: "desert",
+    35: "prison",
+    36: "clothing",
+    37: "family",
+    38: "rainbow",
+    39: "snake",
+    40: "Carpet",
+  },
 };

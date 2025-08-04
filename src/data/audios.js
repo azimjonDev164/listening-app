@@ -42,6 +42,10 @@ import lis11Part1 from "../audios/listening11/Part 1.mp3";
 import lis11Part2 from "../audios/listening11/Part 2.mp3";
 import lis11Part3 from "../audios/listening11/Part 3.mp3";
 import lis11Part4 from "../audios/listening11/Part 4.mp3";
+import lis12Part1 from "../audios/listening12/Part 1.mp3";
+import lis12Part2 from "../audios/listening12/Part 2.mp3";
+import lis12Part3 from "../audios/listening12/Part 3.mp3";
+import lis12Part4 from "../audios/listening12/Part 4.mp3";
 
 export default {
   lis1Part1,
@@ -88,4 +92,8 @@ export default {
   lis11Part2,
   lis11Part3,
   lis11Part4,
+  lis12Part1,
+  lis12Part2,
+  lis12Part3,
+  lis12Part4,
 };

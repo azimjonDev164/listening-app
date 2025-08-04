@@ -9,7 +9,7 @@ const Sidebor = ({ display }) => {
     <div
       className={`${
         display ? "block" : "hidden"
-      } xl:block fixed top-[68px] bottom-0 left-0 z-[999] w-64 bg-white shadow-lg border-r border-gray-200`}
+      } xl:block fixed top-[68px] bottom-0 left-0 z-[999] overflow-y-scroll w-64 bg-white shadow-lg border-r border-gray-200`}
     >
       <SignedOut>
         <div className="flex justify-center">
@@ -21,7 +21,7 @@ const Sidebor = ({ display }) => {
         </div>
       </SignedOut>
       <SignedIn>
-        <ul className="menu bg-white rounded-none w-full h-full overflow-y-auto p-4 space-y-2">
+        <ul className="menu bg-white rounded-none w-full p-4 space-y-2">
           {tests.map((item, idx) => (
             <li
               key={idx}
