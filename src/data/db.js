@@ -5878,4 +5878,1399 @@ export const tests = [
       40: "Carpet",
     },
   },
+  {
+    title: "IELTS Listening 13",
+    audioUrl: "https://example.com/audio/test2.mp3",
+    sections: [
+      {
+        section: 1,
+        audioUrl: audios.lis13Part1,
+        parts: [
+          {
+            part: 1,
+            title: "Music Alive Agency",
+            questions_range: "Questions 1-10",
+            description: "Write ONE WORD AND/OR A NUMBER foreach answer.",
+            flex: 1,
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "",
+                question_text: [
+                  {
+                    number: 1,
+                    text: "Members' details are on a 1 ) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 2,
+                    text: "Type of music represented: modern music (2) * @ *and jazz)",
+                    answer: "",
+                  },
+                  {
+                    number: 3,
+                    text: "Newsletter comes out once a 3) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 4,
+                    text: "Cost of adult membership: 4) £ * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 5,
+                    text: "Current number of members: 5) *  @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 6,
+                    text: "Facilities include: rehearsal rooms and a 6) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 7,
+                    text: "There is no charge for 7) * @ * advice",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "To become a member",
+                question_text: [
+                  {
+                    number: 8,
+                    text: "Send a letter with contact details and a recent 8) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 9,
+                    text: "Address: 707, 9) * @ * Street, Marbury",
+                    answer: "",
+                  },
+                  {
+                    number: 10,
+                    text: "Contact email: music.10 )* @ * @bsu.co.uk",
+                    answer: "",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 2,
+        audioUrl: audios.lis13Part2,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 11-14",
+            description:
+              "Choose the correct letter, A, B or C. Information for participants in the Albany fishing competition",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 11,
+                question:
+                  "What do participants need to take to the registration desk?",
+                type: "multiple-choice",
+                options: [
+                  "a form of identification",
+                  "a competitor number",
+                  "cash for the entrance fee",
+                ],
+                answer: "a form of identification",
+              },
+              {
+                number: 12,
+                question:
+                  "What does the entrance fee to the competition include?",
+                type: "multiple-choice",
+                options: [
+                  "equipment for fishing",
+                  "all food for both days",
+                  "fuel for the fishing",
+                ],
+                answer: "all food for both days",
+              },
+              {
+                number: 13,
+                question:
+                  "Participants without a fishing license are recommended to apply for one",
+                type: "multiple-choice",
+                options: [
+                  "at the registration desk",
+                  "over the phone",
+                  "on the internet",
+                ],
+                answer: "on the internet",
+              },
+              {
+                number: 14,
+                question: "What will happen at 6pm on Sunday?",
+                type: "multiple-choice",
+                options: [
+                  "The time allocated for fishing will end",
+                  "The fish caught will be judged",
+                  "The prizes will be awarded to the winners",
+                ],
+                answer: "The fish caught will be judged",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Albany Fishing Competition Map",
+            questions_range: "Questions 15–20",
+            description:
+              "Label the map below.Write the correct letter, A- I, next to questions 15-20.",
+            type: "map",
+            image: imges.img13,
+            questions: [
+              {
+                number: 15,
+                option: "15	Registration area",
+                answer: "A",
+              },
+              {
+                number: 16,
+                option: "Shore fishing area",
+                answer: "A",
+              },
+              {
+                number: 17,
+                option: "Boat launching area ",
+                answer: "B",
+              },
+              {
+                number: 18,
+                option: "Judging area",
+                answer: "C",
+              },
+              {
+                number: 19,
+                option: "Dining area ",
+                answer: "C",
+              },
+              {
+                number: 20,
+                option: "Prize-giving area",
+                answer: "C",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 3,
+        audioUrl: audios.lis13Part3,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 21-26",
+            description:
+              "Choose the correct letter, A, B or C. Preparing for the end-of-year art exhibition",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 21,
+                question:
+                  "Max and Abby agree that in the art exhibition they are looking forward to",
+                type: "multiple-choice",
+                options: [
+                  "showing people their work",
+                  "getting feedback from their tutor",
+                  "talking to other students about their displays",
+                ],
+                answer: "showing people their work",
+              },
+              {
+                number: 22,
+                question:
+                  "In last year's exhibition, both students were impressed by",
+                type: "multiple-choice",
+                options: [
+                  "a set of metal sculptures",
+                  "a series of wooden models",
+                  "a collection of textile designs",
+                ],
+                answer: "a collection of textile designs",
+              },
+              {
+                number: 23,
+                question: "What has Max decided to call his display?",
+                type: "multiple-choice",
+                options: ["Mother Nature", "Views of Farmland", "Seasons"],
+                answer: "Seasons",
+              },
+              {
+                number: 24,
+                question:
+                  "What does Abby think will be difficult about preparing for their displays?",
+                type: "multiple-choice",
+                options: [
+                  "having enough time to set it up",
+                  "choosing which pieces to show",
+                  "filling up all the available space",
+                ],
+                answer: "choosing which pieces to show",
+              },
+              {
+                number: 25,
+                question:
+                  "What does Abby say about the summary they have to write?",
+                type: "multiple-choice",
+                options: [
+                  "She isn't sure whether people will read it",
+                  "It will be difficult to keep it short enough",
+                  "It will be hard to clarify the reasons for her work",
+                ],
+                answer: "It will be difficult to keep it short enough",
+              },
+              {
+                number: 26,
+                question:
+                  "What aspect of the display will the students organise themselves?",
+                type: "multiple-choice",
+                options: [
+                  "arranging the lighting",
+                  "inviting local journalists",
+                  "providing comment forms",
+                ],
+                answer: "providing comment forms",
+              },
+            ],
+          },
+
+          {
+            part: 2,
+            title: "Questions 27–30",
+            question:
+              "Which feature do the speakers identify as particularly interesting for each of the following exhibitions they saw?",
+            description:
+              "Choose FOUR answers from the box and write the correct letter, A-F, next to questions 27-30.Interesting features",
+            type: "matching",
+            items: [
+              "the realistic colours ",
+              "the sense of space ",
+              "the unusual interpretation of the theme",
+              "the painting technique ",
+              "the variety of materials use ",
+              "the use of light and shade",
+            ],
+            questions: [
+              {
+                number: 27,
+                option: "On the Water",
+                answer: "",
+              },
+              {
+                number: 28,
+                option: "City Life",
+                answer: "",
+              },
+              {
+                number: 29,
+                option: "Faces",
+                answer: "",
+              },
+              {
+                number: 30,
+                option: "Moods",
+                answer: "",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 4,
+        audioUrl: audios.lis13Part4,
+        parts: [
+          {
+            part: 1,
+            title: "The Mangrove Regeneration Project",
+            questions_range: "Questions 31-40",
+            description:
+              "Complete the notes below Write NO MORE THAN TWO WORDS for each answer.",
+            flex: 1,
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "Background: Mangrove forests",
+                question_text: [
+                  {
+                    number: 31,
+                    text: "protect coastal areas from 31) * @ * by the sea",
+                    answer: "",
+                  },
+                  {
+                    number: 31,
+                    text: "are an important habitat for wildlife",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Problems",
+                question_text: [
+                  {
+                    number: 32,
+                    text: "mangroves had been used by farmers as 32) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 33,
+                    text: "mangroves were poisoned by the use of 33) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 34,
+                    text: "Local people used the mangroves as a place to put their 34) * @ *",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Actions taken to protect the mangroves",
+                question_text: [
+                  {
+                    number: 35,
+                    text: "a barrier which was made of 35) * @ * was constructed — but it failed",
+                    answer: "",
+                  },
+                  {
+                    number: 35,
+                    text: "new mangroves had to be grown from seed",
+                    answer: "",
+                  },
+                  {
+                    number: 36,
+                    text: "the seeds of the 36) * @ * mangrove were used",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "First set of seedlings",
+                question_text: [
+                  {
+                    number: 37,
+                    text: "kept in small pots in a 37) * @ *. ",
+                    answer: "",
+                  },
+                  {
+                    number: 38,
+                    text: "Watered with 38) * @ * water",
+                    answer: "",
+                  },
+                  {
+                    number: 38,
+                    text: "planted out on south side of a small island",
+                    answer: "",
+                  },
+                  {
+                    number: 39,
+                    text: "at risk from the large 39) * @ * population",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Second set of seedlings",
+                question_text: [
+                  {
+                    number: 40,
+                    text: "planted in the seabed near established mangrove roots",
+                    answer: "",
+                  },
+                  {
+                    number: 40,
+                    text: "the young plants were destroyed in a 40) * @ *",
+                    answer: "",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    answers: {
+      1: "database",
+      2: "rock",
+      3: "month",
+      4: "45",
+      5: "750",
+      6: "studio",
+      7: "legal",
+      8: "recording",
+      9: "KIPPAX",
+      10: "talent",
+      11: "A",
+      12: "B",
+      13: "C",
+      14: "B",
+      15: "G",
+      16: "A",
+      17: "C",
+      18: "H",
+      21: "A",
+      22: "B",
+      23: "A",
+      24: "A",
+      25: "B",
+      26: "C",
+      27: "D",
+      28: "B",
+      29: "A",
+      30: "C",
+      31: "flooding",
+      32: "firewood",
+      33: "fertilizer",
+      34: "trash",
+      35: "sand",
+      36: "grey / gray",
+      37: "hot house",
+      38: "rain",
+      39: "rabbit",
+      40: "storm",
+    },
+  },
+  {
+    title: "IELTS Listening 14",
+    audioUrl: "https://example.com/audio/test2.mp3",
+    sections: [
+      {
+        section: 1,
+        audioUrl: audios.lis14Part1,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 1–6",
+            question: "Which hotel offers the following facilities?",
+            description:
+              "Write the correct letter, A, B, C or D, next to questions 1–6.",
+            type: "matching",
+            items: [
+              "Royal Hotel",
+              "Star Hotel",
+              "Winchester Hotel",
+              "all three hotels",
+            ],
+            questions: [
+              {
+                number: 1,
+                option: "sea view",
+                answer: "",
+              },
+              {
+                number: 2,
+                option: "disabled access",
+                answer: "",
+              },
+              {
+                number: 3,
+                option: "indoor play area",
+                answer: "",
+              },
+              {
+                number: 4,
+                option: "choice of food",
+                answer: "",
+              },
+              {
+                number: 5,
+                option: "private dining room",
+                answer: "",
+              },
+              {
+                number: 6,
+                option: "group discount",
+                answer: "",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "",
+            questions_range: "Questions 7-10",
+            description:
+              "Complete the notes below. Write ONE WORD ONLY for each answer.",
+            flex: 1,
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "Things to do immediately",
+                question_text: [
+                  {
+                    number: 7,
+                    text: "Send a 7) * @ * to the Winchester Hotel",
+                    answer: "",
+                  },
+                  {
+                    number: 8,
+                    text: "Make the 8) * @ *",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Things to do later",
+                question_text: [
+                  {
+                    number: 9,
+                    text: "Find out who needs help with 9) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 10,
+                    text: "Tell people not to bring any 10) * @ *",
+                    answer: "",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 2,
+        audioUrl: audios.lis14Part2,
+        parts: [
+          {
+            part: 1,
+            title: "The game of curling",
+            questions_range: "Questions 11-16",
+            description:
+              "Complete the sentences below. Write NO MORE THAN TWO WORDS for each answer.",
+            type: "sentence_completion",
+            questions: [
+              {
+                number: 11,
+                question_text:
+                  "The four players on the team are called the * @ *, the Second, the Third and the Skip.",
+              },
+              {
+                number: 12,
+                question_text:
+                  "The length of ice on which curling is played is called the * @ *",
+              },
+              {
+                number: 13,
+                question_text: "The target area is called the * @ *",
+              },
+              {
+                number: 14,
+                question_text: "Scottish brushes are usually made from * @ *",
+              },
+              {
+                number: 15,
+                question_text: "One shoe needs to have a sole made of * @ *",
+              },
+              {
+                number: 16,
+                question_text: "The captain of the team often carries a * @ *",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 17-20",
+            description: "Choose the correct letter, A, B or C.",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 17,
+                question: "Montreal Curling Club is famous as",
+                type: "multiple-choice",
+                options: [
+                  "the champion club of the local league",
+                  "the oldest sports club in the region",
+                  "the most influential club in winter sports",
+                ],
+                answer: "the oldest sports club in the region",
+              },
+              {
+                number: 18,
+                question: "The Caledonian Curling Club was formed in order to",
+                type: "multiple-choice",
+                options: [
+                  "attract interest in the sport",
+                  "train young players",
+                  "fix regulations for the game",
+                ],
+                answer: "fix regulations for the game",
+              },
+              {
+                number: 19,
+                question:
+                  "In the 16th century, curling avoided being banned because",
+                type: "multiple-choice",
+                options: [
+                  "it was already so popular",
+                  "it was good training for battle",
+                  "it was only played by children",
+                ],
+                answer: "it was good training for battle",
+              },
+              {
+                number: 20,
+                question:
+                  "Early curling games in Canada used implements made of",
+                type: "multiple-choice",
+                options: ["local material", "imported stone", "cast iron"],
+                answer: "local material",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 3,
+        audioUrl: audios.lis14Part3,
+        parts: [
+          {
+            part: 1,
+            title: "Questions 21-24",
+            description:
+              "Choose the correct letter, A, B or C.\nUsing scientific techniques to investigate works of art ",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 21,
+                question:
+                  "What does Josh think about Jackson Pollock's paintings?",
+                type: "multiple-choice",
+                options: [
+                  "They are easy to copy",
+                  "They are complex",
+                  "They are childish",
+                ],
+                answer: "They are complex",
+              },
+              {
+                number: 22,
+                question: "The $5 painting was considered to be a fake because",
+                type: "multiple-choice",
+                options: [
+                  "it lacked documentation",
+                  "it was too cheap",
+                  "it featured the wrong colours",
+                ],
+                answer: "it lacked documentation",
+              },
+              {
+                number: 23,
+                question:
+                  "What made the International Foundation for Art Research reject the $5 painting?",
+                type: "multiple-choice",
+                options: [
+                  "what was on the back of the painting",
+                  "the type of paint used",
+                  "how the paint was applied",
+                ],
+                answer: "what was on the back of the painting",
+              },
+              {
+                number: 24,
+                question: "What do Josh and Emily agree about art evaluation?",
+                type: "multiple-choice",
+                options: [
+                  "Only an experienced critic can evaluate a painting's authenticity",
+                  "Modern scientific methods have replaced the traditional approach",
+                  "Experts from the science and art worlds should work together",
+                ],
+                answer:
+                  "Experts from the science and art worlds should work together",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 25–30",
+            question: "Complete the summary below.",
+            description:
+              "Choose SIX answers from the box and write the correct letter, A–H, next to questions 25–30.",
+            type: "matching",
+            items: [
+              "ultrasound",
+              "gamma-ray technology",
+              "stone",
+              "a laser scanner",
+              "a radar machine",
+              "glass",
+              "a thermographic camera",
+              "brick",
+            ],
+            questions: [
+              {
+                number: 25,
+                option:
+                  "Seracini used ......... to help make a model of the building.",
+                answer: "",
+              },
+              {
+                number: 26,
+                option:
+                  "Seracini used ......... to reveal different materials in the walls.",
+                answer: "",
+              },
+              {
+                number: 27,
+                option:
+                  "He found the original architecture. Seracini guessed that Da Vinci painted his masterpiece on the east wall, in a space that used to hold .........",
+                answer: "",
+              },
+              {
+                number: 28,
+                option:
+                  "Seracini analysed the wall using ......... and discovered a second wall behind it.",
+                answer: "",
+              },
+              {
+                number: 29,
+                option:
+                  "Seracini hypothesised that the Da Vinci painting is still there on the original ......... wall.",
+                answer: "",
+              },
+              {
+                number: 30,
+                option: "Seracini is using ......... to prove his theory.",
+                answer: "",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 4,
+        audioUrl: audios.lis14Part4,
+        parts: [
+          {
+            part: 1,
+            title: "Sustainability",
+            questions_range: "Questions 31-40",
+            description:
+              "Complete the notes below. Write ONE WORD ONLY for each answer",
+            flex: 1,
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "Sustainability:",
+                question_text: [
+                  {
+                    number: 31,
+                    text: "Term first used in 1987 by writers of United Nations report",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Lecture aim: ",
+                question_text: [
+                  {
+                    number: 31,
+                    text: "Analysis of the 31) * @ * surrounding sustainability",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Sustainable development:",
+                question_text: [
+                  {
+                    number: 32,
+                    text: "Development that will meet the needs of both present and future 32) * @ *",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Myth 1:",
+                question_text: [
+                  {
+                    number: 33,
+                    text: "No mention of the 33) * @ * in original definition",
+                    answer: "",
+                  },
+                  {
+                    number: 34,
+                    text: "Original focus: poorer nations should have the same 34) * @ * to natural resources as richer nations",
+                    answer: "",
+                  },
+                  {
+                    number: 35,
+                    text: "This would help them achieve better 35) * @ * conditions ",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Myth 2: 'Green' vs Sustainable",
+                question_text: [
+                  {
+                    number: 36,
+                    text: "Key difference: unlike 'green', 'sustainable' is not always associated with things that are natural",
+                    answer: "",
+                  },
+                  {
+                    number: 36,
+                    text: "For the sustainability lobby, the key problem is finding 36) * @ * to develop technology",
+                    answer: "",
+                  },
+                  {
+                    number: 37,
+                    text: "Sustainability lobby is prepared to 37) * @ * nuclear energy . ",
+                    answer: "",
+                  },
+                  {
+                    number: 38,
+                    text: "Myth 3: Role of technology",
+                    answer: "",
+                  },
+                  {
+                    number: 38,
+                    text: "Introduction of battery stations on 38) * @ * is an example of new business thinking, not new technology",
+                    answer: "",
+                  },
+                  {
+                    number: 39,
+                    text: "•	Agriculture: some farmers plant crops like sunflowers which don’t use much water, unlike 39) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 40,
+                    text: "•	Greater use of water is a result of changes in our 40) * @ *",
+                    answer: "",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    answers: {
+      1: "B",
+      2: "D",
+      3: "C",
+      4: "A",
+      5: "A",
+      6: "C",
+      7: "deposit",
+      8: "invitations",
+      9: "transport",
+      10: "presents",
+      11: "lead",
+      12: "sheet",
+      13: "house",
+      14: "horse hair",
+      15: "rubber",
+      16: "stopwatch",
+      17: "B",
+      18: "C",
+      19: "B",
+      20: "C",
+      21: "B",
+      22: "A",
+      23: "B",
+      24: "C",
+      25: "D",
+      26: "G",
+      27: "F",
+      28: "E",
+      29: "C",
+      30: "B",
+      31: "confusion",
+      32: "generations",
+      33: "environment",
+      34: "rights",
+      35: "living",
+      36: "time",
+      37: "accept",
+      38: "roads",
+      39: "corn",
+      40: "diet",
+    },
+  },
+  {
+    title: "IELTS Listening 15",
+    audioUrl: "https://example.com/audio/test2.mp3",
+    sections: [
+      {
+        section: 1,
+        audioUrl: audios.lis15Part1,
+        parts: [
+          {
+            part: 1,
+            title: "Music Alive Agency",
+            questions_range: "Questions 1-10",
+            description: "Write ONE WORD AND/OR A NUMBER foreach answer.",
+            flex: 1,
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "",
+                question_text: [
+                  {
+                    number: 1,
+                    text: "Members' details are on a 1 ) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 2,
+                    text: "Type of music represented: modern music (2) * @ *and jazz)",
+                    answer: "",
+                  },
+                  {
+                    number: 3,
+                    text: "Newsletter comes out once a 3) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 4,
+                    text: "Cost of adult membership: 4) £ * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 5,
+                    text: "Current number of members: 5) *  @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 6,
+                    text: "Facilities include: rehearsal rooms and a 6) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 7,
+                    text: "There is no charge for 7) * @ * advice",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "To become a member",
+                question_text: [
+                  {
+                    number: 8,
+                    text: "Send a letter with contact details and a recent 8) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 9,
+                    text: "Address: 707, 9) * @ * Street, Marbury",
+                    answer: "",
+                  },
+                  {
+                    number: 10,
+                    text: "Contact email: music.10 )* @ * @bsu.co.uk",
+                    answer: "",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 2,
+        audioUrl: audios.lis15Part2,
+        parts: [
+          {
+            part: 1,
+            title: "Experiences of mountain climbing",
+            questions_range: "Questions 11-14",
+            description:
+              "Complete the sentences below. Write NO MORE THAN TWO WORDS for each answer.",
+            type: "sentence_completion",
+            questions: [
+              {
+                number: 11,
+                question_text:
+                  "Every year more than 30,000 people * @ * to climb Mont Blanc.",
+              },
+              {
+                number: 12,
+                question_text:
+                  "Approximately 200 reach the top every day in the * @ * months.",
+              },
+              {
+                number: 13,
+                question_text:
+                  "In July 2007, there were 30 fatalities, chiefly due to * @ * conditions.",
+              },
+              {
+                number: 14,
+                question_text: "One danger is * @ * caused by other climbers.",
+              },
+            ],
+          },
+          {
+            part: 2,
+            title: "Questions 15-17",
+            description: "Choose the correct answer A, B or C.",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 15,
+                question: "How did Katherine do her most recent climb?",
+                type: "multiple-choice",
+                options: ["in a group", "with a guide", "on her own"],
+                answer: "on her own",
+              },
+              {
+                number: 16,
+                question:
+                  "Why did Katherine find her first climb of Mont Blanc difficult?",
+                type: "multiple-choice",
+                options: [
+                  "because of poor weather conditions",
+                  "because of the time she was climbing",
+                  "because the route was crowded",
+                ],
+                answer: "because of the time she was climbing",
+              },
+              {
+                number: 17,
+                question:
+                  "What did Katherine do on her second climb that made it easier?",
+                type: "multiple-choice",
+                options: [
+                  "She spent a few days in Chamonix beforehand",
+                  "She did the climb over two days",
+                  "She climbed smaller peaks for training",
+                ],
+                answer: "She climbed smaller peaks for training",
+              },
+            ],
+          },
+          {
+            part: 3,
+            title: "Questions 18–20",
+            question:
+              "Which THREE experiences taught Katherine about Mont Blanc?",
+            description: "Choose THREE letters, A–F.",
+            type: "multiple_choice_multiple_answers",
+            options: [
+              "Be in good physical condition",
+              "Have the right climbing equipment",
+              "Wear several layers of clothing",
+              "Protect yourself from the sun",
+              "Climb with others",
+              "Acclimatise yourself to the altitude first",
+            ],
+            questions: [
+              {
+                number: 18,
+                option: "",
+                answer: "",
+              },
+              {
+                number: 19,
+                option: "",
+                answer: "",
+              },
+              {
+                number: 20,
+                option: "",
+                answer: "",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 3,
+        audioUrl: audios.lis15Part3,
+        parts: [
+          {
+            part: 1,
+            title: "Computer Labs ",
+            questions_range: "Questions 21-27",
+            description:
+              "Complete the notes below. Write NO MORE THAN THREE WORDS OR A NUMBER for each answer.",
+            flex: 1,
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "",
+                question_text: [
+                  {
+                    number: 1,
+                    text: "The 4 labs below can be used by undergraduates",
+                  },
+                  {
+                    number: 21,
+                    text: "Other computer labs can only be used by postgraduates and 21) * @ *",
+                  },
+                ],
+              },
+              {
+                prompt: "Lab Locations\nWimborne",
+                question_text: [
+                  {
+                    number: 2,
+                    text: "Johnson Building",
+                  },
+                ],
+              },
+              {
+                prompt: "Franklin",
+                question_text: [
+                  {
+                    number: 2,
+                    text: "Computer Sciences Building",
+                  },
+                ],
+              },
+              {
+                prompt: "Salisbury:",
+                question_text: [
+                  {
+                    number: 22,
+                    text: "22) * @ *",
+                  },
+                ],
+              },
+              {
+                prompt: "Court:",
+                question_text: [
+                  {
+                    number: 4,
+                    text: "Johnson Building",
+                  },
+                ],
+              },
+              {
+                prompt: "",
+                question_text: [
+                  {
+                    number: 23,
+                    text: "Reservations 23) * @ * a day unless computers are free",
+                  },
+                ],
+              },
+              {
+                prompt: "",
+                question_text: [
+                  {
+                    number: 24,
+                    text: "Write reservation in book 24) * @ *(Penalty for erasing someone else's reservation — 1 year ban)",
+                  },
+                ],
+              },
+              {
+                prompt: "User Name:",
+                question_text: [
+                  {
+                    number: 8,
+                    text: "jamessmith2",
+                  },
+                ],
+              },
+              {
+                prompt: "Password:",
+                question_text: [
+                  {
+                    number: 25,
+                    text: "25) * @ *",
+                  },
+                ],
+              },
+              {
+                prompt: "Printing",
+                question_text: [
+                  {
+                    number: 26,
+                    text: "Pick up print outs from 26) * @ * in Franklin",
+                  },
+                ],
+              },
+              {
+                prompt: "Costs",
+                question_text: [
+                  {
+                    number: 27,
+                    text: "27) * @ *",
+                  },
+                ],
+              },
+            ],
+          },
+
+          {
+            part: 2,
+            title: "Questions 28-30",
+            description: "Choose the correct answer A, B or C.",
+            type: "multiple-choice",
+            questions: [
+              {
+                number: 28,
+                question:
+                  "The introductory computer course that James decides to take is…",
+                type: "multiple-choice",
+                options: ["beginner", "intermediate", "advanced"],
+                answer: "beginner",
+              },
+              {
+                number: 29,
+                question:
+                  "The computer laboratory for James’ introductory computer course is in…",
+                type: "multiple-choice",
+                options: ["Wimborne", "Franklin", "Court"],
+                answer: "Court",
+              },
+              {
+                number: 30,
+                question: "James will take his introductory computer course…",
+                type: "multiple-choice",
+                options: [
+                  "on Thursday at 2.00pm",
+                  "on Tuesday at 4.30pm",
+                  "on Tuesday at 5.00pm",
+                ],
+                answer: "on Tuesday at 5.00pm",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        section: 4,
+        audioUrl: audios.lis15Part4,
+        parts: [
+          {
+            part: 1,
+            title: "Treadle Pump",
+            questions_range: "Questions 31-40",
+            description:
+              "Complete the notes below. Write ONE WORD ONLY for each answer.",
+            flex: 1,
+            type: "note_completion",
+            questions: [
+              {
+                prompt: "Background",
+                question_text: [
+                  {
+                    number: 31,
+                    text: "The pump was designed for farmers in India.",
+                    answer: "",
+                  },
+                  {
+                    number: 31,
+                    text: "In the dry season, many people move to 31) * @ *. for paid jobs.",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Description",
+                question_text: [
+                  {
+                    number: 32,
+                    text: "Like an exercise bike made up of two treadles.",
+                    answer: "",
+                  },
+                  {
+                    number: 32,
+                    text: "Metal pump cylinders are linked to a pond or well by a plastic 32) * @ *.",
+                    answer: "",
+                  },
+                  {
+                    number: 33,
+                    text: "Farmers use pumps in the 33) * @ * period.",
+                    answer: "",
+                  },
+                  {
+                    number: 34,
+                    text: "In 2006, a new version was developed to be used by the 34) * @ *",
+                    answer: "",
+                  },
+                  {
+                    number: 35,
+                    text: "To prevent blockages, the design was improved by attaching a bamboo 35) * @ *",
+                    answer: "",
+                  },
+                ],
+              },
+              {
+                prompt: "Benefits",
+                question_text: [
+                  {
+                    number: 36,
+                    text: "Economically, many farmers have increased their 36) * @ *.",
+                    answer: "",
+                  },
+                  {
+                    number: 37,
+                    text: "For health, pump users have a better 37) * @ *.",
+                    answer: "",
+                  },
+                  {
+                    number: 38,
+                    text: "Environmentally, the pump is less dependent on 38) * @ *. fuel.",
+                    answer: "",
+                  },
+                  {
+                    number: 39,
+                    text: "For sustainability, the device is easy to 39) * @ * and maintain.",
+                    answer: "",
+                  },
+                  {
+                    number: 40,
+                    text: "Mechanics need a short period of time for 40) * @ *.",
+                    answer: "",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    answers: {
+      1: "Database",
+      2: "Rock",
+      3: "Month",
+      4: "45",
+      5: "750",
+      6: "Studio",
+      7: "Legal",
+      8: "Recording",
+      9: "KIPPAX",
+      10: "Talent",
+      11: "attempt",
+      12: "summer",
+      13: "bad weather",
+      14: "falling rocks",
+      15: "C",
+      16: "A",
+      17: "A",
+      18: "C",
+      19: "D",
+      20: "F",
+      21: "staff",
+      22: "library",
+      23: "2 hours",
+      24: "in pen",
+      25: "biology",
+      26: "tray",
+      27: "nothing, free",
+      28: "A",
+      29: "B",
+      30: "C",
+      31: "urban",
+      32: "tube",
+      33: "cooler",
+      34: "conditions",
+      35: "filter",
+      36: "income",
+      37: "diet",
+      38: "fossil",
+      39: "use",
+      40: "support",
+    },
+  },
 ];

@@ -1,96 +1,75 @@
 const test = {
-  title: "IELTS Listening 11",
+  title: "IELTS Listening 15",
   audioUrl: "https://example.com/audio/test2.mp3",
   sections: [
     {
       section: 1,
-      audioUrl: audios.lis11Part1,
+      audioUrl: audios.lis15Part1,
       parts: [
         {
           part: 1,
-          title: "Holiday Cottages and Town Information",
+          title: "Music Alive Agency",
           questions_range: "Questions 1-10",
-          description:
-            "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          description: "Write ONE WORD AND/OR A NUMBER foreach answer.",
           flex: 1,
           type: "note_completion",
           questions: [
             {
-              prompt: "Aster Cottage",
+              prompt: "",
               question_text: [
                 {
                   number: 1,
-                  text: "Available for week beginning 1) * @ *",
+                  text: "Members' details are on a 1 ) * @ *",
                   answer: "",
                 },
                 {
                   number: 2,
-                  text: "Cost for the week: 2) $ * @ *",
-                  answer: "",
-                },
-              ],
-            },
-            {
-              prompt: "Periwinkle Cottage",
-              question_text: [
-                {
-                  number: 3,
-                  text: "The same price as Aster Cottage last year",
+                  text: "Type of music represented: modern music (2) * @ *and jazz)",
                   answer: "",
                 },
                 {
                   number: 3,
-                  text: "Part of a building that was first used as a 3) * @ * ",
+                  text: "Newsletter comes out once a 3) * @ *",
                   answer: "",
                 },
                 {
                   number: 4,
-                  text: "The living room leads out to the 4) * @ *",
+                  text: "Cost of adult membership: 4) £ * @ *",
                   answer: "",
                 },
                 {
                   number: 5,
-                  text: "View of the 5) * @ *from the bedroom",
+                  text: "Current number of members: 5) *  @ *",
                   answer: "",
                 },
                 {
                   number: 6,
-                  text: "Bring our own 6) * @ *.",
+                  text: "Facilities include: rehearsal rooms and a 6) * @ *",
                   answer: "",
                 },
                 {
                   number: 7,
-                  text: "Doesn't have a 7) * @ * ",
+                  text: "There is no charge for 7) * @ * advice",
                   answer: "",
                 },
               ],
             },
             {
-              prompt: "The town",
+              prompt: "To become a member",
               question_text: [
                 {
                   number: 8,
-                  text: "The owner recommends the 8) * @ * restaurant",
+                  text: "Send a letter with contact details and a recent 8) * @ *",
                   answer: "",
                 },
-                {
-                  number: 8,
-                  text: "The town is well know for this antique shopes",
-                  answer: "",
-                },
-              ],
-            },
-            {
-              prompt: "Payment",
-              question_text: [
                 {
                   number: 9,
-                  text: "Deposit: 9)$ * @ *",
+                  text: "Address: 707, 9) * @ * Street, Marbury",
                   answer: "",
                 },
                 {
                   number: 10,
-                  text: "Deadline for final payment: final day of 10) * @ *",
+                  text: "Contact email: music.10 )* @ * @bsu.co.uk",
                   answer: "",
                 },
               ],
@@ -101,92 +80,106 @@ const test = {
     },
     {
       section: 2,
-      audioUrl: audios.lis11Part2,
+      audioUrl: audios.lis15Part2,
       parts: [
         {
           part: 1,
-          title: "Questions 11-14",
+          title: "Experiences of mountain climbing",
+          questions_range: "Questions 11-14",
           description:
-            "Choose the correct letter, A, B or C. Bridge to Brisbane Fun Run",
-          type: "multiple-choice",
+            "Complete the sentences below. Write NO MORE THAN TWO WORDS for each answer.",
+          type: "sentence_completion",
           questions: [
             {
               number: 11,
-              question: "On the day of the race the speaker recommends parking",
-              type: "multiple-choice",
-              options: [
-                "in the sports ground",
-                "by the river",
-                "in the shopping centre",
-              ],
-              answer: "in the shopping centre",
+              question_text:
+                "Every year more than 30,000 people * @ * to climb Mont Blanc.",
             },
             {
               number: 12,
-              question: "The timing Chip should be attached to",
-              type: "multiple-choice",
-              options: ["the shirt or singlet", "a shoe", "the wristband"],
-              answer: "a shoe",
+              question_text:
+                "Approximately 200 reach the top every day in the * @ * months.",
             },
             {
               number: 13,
-              question: "Which group will run first?",
-              type: "multiple-choice",
-              options: ["yellow", "red", "purple"],
-              answer: "red",
+              question_text:
+                "In July 2007, there were 30 fatalities, chiefly due to * @ * conditions.",
             },
             {
               number: 14,
-              question:
-                "The race organisers still need to find volunteers to help with",
-              type: "multiple-choice",
-              options: [
-                "giving first aid",
-                "handing out water",
-                "starting the race",
-              ],
-              answer: "handing out water",
+              question_text: "One danger is * @ * caused by other climbers.",
             },
           ],
         },
         {
           part: 2,
-          title: "Hotel's outdoor facilities",
-          questions_range: "Questions 15–20",
-          description:
-            "Label the map below.Write the correct letter, A- I, next to questions 15-20.",
-          type: "map",
-          image: imges.img12,
+          title: "Questions 15-17",
+          description: "Choose the correct answer A, B or C.",
+          type: "multiple-choice",
           questions: [
             {
               number: 15,
-              option: "Stage",
-              answer: "A",
+              question: "How did Katherine do her most recent climb?",
+              type: "multiple-choice",
+              options: ["in a group", "with a guide", "on her own"],
+              answer: "on her own",
             },
             {
               number: 16,
-              option: "T-shirt Stand",
-              answer: "A",
+              question:
+                "Why did Katherine find her first climb of Mont Blanc difficult?",
+              type: "multiple-choice",
+              options: [
+                "because of poor weather conditions",
+                "because of the time she was climbing",
+                "because the route was crowded",
+              ],
+              answer: "because of the time she was climbing",
             },
             {
               number: 17,
-              option: "Bag Collection Area",
-              answer: "B",
+              question:
+                "What did Katherine do on her second climb that made it easier?",
+              type: "multiple-choice",
+              options: [
+                "She spent a few days in Chamonix beforehand",
+                "She did the climb over two days",
+                "She climbed smaller peaks for training",
+              ],
+              answer: "She climbed smaller peaks for training",
             },
+          ],
+        },
+        {
+          part: 3,
+          title: "Questions 18–20",
+          question:
+            "Which THREE experiences taught Katherine about Mont Blanc?",
+          description: "Choose THREE letters, A–F.",
+          type: "multiple_choice_multiple_answers",
+          options: [
+            "Be in good physical condition",
+            "Have the right climbing equipment",
+            "Wear several layers of clothing",
+            "Protect yourself from the sun",
+            "Climb with others",
+            "Acclimatise yourself to the altitude first",
+          ],
+          questions: [
             {
               number: 18,
-              option: "Information Centre",
-              answer: "C",
+              option: "",
+              answer: "",
             },
             {
               number: 19,
-              option: "Prize Draw Box",
-              answer: "C",
+              option: "",
+              answer: "",
             },
             {
               number: 20,
-              option: "Water Station",
-              answer: "C",
+              option: "",
+              answer: "",
             },
           ],
         },
@@ -194,125 +187,155 @@ const test = {
     },
     {
       section: 3,
-      audioUrl: audios.lis11Part3,
+      audioUrl: audios.lis15Part3,
       parts: [
         {
           part: 1,
-          title: "Questions 21-26",
+          title: "Computer Labs ",
+          questions_range: "Questions 21-27",
           description:
-            "Choose the correct letter, A, B or C.Farmers' attitudes to new developments in agriculture",
-          type: "multiple-choice",
+            "Complete the notes below. Write NO MORE THAN THREE WORDS OR A NUMBER for each answer.",
+          flex: 1,
+          type: "note_completion",
           questions: [
             {
-              number: 21,
-              question:
-                "What does Dr Owen advise Joel to include in the title of his project?",
-              type: "multiple-choice",
-              options: [
-                "the location of the farms",
-                "the number of farmers",
-                "the types of farming",
+              prompt: "",
+              question_text: [
+                {
+                  number: 1,
+                  text: "The 4 labs below can be used by undergraduates",
+                },
+                {
+                  number: 21,
+                  text: "Other computer labs can only be used by postgraduates and 21) * @ *",
+                },
               ],
-              answer: "the location of the farms",
             },
             {
-              number: 22,
-              question: "Why has Joel decided to do face-to-face interviews?",
-              type: "multiple-choice",
-              options: [
-                "to see the farmers' workplaces",
-                "to limit the time he spends on the project",
-                "to get fuller answers",
+              prompt: "Lab\nLocations\nWimborne",
+              question_text: [
+                {
+                  number: 2,
+                  text: "Johnson Building",
+                },
               ],
-              answer: "to get fuller answers",
             },
             {
-              number: 23,
-              question:
-                "Joel agrees to investigate how farmers get information on new developments",
-              type: "multiple-choice",
-              options: [
-                "by showing them a series of pictures",
-                "by asking them open questions",
-                "by sending them a checklist in advance",
+              prompt: "Franklin",
+              question_text: [
+                {
+                  number: 2,
+                  text: "Computer Sciences Building",
+                },
               ],
-              answer: "by asking them open questions",
             },
             {
-              number: 24,
-              question:
-                "Concerning government communication with farmers, the speakers agree that",
-              type: "multiple-choice",
-              options: [
-                "much of it is irrelevant",
-                "it is often insufficient for farmers' needs",
-                "the wording is sometimes unclear",
+              prompt: "Salisbury:",
+              question_text: [
+                {
+                  number: 22,
+                  text: "22) * @ *",
+                },
               ],
-              answer: "the wording is sometimes unclear",
             },
             {
-              number: 25,
-              question:
-                "According to Joel's reading about the cost of making changes, many British farmers",
-              type: "multiple-choice",
-              options: [
-                "leave investment decisions to their accountants",
-                "have too little time to calculate the costs of new methods",
-                "are reluctant to spend money on improvements",
+              prompt: "Court:",
+              question_text: [
+                {
+                  number: 4,
+                  text: "Johnson Building",
+                },
               ],
-              answer: "are reluctant to spend money on improvements",
             },
             {
-              number: 26,
-              question:
-                "Survey of Australian sheep farmers found that most of them",
-              type: "multiple-choice",
-              options: [
-                "are usually reluctant to make changes",
-                "make changes based on limited research",
-                "want plenty of evidence before they make changes",
+              prompt: "",
+              question_text: [
+                {
+                  number: 23,
+                  text: "Reservations 23) * @ * a day unless computers are free",
+                },
               ],
-              answer: "want plenty of evidence before they make changes",
+            },
+            {
+              prompt: "",
+              question_text: [
+                {
+                  number: 24,
+                  text: "Write reservation in book 24) * @ *(Penalty for erasing someone else's reservation — 1 year ban)",
+                },
+              ],
+            },
+            {
+              prompt: "User Name:",
+              question_text: [
+                {
+                  number: 8,
+                  text: "jamessmith2",
+                },
+              ],
+            },
+            {
+              prompt: "Password:",
+              question_text: [
+                {
+                  number: 25,
+                  text: "25) * @ *",
+                },
+              ],
+            },
+            {
+              prompt: "Printing",
+              question_text: [
+                {
+                  number: 26,
+                  text: "Pick up print outs from 26) * @ * in Franklin",
+                },
+              ],
+            },
+            {
+              prompt: "Costs",
+              question_text: [
+                {
+                  number: 27,
+                  text: "27) * @ *",
+                },
+              ],
             },
           ],
         },
+
         {
           part: 2,
-          title: "Questions 27–30",
-          question:
-            "What opinion is expressed about each of the following books?",
-          description:
-            "Choose FOUR answers from the boy and write the correct letter, A-G, next to questions 27- 30",
-          type: "matching",
-          items: [
-            "It's badly organised.",
-            "It's out of date.",
-            "It's clear.",
-            "It's essential reading.",
-            "It's inaccurate.",
-            "It's well illustrated.",
-            "It's boring.",
-          ],
+          title: "Questions 28-30",
+          description: "Choose the correct answer A, B or C.",
+          type: "multiple-choice",
           questions: [
             {
-              number: 27,
-              option: "Contemporary Farming Manual",
-              answer: "",
-            },
-            {
               number: 28,
-              option: "Running a Small Farm",
-              answer: "",
+              question:
+                "The introductory computer course that James decides to take is…",
+              type: "multiple-choice",
+              options: ["beginner", "intermediate", "advanced"],
+              answer: "beginner",
             },
             {
               number: 29,
-              option: "Agriculture and Economics",
-              answer: "",
+              question:
+                "The computer laboratory for James’ introductory computer course is in…",
+              type: "multiple-choice",
+              options: ["Wimborne", "Franklin", "Court"],
+              answer: "Court",
             },
             {
               number: 30,
-              option: "How to Survive in Farming",
-              answer: "",
+              question: "James will take his introductory computer course…",
+              type: "multiple-choice",
+              options: [
+                "on Thursday at 2.00pm",
+                "on Tuesday at 4.30pm",
+                "on Tuesday at 5.00pm",
+              ],
+              answer: "on Tuesday at 5.00pm",
             },
           ],
         },
@@ -320,98 +343,87 @@ const test = {
     },
     {
       section: 4,
-      audioUrl: audios.lis11Part4,
+      audioUrl: audios.lis15Part4,
       parts: [
         {
           part: 1,
-          title: "Aboriginal Textile Design",
+          title: "Treadle Pump",
           questions_range: "Questions 31-40",
           description:
-            "Complete the notes below.Write ONE WORD ONLY for each answer.",
-          flex: 1,
+            "Complete the notes below. Write ONE WORD ONLY for each answer.",
           type: "note_completion",
           questions: [
             {
-              prompt: "Ernabella Arts Centre",
-              question_text: [
+              prompt: "Background",
+              questions: [
                 {
                   number: 31,
-                  text: "Artists produce craft and learn new techniques",
+                  text: "The pump was designed for farmers in India.",
                   answer: "",
                 },
                 {
                   number: 31,
-                  text: "Initially, artists produced rugs made from 31) * @ *",
-                  answer: "",
-                },
-                {
-                  number: 31,
-                  text: "Later artists made batik and screen-printed fabrics",
+                  text: "In the dry season, many people move to 31) * @ *. for paid jobs.",
                   answer: "",
                 },
               ],
             },
             {
-              prompt: "Tiwi Designs",
-              question_text: [
+              prompt: "Description",
+              questions: [
                 {
                   number: 32,
-                  text: "Early designs included 32) * @ * images",
+                  text: "Like an exercise bike made up of two treadles.",
+                  answer: "",
+                },
+                {
+                  number: 32,
+                  text: "Metal pump cylinders are linked to a pond or well by a plastic 32) * @ *.",
                   answer: "",
                 },
                 {
                   number: 33,
-                  text: "Designs are linked to traditional beliefs, e.g. Some designs are believed to bring 33) * @ *.",
+                  text: "Farmers use pumps in the 33) * @ * period.",
                   answer: "",
                 },
-              ],
-            },
-            {
-              prompt: "Jimmy Pike",
-              question_text: [
                 {
                   number: 34,
-                  text: "Inspired by the Australian landscape, especially the 34) * @ *.",
+                  text: "In 2006, a new version was developed to be used by the 34) * @ *",
                   answer: "",
                 },
                 {
                   number: 35,
-                  text: "Started creating art when he was in 35) * @ *.",
-                  answer: "",
-                },
-                {
-                  number: 36,
-                  text: "His textiles were used to make 36) * @ *.",
+                  text: "To prevent blockages, the design was improved by attaching a bamboo 35) * @ *",
                   answer: "",
                 },
               ],
             },
             {
-              prompt: "Bronwyn Bancroft",
-              question_text: [
+              prompt: "Benefits",
+              questions: [
+                {
+                  number: 36,
+                  text: "Economically, many farmers have increased their 36) * @ *.",
+                  answer: "",
+                },
                 {
                   number: 37,
-                  text: "Her work is a modern look at 37) * @ * and nature",
+                  text: "For health, pump users have a better 37) * @ *.",
                   answer: "",
                 },
                 {
                   number: 38,
-                  text: "1995 - painted a successful Aboriginal athlete's jeans with lizards and a 38) * @ *",
+                  text: "Environmentally, the pump is less dependent on 38) * @ *. fuel.",
                   answer: "",
                 },
                 {
                   number: 39,
-                  text: "2001 - designed a 'Journey of a Nation' parade outfit with part of a 39) * @ * on it",
+                  text: "For sustainability, the device is easy to 39) * @ * and maintain.",
                   answer: "",
                 },
-              ],
-            },
-            {
-              prompt: "Copyright Issues",
-              question_text: [
                 {
                   number: 40,
-                  text: "Exploiting Aboriginal imagery affects the artists and the cultural group, e.g. 'The 40) * @ *. Case'",
+                  text: "Mechanics need a short period of time for 40) * @ *.",
                   answer: "",
                 },
               ],
@@ -422,45 +434,45 @@ const test = {
     },
   ],
   answers: {
-    1: "September 14(th)/September 14",
-    2: "835",
-    3: "school",
-    4: "deck",
-    5: "river",
-    6: "towel",
-    7: "garage",
-    8: "Chinese",
-    9: "200",
-    10: "July",
-    11: "A",
-    12: "B",
-    13: "A",
-    14: "B",
-    15: "F",
+    1: "Database",
+    2: "Rock",
+    3: "Month",
+    4: "45",
+    5: "750",
+    6: "Studio",
+    7: "Legal",
+    8: "Recording",
+    9: "KIPPAX",
+    10: "Talent",
+    11: "attempt",
+    12: "summer",
+    13: "bad weather",
+    14: "falling rocks",
+    15: "C",
     16: "A",
-    17: "B",
-    18: "H",
-    19: "G",
-    20: "I",
-    21: "A",
-    22: "C",
-    23: "B",
-    24: "A",
-    25: "B",
-    26: "B",
-    27: "G",
-    28: "E",
-    29: "D",
-    30: "B",
-    31: "wool",
-    32: "bird",
-    33: "rain",
-    34: "desert",
-    35: "prison",
-    36: "clothing",
-    37: "family",
-    38: "rainbow",
-    39: "snake",
-    40: "Carpet",
+    17: "A",
+    18: "C",
+    19: "D",
+    20: "F",
+    21: "staff",
+    22: "library",
+    23: "2 hours",
+    24: "in pen",
+    25: "biology",
+    26: "tray",
+    27: "nothing, free",
+    28: "A",
+    29: "B",
+    30: "C",
+    31: "urban",
+    32: "tube",
+    33: "cooler",
+    34: "conditions",
+    35: "filter",
+    36: "income",
+    37: "diet",
+    38: "fossil",
+    39: "use",
+    40: "support",
   },
 };

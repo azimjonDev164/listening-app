@@ -46,6 +46,18 @@ import lis12Part1 from "../audios/listening12/Part 1.mp3";
 import lis12Part2 from "../audios/listening12/Part 2.mp3";
 import lis12Part3 from "../audios/listening12/Part 3.mp3";
 import lis12Part4 from "../audios/listening12/Part 4.mp3";
+import lis13Part1 from "../audios/listening13/Part 1.mp3";
+import lis13Part2 from "../audios/listening13/Part 2.mp3";
+import lis13Part3 from "../audios/listening13/Part 3.mp3";
+import lis13Part4 from "../audios/listening13/Part 4.mp3";
+import lis14Part1 from "../audios/listening14/Part 1.mp3";
+import lis14Part2 from "../audios/listening14/Part 2.mp3";
+import lis14Part3 from "../audios/listening14/Part 3.mp3";
+import lis14Part4 from "../audios/listening14/Part 4.mp3";
+import lis15Part1 from "../audios/listening15/Part 1.mp3";
+import lis15Part2 from "../audios/listening15/Part 2.mp3";
+import lis15Part3 from "../audios/listening15/Part 3.mp3";
+import lis15Part4 from "../audios/listening15/Part 4.mp3";
 
 export default {
   lis1Part1,
@@ -96,4 +108,16 @@ export default {
   lis12Part2,
   lis12Part3,
   lis12Part4,
+  lis13Part1,
+  lis13Part2,
+  lis13Part3,
+  lis13Part4,
+  lis14Part1,
+  lis14Part2,
+  lis14Part3,
+  lis14Part4,
+  lis15Part1,
+  lis15Part2,
+  lis15Part3,
+  lis15Part4,
 };

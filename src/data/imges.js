@@ -4,6 +4,7 @@ import img9 from "../images/image9.jpg";
 import img10 from "../images/image10.jpg";
 import img11 from "../images/image11.jpg";
 import img12 from "../images/image12.jpg";
+import img13 from "../images/image13.jpg";
 
 export default {
   img4,
@@ -12,4 +13,5 @@ export default {
   img10,
   img11,
   img12,
+  img13,
 };
