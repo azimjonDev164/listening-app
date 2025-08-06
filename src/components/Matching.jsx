@@ -37,9 +37,22 @@ const Matching = ({ data, handleChange }) => {
           <tr>
             <td className="p-4 border border-gray-300">
               {/* <p>{data?.description}</p> */}
+              {data?.image ? (
+                <img
+                  key={data?.image}
+                  src={data?.image}
+                  alt="map"
+                  className="h-[300px] md:h-[500px] mx-auto"
+                />
+              ) : (
+                ""
+              )}
               <ul>
                 {data.questions.map((item, idx) => (
-                  <li key={idx} className="flex items-center gap-2">
+                  <li
+                    key={idx}
+                    className="flex items-center gap-2 border-b-2 border-gray-500 mb-1"
+                  >
                     <strong>{item.number})</strong>
                     <p>{item.option}</p>
                     <input

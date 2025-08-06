@@ -1,76 +1,150 @@
 const test = {
-  title: "IELTS Listening 15",
+  title: "IELTS Listening 17",
   audioUrl: "https://example.com/audio/test2.mp3",
   sections: [
     {
       section: 1,
-      audioUrl: audios.lis15Part1,
+      audioUrl: audios.lis17Part1,
       parts: [
         {
           part: 1,
-          title: "Music Alive Agency",
+          title: "Accommodation Request",
           questions_range: "Questions 1-10",
-          description: "Write ONE WORD AND/OR A NUMBER foreach answer.",
-          flex: 1,
+          description:
+            "Complete the notes below.White NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
           type: "note_completion",
           questions: [
             {
-              prompt: "",
+              prompt: "Type of accommodation:",
               question_text: [
                 {
                   number: 1,
-                  text: "Members' details are on a 1 ) * @ *",
-                  answer: "",
-                },
-                {
-                  number: 2,
-                  text: "Type of music represented: modern music (2) * @ *and jazz)",
-                  answer: "",
-                },
-                {
-                  number: 3,
-                  text: "Newsletter comes out once a 3) * @ *",
-                  answer: "",
-                },
-                {
-                  number: 4,
-                  text: "Cost of adult membership: 4) £ * @ *",
-                  answer: "",
-                },
-                {
-                  number: 5,
-                  text: "Current number of members: 5) *  @ *",
-                  answer: "",
-                },
-                {
-                  number: 6,
-                  text: "Facilities include: rehearsal rooms and a 6) * @ *",
-                  answer: "",
-                },
-                {
-                  number: 7,
-                  text: "There is no charge for 7) * @ * advice",
-                  answer: "",
+                  text: "a house",
                 },
               ],
             },
             {
-              prompt: "To become a member",
+              prompt: "Preferred location:",
+              question_text: [
+                {
+                  number: 1,
+                  text: "the 1) * @ * of the town",
+                },
+              ],
+            },
+            {
+              prompt: "Facilities required:",
+              question_text: [
+                {
+                  number: 2,
+                  text: "furnished property - with a 2) * @ *",
+                },
+              ],
+            },
+            {
+              prompt: "Period of time required:",
+              question_text: [
+                {
+                  number: 2,
+                  text: "one year",
+                },
+              ],
+            },
+            {
+              prompt: "Start date of rental period:",
+              question_text: [
+                {
+                  number: 3,
+                  text: " 3) * @ *",
+                },
+              ],
+            },
+            {
+              prompt: "Present address:",
+              question_text: [
+                {
+                  number: 4,
+                  text: "56, Stone Street",
+                },
+              ],
+            },
+            {
+              prompt: "Phone number:",
+              question_text: [
+                {
+                  number: 4,
+                  text: "(mobiIe) 07942 326584",
+                },
+              ],
+            },
+            {
+              prompt: "Reference from:",
+              question_text: [
+                {
+                  number: 4,
+                  text: "her 4) * @ *",
+                },
+              ],
+            },
+            {
+              prompt: "Maximum rent:",
+              question_text: [
+                {
+                  number: 5,
+                  text: "5) * @ * per month",
+                },
+              ],
+            },
+            {
+              prompt: "Applicant’s job:",
+              question_text: [
+                {
+                  number: 6,
+                  text: "6) * @ *",
+                },
+              ],
+            },
+            {
+              prompt: "Documents to be supplied ID check:",
+              question_text: [
+                {
+                  number: 7,
+                  text: "applicant's passport",
+                },
+              ],
+            },
+            {
+              prompt: "Credit check:",
+              question_text: [
+                {
+                  number: 7,
+                  text: "a 7) * @ *",
+                },
+              ],
+            },
+            {
+              prompt: "Viewing arrangements:",
               question_text: [
                 {
                   number: 8,
-                  text: "Send a letter with contact details and a recent 8) * @ *",
-                  answer: "",
+                  text: "Address of property: 33, 8) * @ * Street",
                 },
                 {
+                  number: 8,
+                  text: "Viewing day and time:	Saturday 4 p.m",
+                },
+              ],
+            },
+            {
+              prompt: "To check:",
+              question_text: [
+                {
                   number: 9,
-                  text: "Address: 707, 9) * @ * Street, Marbury",
-                  answer: "",
+                  text: "Is there a 9) * @ * in the house?",
                 },
                 {
                   number: 10,
-                  text: "Contact email: music.10 )* @ * @bsu.co.uk",
-                  answer: "",
+                  text: "Is there a 10) * @ * nearby?",
                 },
               ],
             },
@@ -80,105 +154,102 @@ const test = {
     },
     {
       section: 2,
-      audioUrl: audios.lis15Part2,
+      audioUrl: audios.lis17Part2,
       parts: [
         {
-          part: 1,
-          title: "Experiences of mountain climbing",
-          questions_range: "Questions 11-14",
-          description:
-            "Complete the sentences below. Write NO MORE THAN TWO WORDS for each answer.",
-          type: "sentence_completion",
+          part: 2,
+          title: "Questions 11–14",
+          question: "Choose the correct letter, A, B or C.",
+          description: "Information for fire wardens",
+          type: "multiple_choice_single_answer",
           questions: [
             {
               number: 11,
-              question_text:
-                "Every year more than 30,000 people * @ * to climb Mont Blanc.",
+              question:
+                "The company is having this meeting about fire procedures because",
+              options: [
+                "employees did badly in the last annual fire drill",
+                "there have been changes in the building layout",
+                "new staff have joined the company",
+              ],
+              answer: "",
             },
             {
               number: 12,
-              question_text:
-                "Approximately 200 reach the top every day in the * @ * months.",
+              question: "There has been a recent upgrade to",
+              options: [
+                "the sprinkler system",
+                "the fire extinguishers",
+                "the alarm system",
+              ],
+              answer: "",
             },
             {
               number: 13,
-              question_text:
-                "In July 2007, there were 30 fatalities, chiefly due to * @ * conditions.",
+              question:
+                "During the minor fire in January, some staff working in the factory",
+              options: [
+                "were unable to read fire notices",
+                "left fire doors open",
+                "were unwilling to start the fire alarm",
+              ],
+              answer: "",
             },
             {
               number: 14,
-              question_text: "One danger is * @ * caused by other climbers.",
+              question:
+                "In the fire in January, the problem with office staff was that they",
+              options: [
+                "refused to leave personal items behind",
+                "moved too slowly during the evacuation",
+                "did not move far away enough from the building",
+              ],
+              answer: "",
             },
           ],
         },
         {
           part: 2,
-          title: "Questions 15-17",
-          description: "Choose the correct answer A, B or C.",
-          type: "multiple-choice",
+          title: "Questions 15–20",
+          question:
+            "What comment does the speaker make about each of the following aspects of fire safety?",
+          description:
+            "Write the correct letter, A, B or C, next to questions 15-20",
+          type: "matching",
+          items: [
+            "It should be a priority for fire wardens",
+            "It will be dealt with by an external specialist",
+            "It does not require attention",
+          ],
           questions: [
             {
               number: 15,
-              question: "How did Katherine do her most recent climb?",
-              type: "multiple-choice",
-              options: ["in a group", "with a guide", "on her own"],
-              answer: "on her own",
+              option: "ensuring there are no obstacles in fire escape routes",
+              answer: "",
             },
             {
               number: 16,
-              question:
-                "Why did Katherine find her first climb of Mont Blanc difficult?",
-              type: "multiple-choice",
-              options: [
-                "because of poor weather conditions",
-                "because of the time she was climbing",
-                "because the route was crowded",
-              ],
-              answer: "because of the time she was climbing",
+              option: "checking that fire doors are easily opened",
+              answer: "",
             },
             {
               number: 17,
-              question:
-                "What did Katherine do on her second climb that made it easier?",
-              type: "multiple-choice",
-              options: [
-                "She spent a few days in Chamonix beforehand",
-                "She did the climb over two days",
-                "She climbed smaller peaks for training",
-              ],
-              answer: "She climbed smaller peaks for training",
+              option: "showing staff how to look after each other",
+              answer: "",
             },
-          ],
-        },
-        {
-          part: 3,
-          title: "Questions 18–20",
-          question:
-            "Which THREE experiences taught Katherine about Mont Blanc?",
-          description: "Choose THREE letters, A–F.",
-          type: "multiple_choice_multiple_answers",
-          options: [
-            "Be in good physical condition",
-            "Have the right climbing equipment",
-            "Wear several layers of clothing",
-            "Protect yourself from the sun",
-            "Climb with others",
-            "Acclimatise yourself to the altitude first",
-          ],
-          questions: [
             {
               number: 18,
-              option: "",
+              option: "training staff to use fire extinguishers correctly",
               answer: "",
             },
             {
               number: 19,
-              option: "",
+              option: "checking that staff are aware of evacuation points",
               answer: "",
             },
             {
               number: 20,
-              option: "",
+              option: "checking that flammable liquids are properly stored",
               answer: "",
             },
           ],
@@ -187,155 +258,110 @@ const test = {
     },
     {
       section: 3,
-      audioUrl: audios.lis15Part3,
+      audioUrl: audios.lis17Part3,
       parts: [
         {
           part: 1,
-          title: "Computer Labs ",
-          questions_range: "Questions 21-27",
+          title: "Questions 21–25",
+          question:
+            "What comments do the speakers make about each of the following types of pigeon?",
           description:
-            "Complete the notes below. Write NO MORE THAN THREE WORDS OR A NUMBER for each answer.",
-          flex: 1,
-          type: "note_completion",
+            "Choose FIVE answers from the box and write the correct letter, A–H, next to questions 21–25.",
+          type: "matching",
+          items: [
+            "eats meat",
+            "communicates with its wings",
+            "is found in a variety of locations",
+            "feeds on a particular type of plant",
+            "sings to attract a mate",
+            "is endangered",
+            "is brightly coloured",
+            "avoids the ground",
+          ],
           questions: [
             {
-              prompt: "",
-              question_text: [
-                {
-                  number: 1,
-                  text: "The 4 labs below can be used by undergraduates",
-                },
-                {
-                  number: 21,
-                  text: "Other computer labs can only be used by postgraduates and 21) * @ *",
-                },
-              ],
+              number: 21,
+              option: "Australian crested pigeon",
+              answer: "",
             },
             {
-              prompt: "Lab\nLocations\nWimborne",
-              question_text: [
-                {
-                  number: 2,
-                  text: "Johnson Building",
-                },
-              ],
+              number: 22,
+              option: "Rock pigeon",
+              answer: "",
             },
             {
-              prompt: "Franklin",
-              question_text: [
-                {
-                  number: 2,
-                  text: "Computer Sciences Building",
-                },
-              ],
+              number: 23,
+              option: "Black-banded pigeon",
+              answer: "",
             },
             {
-              prompt: "Salisbury:",
-              question_text: [
-                {
-                  number: 22,
-                  text: "22) * @ *",
-                },
-              ],
+              number: 24,
+              option: "Galapagos pigeon",
+              answer: "",
             },
             {
-              prompt: "Court:",
-              question_text: [
-                {
-                  number: 4,
-                  text: "Johnson Building",
-                },
-              ],
-            },
-            {
-              prompt: "",
-              question_text: [
-                {
-                  number: 23,
-                  text: "Reservations 23) * @ * a day unless computers are free",
-                },
-              ],
-            },
-            {
-              prompt: "",
-              question_text: [
-                {
-                  number: 24,
-                  text: "Write reservation in book 24) * @ *(Penalty for erasing someone else's reservation — 1 year ban)",
-                },
-              ],
-            },
-            {
-              prompt: "User Name:",
-              question_text: [
-                {
-                  number: 8,
-                  text: "jamessmith2",
-                },
-              ],
-            },
-            {
-              prompt: "Password:",
-              question_text: [
-                {
-                  number: 25,
-                  text: "25) * @ *",
-                },
-              ],
-            },
-            {
-              prompt: "Printing",
-              question_text: [
-                {
-                  number: 26,
-                  text: "Pick up print outs from 26) * @ * in Franklin",
-                },
-              ],
-            },
-            {
-              prompt: "Costs",
-              question_text: [
-                {
-                  number: 27,
-                  text: "27) * @ *",
-                },
-              ],
+              number: 25,
+              option: "Nicobar pigeon",
+              answer: "",
             },
           ],
         },
-
         {
           part: 2,
-          title: "Questions 28-30",
-          description: "Choose the correct answer A, B or C.",
-          type: "multiple-choice",
+          title: "Questions 26–30",
+          question: "Choose the correct letter, A, B or C",
+          description: "Pigeons",
+          type: "multiple_choice_single_answer",
           questions: [
+            {
+              number: 26,
+              question: "When people feed city pigeons, it causes them to",
+              options: [
+                "eed more successfully",
+                "become overweight",
+                "get sick",
+              ],
+              answer: "",
+            },
+            {
+              number: 27,
+              question:
+                "The Melbourne city council are tackling their pigeon problem by",
+              options: [
+                "removing the pigeons from the city",
+                "scaring away pigeons",
+                "providing homes for the pigeons",
+              ],
+              answer: "",
+            },
             {
               number: 28,
               question:
-                "The introductory computer course that James decides to take is…",
-              type: "multiple-choice",
-              options: ["beginner", "intermediate", "advanced"],
-              answer: "beginner",
+                "Jennifer and Adam agree that the second stage of the council scheme is",
+              options: ["expensive", "cruel", "ineffective"],
+              answer: "",
             },
             {
               number: 29,
               question:
-                "The computer laboratory for James’ introductory computer course is in…",
-              type: "multiple-choice",
-              options: ["Wimborne", "Franklin", "Court"],
-              answer: "Court",
+                "What method of pigeon control was most successful in the city of Basel?",
+              options: [
+                "trapping the pigeons",
+                "educating the public",
+                "building nesting sites",
+              ],
+              answer: "",
             },
             {
               number: 30,
-              question: "James will take his introductory computer course…",
-              type: "multiple-choice",
+              question:
+                "Adam and Jennifer decide to do some more research on how pigeons can",
               options: [
-                "on Thursday at 2.00pm",
-                "on Tuesday at 4.30pm",
-                "on Tuesday at 5.00pm",
+                "affect our health",
+                "damage buildings",
+                "cause local flooding",
               ],
-              answer: "on Tuesday at 5.00pm",
+              answer: "",
             },
           ],
         },
@@ -343,88 +369,106 @@ const test = {
     },
     {
       section: 4,
-      audioUrl: audios.lis15Part4,
+      audioUrl: audios.lis17Part4,
       parts: [
         {
           part: 1,
-          title: "Treadle Pump",
-          questions_range: "Questions 31-40",
+          title: "The Lontar Palm",
+          questions_range: "Questions 31–40",
           description:
             "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          flex: 1,
           type: "note_completion",
           questions: [
             {
-              prompt: "Background",
-              questions: [
+              prompt: "The tree",
+              question_text: [
                 {
                   number: 31,
-                  text: "The pump was designed for farmers in India.",
-                  answer: "",
+                  text: "	grows on Roti, an Indonesian island",
                 },
                 {
                   number: 31,
-                  text: "In the dry season, many people move to 31) * @ *. for paid jobs.",
-                  answer: "",
+                  text: "• is known as the tree of life’",
+                },
+                {
+                  number: 31,
+                  text: "•  produces delicious juice",
+                },
+                {
+                  number: 31,
+                  text: "• has a fruit resembling a 31) * @ * (female trees only)",
                 },
               ],
             },
             {
-              prompt: "Description",
-              questions: [
+              prompt: "People climbing the trees",
+              question_text: [
                 {
                   number: 32,
-                  text: "Like an exercise bike made up of two treadles.",
-                  answer: "",
-                },
-                {
-                  number: 32,
-                  text: "Metal pump cylinders are linked to a pond or well by a plastic 32) * @ *.",
-                  answer: "",
+                  text: "• fix 32) * @ * to the tree trunks to help them climb",
                 },
                 {
                   number: 33,
-                  text: "Farmers use pumps in the 33) * @ * period.",
-                  answer: "",
+                  text: "• keep their tools attached to a 33) * @ *",
                 },
                 {
-                  number: 34,
-                  text: "In 2006, a new version was developed to be used by the 34) * @ *",
-                  answer: "",
+                  number: 32,
+                  text: "• often own particular trees",
                 },
                 {
-                  number: 35,
-                  text: "To prevent blockages, the design was improved by attaching a bamboo 35) * @ *",
-                  answer: "",
+                  number: 33,
+                  text: "• contribute to the upkeep of the communal fence",
                 },
               ],
             },
             {
-              prompt: "Benefits",
-              questions: [
+              prompt: "Using the juice",
+              question_text: [
+                {
+                  number: 34,
+                  text: "• It quickly becomes 34) * @ * if left unprocessed.",
+                },
+                {
+                  number: 34,
+                  text: "• A concentrated form of it is drunk in the rainy season.",
+                },
+                {
+                  number: 35,
+                  text: "• It can be made into sugary 35) * @ *",
+                },
+              ],
+            },
+            {
+              prompt: "Using other parts of the tree",
+              question_text: [
                 {
                   number: 36,
-                  text: "Economically, many farmers have increased their 36) * @ *.",
-                  answer: "",
+                  text: "• The leaf is used:",
+                },
+                {
+                  number: 36,
+                  text: "• to make containers, bags and roofing",
+                },
+                {
+                  number: 36,
+                  text: "• as garden 36) * @ *",
                 },
                 {
                   number: 37,
-                  text: "For health, pump users have a better 37) * @ *.",
-                  answer: "",
+                  text: "• The leaf is used for brightly decorated hats worn at a 37) * @ *",
                 },
                 {
                   number: 38,
-                  text: "Environmentally, the pump is less dependent on 38) * @ *. fuel.",
-                  answer: "",
+                  text: "• The leaf is used for a musical instrument which sounds like a 38) * @ *",
                 },
                 {
                   number: 39,
-                  text: "For sustainability, the device is easy to 39) * @ * and maintain.",
-                  answer: "",
+                  text: "• The stalk is used to make 39) * @ *",
                 },
                 {
                   number: 40,
-                  text: "Mechanics need a short period of time for 40) * @ *.",
-                  answer: "",
+                  text: "• The trunk is used in the construction of 40) * @ *",
                 },
               ],
             },
@@ -434,45 +478,45 @@ const test = {
     },
   ],
   answers: {
-    1: "Database",
-    2: "Rock",
-    3: "Month",
-    4: "45",
-    5: "750",
-    6: "Studio",
-    7: "Legal",
-    8: "Recording",
-    9: "KIPPAX",
-    10: "Talent",
-    11: "attempt",
-    12: "summer",
-    13: "bad weather",
-    14: "falling rocks",
-    15: "C",
+    1: "South-east",
+    2: "Washing machine",
+    3: "15th May",
+    4: "Employer",
+    5: "675",
+    6: "Translator",
+    7: "Bank statement",
+    8: "AINSWORTH",
+    9: "Telephone",
+    10: "Bus Stop",
+    11: "B",
+    12: "C",
+    13: "C",
+    14: "C",
+    15: "A",
     16: "A",
-    17: "A",
-    18: "C",
-    19: "D",
-    20: "F",
-    21: "staff",
-    22: "library",
-    23: "2 hours",
-    24: "in pen",
-    25: "biology",
-    26: "tray",
-    27: "nothing, free",
+    17: "B",
+    18: "B",
+    19: "A",
+    20: "C",
+    21: "B",
+    22: "C",
+    23: "H",
+    24: "D",
+    25: "F",
+    26: "A",
+    27: "C",
     28: "A",
     29: "B",
-    30: "C",
-    31: "urban",
-    32: "tube",
-    33: "cooler",
-    34: "conditions",
-    35: "filter",
-    36: "income",
-    37: "diet",
-    38: "fossil",
-    39: "use",
-    40: "support",
+    30: "A",
+    31: "Coconut",
+    32: "Stones",
+    33: "Belt",
+    34: "Savor",
+    35: "Biscuits",
+    36: "Fertilizer",
+    37: "Celebration",
+    38: "Sasando",
+    39: "Ropes",
+    40: "Houses",
   },
 };

@@ -58,6 +58,14 @@ import lis15Part1 from "../audios/listening15/Part 1.mp3";
 import lis15Part2 from "../audios/listening15/Part 2.mp3";
 import lis15Part3 from "../audios/listening15/Part 3.mp3";
 import lis15Part4 from "../audios/listening15/Part 4.mp3";
+import lis16Part1 from "../audios/listening16/Part 1.MP3";
+import lis16Part2 from "../audios/listening16/Part 2.MP3";
+import lis16Part3 from "../audios/listening16/Part 3.MP3";
+import lis16Part4 from "../audios/listening16/Part 4.MP3";
+import lis17Part1 from "../audios/listening17/Part 1.m4a";
+import lis17Part2 from "../audios/listening17/Part 2.m4a";
+import lis17Part3 from "../audios/listening17/Part 3.m4a";
+import lis17Part4 from "../audios/listening17/Part 4.m4a";
 
 export default {
   lis1Part1,
@@ -120,4 +128,12 @@ export default {
   lis15Part2,
   lis15Part3,
   lis15Part4,
+  lis16Part1,
+  lis16Part2,
+  lis16Part3,
+  lis16Part4,
+  lis17Part1,
+  lis17Part2,
+  lis17Part3,
+  lis17Part4,
 };
