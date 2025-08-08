@@ -1,150 +1,103 @@
 const test = {
-  title: "IELTS Listening 17",
+  title: "IELTS Listening 18",
   audioUrl: "https://example.com/audio/test2.mp3",
   sections: [
     {
       section: 1,
-      audioUrl: audios.lis17Part1,
+      audioUrl: audios.lis18Part1,
       parts: [
         {
           part: 1,
-          title: "Accommodation Request",
-          questions_range: "Questions 1-10",
+          title: "Questions 1–8",
+          question: "Choose the correct letter, A, B or C.",
+          description: "",
+          type: "multiple-choice",
+          questions: [
+            {
+              number: 1,
+              question: "The centre has enough accommodation for",
+              options: ["18 people", "20 people", "38 people"],
+              answer: "",
+            },
+            {
+              number: 2,
+              question: "The meeting room is currently",
+              options: ["unavailable", "flooded", "booked"],
+              answer: "",
+            },
+            {
+              number: 3,
+              question:
+                "Visitors must tell the centre in advance if they want to",
+              options: [
+                "use the centre’s kitchen",
+                "have meals cooked for them",
+                "eat at restaurants outside",
+              ],
+              answer: "",
+            },
+            {
+              number: 4,
+              question: "All visitors on the tour of the farm can",
+              options: [
+                "get information about organic farming",
+                "help to feed the animals",
+                "watch a tractor demonstration",
+              ],
+              answer: "",
+            },
+            {
+              number: 5,
+              question: "On the survival course people have to",
+              options: [
+                "learn to use a map",
+                "find their own food",
+                "run through woodland",
+              ],
+              answer: "",
+            },
+            {
+              number: 6,
+              question: "From the centre it is easy to walk to",
+              options: ["Exmoor National Park", "the beach", "a cycling route"],
+              answer: "",
+            },
+            {
+              number: 7,
+              question: "If the weather is bad visitors can go to a",
+              options: ["cinema", "theatre", "museum"],
+              answer: "",
+            },
+            {
+              number: 8,
+              question: "Groups who wish to stay at the centre must pay",
+              options: [
+                "part of the cost in advance",
+                "all of the cost in advance",
+                "all of the cost on arrival",
+              ],
+              answer: "",
+            },
+          ],
+        },
+        {
+          part: 2,
+          title: "Winsham Farm Address",
+          questions_range: "Questions 9 and 10",
           description:
-            "Complete the notes below.White NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+            "Complete the notes below. Write ONE WORD AND/OR NUMBERS for each answer.",
           type: "note_completion",
           questions: [
             {
-              prompt: "Type of accommodation:",
-              question_text: [
-                {
-                  number: 1,
-                  text: "a house",
-                },
-              ],
-            },
-            {
-              prompt: "Preferred location:",
-              question_text: [
-                {
-                  number: 1,
-                  text: "the 1) * @ * of the town",
-                },
-              ],
-            },
-            {
-              prompt: "Facilities required:",
-              question_text: [
-                {
-                  number: 2,
-                  text: "furnished property - with a 2) * @ *",
-                },
-              ],
-            },
-            {
-              prompt: "Period of time required:",
-              question_text: [
-                {
-                  number: 2,
-                  text: "one year",
-                },
-              ],
-            },
-            {
-              prompt: "Start date of rental period:",
-              question_text: [
-                {
-                  number: 3,
-                  text: " 3) * @ *",
-                },
-              ],
-            },
-            {
-              prompt: "Present address:",
-              question_text: [
-                {
-                  number: 4,
-                  text: "56, Stone Street",
-                },
-              ],
-            },
-            {
-              prompt: "Phone number:",
-              question_text: [
-                {
-                  number: 4,
-                  text: "(mobiIe) 07942 326584",
-                },
-              ],
-            },
-            {
-              prompt: "Reference from:",
-              question_text: [
-                {
-                  number: 4,
-                  text: "her 4) * @ *",
-                },
-              ],
-            },
-            {
-              prompt: "Maximum rent:",
-              question_text: [
-                {
-                  number: 5,
-                  text: "5) * @ * per month",
-                },
-              ],
-            },
-            {
-              prompt: "Applicant’s job:",
-              question_text: [
-                {
-                  number: 6,
-                  text: "6) * @ *",
-                },
-              ],
-            },
-            {
-              prompt: "Documents to be supplied ID check:",
-              question_text: [
-                {
-                  number: 7,
-                  text: "applicant's passport",
-                },
-              ],
-            },
-            {
-              prompt: "Credit check:",
-              question_text: [
-                {
-                  number: 7,
-                  text: "a 7) * @ *",
-                },
-              ],
-            },
-            {
-              prompt: "Viewing arrangements:",
-              question_text: [
-                {
-                  number: 8,
-                  text: "Address of property: 33, 8) * @ * Street",
-                },
-                {
-                  number: 8,
-                  text: "Viewing day and time:	Saturday 4 p.m",
-                },
-              ],
-            },
-            {
-              prompt: "To check:",
+              prompt: "Address:",
               question_text: [
                 {
                   number: 9,
-                  text: "Is there a 9) * @ * in the house?",
+                  text: "Winsham Farm, 9) * @ * Rd",
                 },
                 {
                   number: 10,
-                  text: "Is there a 10) * @ * nearby?",
+                  text: "Near Sherborne, 10) * @ *",
                 },
               ],
             },
@@ -154,102 +107,155 @@ const test = {
     },
     {
       section: 2,
-      audioUrl: audios.lis17Part2,
+      audioUrl: audios.lis18Part2,
       parts: [
         {
-          part: 2,
-          title: "Questions 11–14",
-          question: "Choose the correct letter, A, B or C.",
-          description: "Information for fire wardens",
-          type: "multiple_choice_single_answer",
-          questions: [
+          part: 1,
+          title: "",
+          questions_range: "Questions 11–16",
+          description:
+            "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer",
+          type: "table_completion",
+          object: 1,
+          columns: [
+            "Vacation Job",
+            "Main advantage",
+            "Main disadvantage",
+            "Recommendation",
+          ],
+          rows: [
             {
-              number: 11,
-              question:
-                "The company is having this meeting about fire procedures because",
-              options: [
-                "employees did badly in the last annual fire drill",
-                "there have been changes in the building layout",
-                "new staff have joined the company",
+              number: 1,
+              values: [
+                [
+                  {
+                    number: 1,
+                    text: "Stocktaking",
+                  },
+                ],
+                [
+                  {
+                    number: 11,
+                    text: "11) * @ *",
+                  },
+                ],
+                [
+                  {
+                    number: 2,
+                    text: "Tiring",
+                  },
+                ],
+                [
+                  {
+                    number: 12,
+                    text: "12) * @ *",
+                  },
+                ],
+                ,
               ],
-              answer: "",
             },
             {
-              number: 12,
-              question: "There has been a recent upgrade to",
-              options: [
-                "the sprinkler system",
-                "the fire extinguishers",
-                "the alarm system",
+              number: 2,
+              values: [
+                [
+                  {
+                    number: 4,
+                    text: "Office work",
+                  },
+                ],
+                [
+                  {
+                    number: 5,
+                    text: "Air-conditioning",
+                  },
+                ],
+                [
+                  {
+                    number: 13,
+                    text: "`13) * @ *",
+                  },
+                ],
+                [
+                  {
+                    number: 14,
+                    text: "Choose a 14) * @ *",
+                  },
+                ],
               ],
-              answer: "",
             },
             {
-              number: 13,
-              question:
-                "During the minor fire in January, some staff working in the factory",
-              options: [
-                "were unable to read fire notices",
-                "left fire doors open",
-                "were unwilling to start the fire alarm",
+              number: 3,
+              values: [
+                [
+                  {
+                    number: 6,
+                    text: "theme park attendant",
+                  },
+                ],
+                [
+                  {
+                    number: 15,
+                    text: "15) * @ * ",
+                  },
+                ],
+                [
+                  {
+                    number: 7,
+                    text: "Rude customers",
+                  },
+                ],
+                [
+                  {
+                    number: 16,
+                    text: "16) * @ *",
+                  },
+                ],
+                ,
               ],
-              answer: "",
-            },
-            {
-              number: 14,
-              question:
-                "In the fire in January, the problem with office staff was that they",
-              options: [
-                "refused to leave personal items behind",
-                "moved too slowly during the evacuation",
-                "did not move far away enough from the building",
-              ],
-              answer: "",
             },
           ],
         },
         {
           part: 2,
-          title: "Questions 15–20",
-          question:
-            "What comment does the speaker make about each of the following aspects of fire safety?",
-          description:
-            "Write the correct letter, A, B or C, next to questions 15-20",
-          type: "matching",
-          items: [
-            "It should be a priority for fire wardens",
-            "It will be dealt with by an external specialist",
-            "It does not require attention",
-          ],
+          title: "Questions 17–20",
+          question: "Choose the correct letter.",
+          description: "",
+          type: "multiple-choice",
           questions: [
             {
-              number: 15,
-              option: "ensuring there are no obstacles in fire escape routes",
-              answer: "",
-            },
-            {
-              number: 16,
-              option: "checking that fire doors are easily opened",
-              answer: "",
-            },
-            {
               number: 17,
-              option: "showing staff how to look after each other",
+              question: "Peter learned about the job",
+              options: [
+                "from a college friend",
+                "on the computer",
+                "from a student job centre",
+              ],
               answer: "",
             },
             {
               number: 18,
-              option: "training staff to use fire extinguishers correctly",
+              question: "Peter mainly enjoyed the job because it was",
+              options: ["easy", "challenging", "unusual"],
               answer: "",
             },
             {
               number: 19,
-              option: "checking that staff are aware of evacuation points",
+              question: "The job's most interesting aspect was",
+              options: [
+                "learning about the environment",
+                "working with children",
+                "caring for the animals",
+              ],
               answer: "",
             },
             {
               number: 20,
-              option: "checking that flammable liquids are properly stored",
+              question: "Peter has decided that next vacation he",
+              options: [
+                "won't take a job",
+                "will work at the zoo",
+                "will work elsewhere",
+              ],
               answer: "",
             },
           ],
@@ -258,110 +264,202 @@ const test = {
     },
     {
       section: 3,
-      audioUrl: audios.lis17Part3,
+      audioUrl: audios.lis18Part3,
       parts: [
         {
           part: 1,
-          title: "Questions 21–25",
-          question:
-            "What comments do the speakers make about each of the following types of pigeon?",
+          title: "Study Syndicates",
+          questions_range: "Questions 21 and 22",
           description:
-            "Choose FIVE answers from the box and write the correct letter, A–H, next to questions 21–25.",
-          type: "matching",
-          items: [
-            "eats meat",
-            "communicates with its wings",
-            "is found in a variety of locations",
-            "feeds on a particular type of plant",
-            "sings to attract a mate",
-            "is endangered",
-            "is brightly coloured",
-            "avoids the ground",
-          ],
+            "Complete the notes below. Write NO MORE THAN THREE WORDS for each answer.",
+          type: "note_completion",
           questions: [
             {
-              number: 21,
-              option: "Australian crested pigeon",
-              answer: "",
-            },
-            {
-              number: 22,
-              option: "Rock pigeon",
-              answer: "",
-            },
-            {
-              number: 23,
-              option: "Black-banded pigeon",
-              answer: "",
-            },
-            {
-              number: 24,
-              option: "Galapagos pigeon",
-              answer: "",
-            },
-            {
-              number: 25,
-              option: "Nicobar pigeon",
-              answer: "",
+              prompt: "Reasons for having Study Syndicates:",
+              question_text: [
+                {
+                  number: 21,
+                  text: "• teaching one another is a good way to learn",
+                },
+                {
+                  number: 21,
+                  text: "• it gives the opportunity to 21) * @ *",
+                },
+                {
+                  number: 21,
+                  text: "•	shared reading means fuller notes",
+                },
+                {
+                  number: 22,
+                  text: "• You can do 22) * @ *",
+                },
+              ],
             },
           ],
         },
         {
-          part: 2,
-          title: "Questions 26–30",
-          question: "Choose the correct letter, A, B or C",
-          description: "Pigeons",
-          type: "multiple_choice_single_answer",
+          part: 1,
+          title: "PLAN FOR STUDY SYNDICATE",
+          questions_range: "Questions 23–25",
+          description:
+            "Complete the table below.Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+          type: "table_completion",
+          object: 1,
+          columns: [
+            "Date",
+            "Geology Topic",
+            "Main disadvantage",
+            "Name of Presenter",
+          ],
+          rows: [
+            {
+              number: 1,
+              values: [
+                [
+                  {
+                    number: 1,
+                    text: "9thMay",
+                  },
+                ],
+                [
+                  {
+                    number: 23,
+                    text: "23) * @ *",
+                  },
+                ],
+                [
+                  {
+                    number: 2,
+                    text: "Bob",
+                  },
+                ],
+              ],
+            },
+            {
+              number: 2,
+              values: [
+                [
+                  {
+                    number: 24,
+                    text: "24) * @ *",
+                  },
+                ],
+                [
+                  {
+                    number: 5,
+                    text: "glaciated areas",
+                  },
+                ],
+                [
+                  {
+                    number: 13,
+                    text: "`Andy",
+                  },
+                ],
+              ],
+            },
+            {
+              number: 3,
+              values: [
+                [
+                  {
+                    number: 6,
+                    text: "23rd May",
+                  },
+                ],
+                [
+                  {
+                    number: 15,
+                    text: "rock formation",
+                  },
+                ],
+                [
+                  {
+                    number: 7,
+                    text: "Helen and John",
+                  },
+                ],
+              ],
+            },
+            {
+              number: 4,
+              values: [
+                [
+                  {
+                    number: 25,
+                    text: "25) * @ *",
+                  },
+                ],
+                [
+                  {
+                    number: 15,
+                    text: "Volcanoes",
+                  },
+                ],
+                [
+                  {
+                    number: 7,
+                    text: "John",
+                  },
+                ],
+              ],
+            },
+          ],
+        },
+        {
+          part: 7,
+          title: "",
+          questions_range: "Questions 26-30",
+          description:
+            "Complete the notes below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+          type: "note_completion",
           questions: [
             {
-              number: 26,
-              question: "When people feed city pigeons, it causes them to",
-              options: [
-                "eed more successfully",
-                "become overweight",
-                "get sick",
+              prompt: "Presentations should last for:",
+              question_text: [
+                {
+                  number: 26,
+                  text: "26) * @ *",
+                },
+                {
+                  number: 27,
+                  text: "(plus time for 27) * @ * and * @ *)",
+                },
               ],
-              answer: "",
             },
             {
-              number: 27,
-              question:
-                "The Melbourne city council are tackling their pigeon problem by",
-              options: [
-                "removing the pigeons from the city",
-                "scaring away pigeons",
-                "providing homes for the pigeons",
+              prompt: "Sources of information:",
+              question_text: [
+                {
+                  number: 28,
+                  text: "-	bibliography",
+                },
+                {
+                  number: 28,
+                  text: "-	library books",
+                },
+                {
+                  number: 28,
+                  text: "28) * @ *",
+                },
+                {
+                  number: 29,
+                  text: "29) * @ *",
+                },
               ],
-              answer: "",
             },
             {
-              number: 28,
-              question:
-                "Jennifer and Adam agree that the second stage of the council scheme is",
-              options: ["expensive", "cruel", "ineffective"],
-              answer: "",
-            },
-            {
-              number: 29,
-              question:
-                "What method of pigeon control was most successful in the city of Basel?",
-              options: [
-                "trapping the pigeons",
-                "educating the public",
-                "building nesting sites",
+              prompt: "For the presentations, use:",
+              question_text: [
+                {
+                  number: 30,
+                  text: "-	overhead projector - whiteboard",
+                },
+                {
+                  number: 30,
+                  text: "30) * @ *",
+                },
               ],
-              answer: "",
-            },
-            {
-              number: 30,
-              question:
-                "Adam and Jennifer decide to do some more research on how pigeons can",
-              options: [
-                "affect our health",
-                "damage buildings",
-                "cause local flooding",
-              ],
-              answer: "",
             },
           ],
         },
@@ -369,106 +467,94 @@ const test = {
     },
     {
       section: 4,
-      audioUrl: audios.lis17Part4,
+      audioUrl: audios.lis18Part4,
       parts: [
         {
           part: 1,
-          title: "The Lontar Palm",
-          questions_range: "Questions 31–40",
+          title: "Health on the Night Shift",
+          questions_range: "Questions 31-40",
           description:
-            "Complete the notes below. Write ONE WORD ONLY for each answer.",
-          flex: 1,
+            "Complete the notes below.Write NO MORE THAN THREE WORDS for each answer.",
           type: "note_completion",
           questions: [
             {
-              prompt: "The tree",
+              prompt: "Background:",
               question_text: [
                 {
                   number: 31,
-                  text: "	grows on Roti, an Indonesian island",
-                },
-                {
-                  number: 31,
-                  text: "• is known as the tree of life’",
-                },
-                {
-                  number: 31,
-                  text: "•  produces delicious juice",
-                },
-                {
-                  number: 31,
-                  text: "• has a fruit resembling a 31) * @ * (female trees only)",
+                  text: "31) * @ * in number of night workers because of 24-hour shopping/services.\n Need to examine effects of changing work and sleep habitsUS and British research found these lead to health problems ",
                 },
               ],
             },
             {
-              prompt: "People climbing the trees",
+              prompt: "Main Causes:",
               question_text: [
                 {
                   number: 32,
-                  text: "• fix 32) * @ * to the tree trunks to help them climb",
+                  text: "A) 32) * @ * - regulates daily life",
                 },
                 {
                   number: 33,
-                  text: "• keep their tools attached to a 33) * @ *",
-                },
-                {
-                  number: 32,
-                  text: "• often own particular trees",
+                  text: "- connected to behavioural patterns and cycles 33) * @ * and * @ * ",
                 },
                 {
                   number: 33,
-                  text: "• contribute to the upkeep of the communal fence",
+                  text: "•	programmes us to be awake and asleep at certain times",
+                },
+                {
+                  number: 34,
+                  text: "B) Sleep Debt \n•	impossible to get enough sleep during daytir",
+                },
+                {
+                  number: 34,
+                  text: "C) 34) * @ * - different working / sleeping times, 'dislocation'",
                 },
               ],
             },
             {
-              prompt: "Using the juice",
+              prompt: "Effects: A) Physical",
               question_text: [
                 {
-                  number: 34,
-                  text: "• It quickly becomes 34) * @ * if left unprocessed.",
-                },
-                {
-                  number: 34,
-                  text: "• A concentrated form of it is drunk in the rainy season.",
+                  number: 35,
+                  text: "35) * @ * problems and more minor illnesses, suggesting immunity is affected",
                 },
                 {
                   number: 35,
-                  text: "• It can be made into sugary 35) * @ *",
+                  text: "•	more minor illnesses, suggesting that immunity of shift workers is affected",
                 },
               ],
             },
             {
-              prompt: "Using other parts of the tree",
+              prompt: "Effects: B) Psychological",
               question_text: [
                 {
                   number: 36,
-                  text: "• The leaf is used:",
-                },
-                {
-                  number: 36,
-                  text: "• to make containers, bags and roofing",
-                },
-                {
-                  number: 36,
-                  text: "• as garden 36) * @ *",
+                  text: "36) * @ * is the most common",
                 },
                 {
                   number: 37,
-                  text: "• The leaf is used for brightly decorated hats worn at a 37) * @ *",
+                  text: "37) * @ * affected, e.g. decision-making,planning,which regulate our ",
                 },
                 {
                   number: 38,
-                  text: "• The leaf is used for a musical instrument which sounds like a 38) * @ *",
+                  text: "38) * @ *",
                 },
+              ],
+            },
+            {
+              prompt: "Effects: C) Social",
+              question_text: [
                 {
                   number: 39,
-                  text: "• The stalk is used to make 39) * @ *",
+                  text: "Night shift work can lead to: •	destruction of 39) * @ * and other relationships,",
                 },
                 {
                   number: 40,
-                  text: "• The trunk is used in the construction of 40) * @ *",
+                  text: "e.g 40) * @ *",
+                },
+                {
+                  number: 40,
+                  text: "•	eventually, for individuals: social isolation",
                 },
               ],
             },
@@ -478,45 +564,45 @@ const test = {
     },
   ],
   answers: {
-    1: "South-east",
-    2: "Washing machine",
-    3: "15th May",
-    4: "Employer",
-    5: "675",
-    6: "Translator",
-    7: "Bank statement",
-    8: "AINSWORTH",
-    9: "Telephone",
-    10: "Bus Stop",
-    11: "B",
-    12: "C",
-    13: "C",
-    14: "C",
-    15: "A",
-    16: "A",
-    17: "B",
-    18: "B",
-    19: "A",
-    20: "C",
-    21: "B",
-    22: "C",
-    23: "H",
-    24: "D",
-    25: "F",
-    26: "A",
-    27: "C",
-    28: "A",
+    1: "C",
+    2: "A",
+    3: "B",
+    4: "A",
+    5: "B",
+    6: "C",
+    7: "C",
+    8: "A",
+    9: "Cotehele",
+    10: "SH121LQ",
+    11: "Share ideas",
+    12: "Much deeper research",
+    13: "Mountain building",
+    14: "17th May",
+    15: "29th May",
+    16: "30-40 minutes",
+    17: "Question(s) discussion",
+    18: "Journal",
+    19: "Internet",
+    20: "Photo copy",
+    21: "traveling",
+    22: "get good shoes",
+    23: "Wearing formal clothes",
+    24: "Large office",
+    25: "good pay",
+    26: "live nearly",
+    27: "B",
+    28: "C",
     29: "B",
     30: "A",
-    31: "Coconut",
-    32: "Stones",
-    33: "Belt",
-    34: "Savor",
-    35: "Biscuits",
-    36: "Fertilizer",
-    37: "Celebration",
-    38: "Sasando",
-    39: "Ropes",
-    40: "Houses",
+    31: "Health increase",
+    32: "Internal clock",
+    33: "Light dark",
+    34: "Unsocial hours",
+    35: "Heart stomach",
+    36: "Depression",
+    37: "Mental ability",
+    38: "Performance",
+    39: "Family life",
+    40: "friends",
   },
 };

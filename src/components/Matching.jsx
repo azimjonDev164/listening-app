@@ -51,7 +51,7 @@ const Matching = ({ data, handleChange }) => {
                 {data.questions.map((item, idx) => (
                   <li
                     key={idx}
-                    className="flex items-center gap-2 border-b-2 border-gray-500 mb-1"
+                    className="flex items-center gap-2 border-b-1 border-gray-300 mb-1"
                   >
                     <strong>{item.number})</strong>
                     <p>{item.option}</p>
