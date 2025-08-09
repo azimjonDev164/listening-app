@@ -1,103 +1,122 @@
 const test = {
-  title: "IELTS Listening 18",
+  title: "IELTS Listening 20",
   audioUrl: "https://example.com/audio/test2.mp3",
   sections: [
     {
       section: 1,
-      audioUrl: audios.lis18Part1,
+      audioUrl: audios.lis20Part1,
       parts: [
         {
           part: 1,
-          title: "Questions 1–8",
-          question: "Choose the correct letter, A, B or C.",
-          description: "",
-          type: "multiple-choice",
-          questions: [
-            {
-              number: 1,
-              question: "The centre has enough accommodation for",
-              options: ["18 people", "20 people", "38 people"],
-              answer: "",
-            },
-            {
-              number: 2,
-              question: "The meeting room is currently",
-              options: ["unavailable", "flooded", "booked"],
-              answer: "",
-            },
-            {
-              number: 3,
-              question:
-                "Visitors must tell the centre in advance if they want to",
-              options: [
-                "use the centre’s kitchen",
-                "have meals cooked for them",
-                "eat at restaurants outside",
-              ],
-              answer: "",
-            },
-            {
-              number: 4,
-              question: "All visitors on the tour of the farm can",
-              options: [
-                "get information about organic farming",
-                "help to feed the animals",
-                "watch a tractor demonstration",
-              ],
-              answer: "",
-            },
-            {
-              number: 5,
-              question: "On the survival course people have to",
-              options: [
-                "learn to use a map",
-                "find their own food",
-                "run through woodland",
-              ],
-              answer: "",
-            },
-            {
-              number: 6,
-              question: "From the centre it is easy to walk to",
-              options: ["Exmoor National Park", "the beach", "a cycling route"],
-              answer: "",
-            },
-            {
-              number: 7,
-              question: "If the weather is bad visitors can go to a",
-              options: ["cinema", "theatre", "museum"],
-              answer: "",
-            },
-            {
-              number: 8,
-              question: "Groups who wish to stay at the centre must pay",
-              options: [
-                "part of the cost in advance",
-                "all of the cost in advance",
-                "all of the cost on arrival",
-              ],
-              answer: "",
-            },
-          ],
-        },
-        {
-          part: 2,
-          title: "Winsham Farm Address",
-          questions_range: "Questions 9 and 10",
+          title: "North Star Camping Equipment Customer Order",
+          questions_range: "Questions 1-10",
           description:
-            "Complete the notes below. Write ONE WORD AND/OR NUMBERS for each answer.",
+            "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          flex: 1,
           type: "note_completion",
           questions: [
             {
-              prompt: "Address:",
+              prompt: "Customer surname:",
+              question_text: [
+                {
+                  number: 1,
+                  text: "Greenaway",
+                },
+              ],
+            },
+            {
+              prompt: "Order reference:",
+              question_text: [
+                {
+                  number: 1,
+                  text: "1) * @ *",
+                },
+              ],
+            },
+            {
+              prompt: "Ordered items:",
+              question_text: [
+                {
+                  number: null,
+                  text: "Tent ",
+                },
+                {
+                  number: null,
+                  text: "-	family size ",
+                },
+                {
+                  number: null,
+                  text: "-	two doors",
+                },
+                {
+                  number: null,
+                  text: "Sleeping bags",
+                },
+                {
+                  number: 2,
+                  text: "-	the 2) * @ * design",
+                },
+                {
+                  number: 2,
+                  text: "Beds four ",
+                },
+                {
+                  number: 2,
+                  text: "mattresses",
+                },
+                {
+                  number: 3,
+                  text: "-	a 3) * @ *",
+                },
+                {
+                  number: 3,
+                  text: "Cooking",
+                },
+                {
+                  number: 3,
+                  text: "-	a gas stove",
+                },
+                {
+                  number: 4,
+                  text: "-	a suitable water 4) * @ *",
+                },
+                {
+                  number: 5,
+                  text: "-	a set of metal 5) * @ *",
+                },
+                {
+                  number: 5,
+                  text: "Other items",
+                },
+                {
+                  number: 6,
+                  text: "-	two torches made of 6) * @ *",
+                },
+                {
+                  number: 7,
+                  text: "a 7) * @ * set suitable for ",
+                },
+                {
+                  number: 8,
+                  text: "children a recent 8) * @ *",
+                },
+              ],
+            },
+            {
+              prompt: "Delivery address:",
               question_text: [
                 {
                   number: 9,
-                  text: "Winsham Farm, 9) * @ * Rd",
+                  text: "56, 9) * @ * Street Bayswater",
                 },
+              ],
+            },
+            {
+              prompt: "Delivery charge:",
+              question_text: [
                 {
                   number: 10,
-                  text: "Near Sherborne, 10) * @ *",
+                  text: "10) $ * @ *",
                 },
               ],
             },
@@ -107,155 +126,107 @@ const test = {
     },
     {
       section: 2,
-      audioUrl: audios.lis18Part2,
+      audioUrl: audios.lis20Part2,
       parts: [
         {
-          part: 1,
-          title: "",
-          questions_range: "Questions 11–16",
-          description:
-            "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer",
-          type: "table_completion",
-          object: 1,
-          columns: [
-            "Vacation Job",
-            "Main advantage",
-            "Main disadvantage",
-            "Recommendation",
-          ],
-          rows: [
+          part: 2,
+          title: "Questions 11–14",
+          question: "Choose the correct letter.",
+          description: "The McFaddin hiking and nature trail",
+          type: "multiple-choice",
+          questions: [
             {
-              number: 1,
-              values: [
-                [
-                  {
-                    number: 1,
-                    text: "Stocktaking",
-                  },
-                ],
-                [
-                  {
-                    number: 11,
-                    text: "11) * @ *",
-                  },
-                ],
-                [
-                  {
-                    number: 2,
-                    text: "Tiring",
-                  },
-                ],
-                [
-                  {
-                    number: 12,
-                    text: "12) * @ *",
-                  },
-                ],
-                ,
+              number: 11,
+              question: "All entry points along the trail",
+              options: [
+                "provide secure parking facilities for cars.",
+                "are within easy access from public roads.",
+                "have a regular shuttle bus service.",
               ],
+              answer: "",
             },
             {
-              number: 2,
-              values: [
-                [
-                  {
-                    number: 4,
-                    text: "Office work",
-                  },
-                ],
-                [
-                  {
-                    number: 5,
-                    text: "Air-conditioning",
-                  },
-                ],
-                [
-                  {
-                    number: 13,
-                    text: "`13) * @ *",
-                  },
-                ],
-                [
-                  {
-                    number: 14,
-                    text: "Choose a 14) * @ *",
-                  },
-                ],
+              number: 12,
+              question:
+                "Which facility at the trail rest stations has been added as a result of a user survey?",
+              options: [
+                "electric recharge points",
+                "picnic areas",
+                "maps and other information",
               ],
+              answer: "",
             },
             {
-              number: 3,
-              values: [
-                [
-                  {
-                    number: 6,
-                    text: "theme park attendant",
-                  },
-                ],
-                [
-                  {
-                    number: 15,
-                    text: "15) * @ * ",
-                  },
-                ],
-                [
-                  {
-                    number: 7,
-                    text: "Rude customers",
-                  },
-                ],
-                [
-                  {
-                    number: 16,
-                    text: "16) * @ *",
-                  },
-                ],
-                ,
+              number: 13,
+              question: "On the Red Rock Walk, hikers are easily able to",
+              options: [
+                "see many different plants.",
+                "enjoy spectacular scenic views.",
+                "identify a wide range of birds.",
               ],
+              answer: "",
+            },
+            {
+              number: 14,
+              question:
+                "What does the speaker say about the River Walk in wintertime?",
+              options: [
+                "There are not many other walkers in the area.",
+                "The area does not get much ice and snow.",
+                "It may not be possible to use this section of the trail.",
+              ],
+              answer: "",
             },
           ],
         },
         {
           part: 2,
-          title: "Questions 17–20",
-          question: "Choose the correct letter.",
-          description: "",
-          type: "multiple-choice",
+          title: "Questions 15–20",
+          question:
+            "Which information is given about each of the following facilities at the Halfway Hostel?",
+          description:
+            "Choose SIX answers from the box and write the correct letter, A-I, next to questions 15-20.",
+          type: "matching",
+          items: [
+            "only at weekends ",
+            "voluntary donation expected ",
+            "not yet available",
+            "help from guests requested ",
+            "provided free",
+            "advance booking required",
+            "new equipment",
+            "available on first-come-first-served basis ",
+            "special rate for children",
+          ],
           questions: [
             {
+              number: 15,
+              option: "dormitory beds",
+              answer: "",
+            },
+            {
+              number: 16,
+              option: "family rooms",
+              answer: "",
+            },
+            {
               number: 17,
-              question: "Peter learned about the job",
-              options: [
-                "from a college friend",
-                "on the computer",
-                "from a student job centre",
-              ],
+              option: "clothes washing",
               answer: "",
             },
             {
               number: 18,
-              question: "Peter mainly enjoyed the job because it was",
-              options: ["easy", "challenging", "unusual"],
+              option: "meals",
               answer: "",
             },
             {
               number: 19,
-              question: "The job's most interesting aspect was",
-              options: [
-                "learning about the environment",
-                "working with children",
-                "caring for the animals",
-              ],
+              option: "hot showers",
               answer: "",
             },
             {
               number: 20,
-              question: "Peter has decided that next vacation he",
-              options: [
-                "won't take a job",
-                "will work at the zoo",
-                "will work elsewhere",
-              ],
+              option: "bicycle rental",
               answer: "",
             },
           ],
@@ -264,202 +235,118 @@ const test = {
     },
     {
       section: 3,
-      audioUrl: audios.lis18Part3,
+      audioUrl: audios.lis20Part3,
       parts: [
         {
-          part: 1,
-          title: "Study Syndicates",
-          questions_range: "Questions 21 and 22",
-          description:
-            "Complete the notes below. Write NO MORE THAN THREE WORDS for each answer.",
-          type: "note_completion",
+          part: 3,
+          title: "Questions 21–26",
+          question: "Choose the correct letter.",
+          description: "Shampoo Marketing Project",
+          type: "multiple-choice",
           questions: [
             {
-              prompt: "Reasons for having Study Syndicates:",
-              question_text: [
-                {
-                  number: 21,
-                  text: "• teaching one another is a good way to learn",
-                },
-                {
-                  number: 21,
-                  text: "• it gives the opportunity to 21) * @ *",
-                },
-                {
-                  number: 21,
-                  text: "•	shared reading means fuller notes",
-                },
-                {
-                  number: 22,
-                  text: "• You can do 22) * @ *",
-                },
+              number: 21,
+              question: "Janet says that over time, shampoo has become",
+              options: [
+                "a cheaper product.",
+                "more hygienic in its effects.",
+                "a different kind of commodity.",
               ],
+              answer: "",
+            },
+            {
+              number: 22,
+              question: "What does Janet say about ‘bad hair days’?",
+              options: [
+                "They really do exist.",
+                "Women worry about them more than men.",
+                "Their name is inaccurate.",
+              ],
+              answer: "",
+            },
+            {
+              number: 23,
+              question:
+                "What do Janet and Michael say about the chemicals used in shampoos?",
+              options: [
+                "All shampoos contain the same chemicals.",
+                "The chemicals are believed to be dangerous.",
+                "The presence of the chemicals is rarely publicised.",
+              ],
+              answer: "",
+            },
+            {
+              number: 24,
+              question:
+                "According to Janet, printing directly onto shampoo bottles, rather than onto labels",
+              options: [
+                "costs more.",
+                "looks less attractive.",
+                "takes a lot longer.",
+              ],
+              answer: "",
+            },
+            {
+              number: 25,
+              question:
+                "With regard to environmental issues, Michael and Janet want to investigate",
+              options: [
+                "the appearance of shampoo bottles.",
+                "variations in the weight of shampoo bottles.",
+                "the source of recycled plastic in shampoo bottles.",
+              ],
+              answer: "",
+            },
+            {
+              number: 26,
+              question:
+                "Michael bases his own shampoo purchase decisions on his",
+              options: [
+                "loyalty to certain brands.",
+                "desire to get value for money.",
+                "willingness to try new products.",
+              ],
+              answer: "",
             },
           ],
         },
         {
-          part: 1,
-          title: "PLAN FOR STUDY SYNDICATE",
-          questions_range: "Questions 23–25",
+          part: 2,
+          title: "Questions 27–30",
+          question:
+            "According to the speakers, what is the main advertising focus of each of the following shampoo advertisements?",
           description:
-            "Complete the table below.Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
-          type: "table_completion",
-          object: 1,
-          columns: [
-            "Date",
-            "Geology Topic",
-            "Main disadvantage",
-            "Name of Presenter",
+            "Choose FOUR answers from the box and write the correct letter, A-G, next to questions 27-30.",
+          type: "matching",
+          items: [
+            "link to relaxation",
+            "enviable lifestyle ",
+            "natural ingredients",
+            "masculine image ",
+            "product reliability ",
+            "romantic interest ",
+            "use by celebrities",
           ],
-          rows: [
-            {
-              number: 1,
-              values: [
-                [
-                  {
-                    number: 1,
-                    text: "9thMay",
-                  },
-                ],
-                [
-                  {
-                    number: 23,
-                    text: "23) * @ *",
-                  },
-                ],
-                [
-                  {
-                    number: 2,
-                    text: "Bob",
-                  },
-                ],
-              ],
-            },
-            {
-              number: 2,
-              values: [
-                [
-                  {
-                    number: 24,
-                    text: "24) * @ *",
-                  },
-                ],
-                [
-                  {
-                    number: 5,
-                    text: "glaciated areas",
-                  },
-                ],
-                [
-                  {
-                    number: 13,
-                    text: "`Andy",
-                  },
-                ],
-              ],
-            },
-            {
-              number: 3,
-              values: [
-                [
-                  {
-                    number: 6,
-                    text: "23rd May",
-                  },
-                ],
-                [
-                  {
-                    number: 15,
-                    text: "rock formation",
-                  },
-                ],
-                [
-                  {
-                    number: 7,
-                    text: "Helen and John",
-                  },
-                ],
-              ],
-            },
-            {
-              number: 4,
-              values: [
-                [
-                  {
-                    number: 25,
-                    text: "25) * @ *",
-                  },
-                ],
-                [
-                  {
-                    number: 15,
-                    text: "Volcanoes",
-                  },
-                ],
-                [
-                  {
-                    number: 7,
-                    text: "John",
-                  },
-                ],
-              ],
-            },
-          ],
-        },
-        {
-          part: 7,
-          title: "",
-          questions_range: "Questions 26-30",
-          description:
-            "Complete the notes below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
-          type: "note_completion",
           questions: [
             {
-              prompt: "Presentations should last for:",
-              question_text: [
-                {
-                  number: 26,
-                  text: "26) * @ *",
-                },
-                {
-                  number: 27,
-                  text: "(plus time for 27) * @ * and * @ *)",
-                },
-              ],
+              number: 27,
+              option: "Zing",
+              answer: "",
             },
             {
-              prompt: "Sources of information:",
-              question_text: [
-                {
-                  number: 28,
-                  text: "-	bibliography",
-                },
-                {
-                  number: 28,
-                  text: "-	library books",
-                },
-                {
-                  number: 28,
-                  text: "28) * @ *",
-                },
-                {
-                  number: 29,
-                  text: "29) * @ *",
-                },
-              ],
+              number: 28,
+              option: "Splash",
+              answer: "",
             },
             {
-              prompt: "For the presentations, use:",
-              question_text: [
-                {
-                  number: 30,
-                  text: "-	overhead projector - whiteboard",
-                },
-                {
-                  number: 30,
-                  text: "30) * @ *",
-                },
-              ],
+              number: 29,
+              option: "Just go",
+              answer: "",
+            },
+            {
+              number: 30,
+              option: "Brozene",
+              answer: "",
             },
           ],
         },
@@ -467,94 +354,81 @@ const test = {
     },
     {
       section: 4,
-      audioUrl: audios.lis18Part4,
+      audioUrl: audios.lis20Part4,
       parts: [
         {
           part: 1,
-          title: "Health on the Night Shift",
+          title: "Science in the Future",
           questions_range: "Questions 31-40",
-          description:
-            "Complete the notes below.Write NO MORE THAN THREE WORDS for each answer.",
+          description: "Write ONE WORD ONLY for each answer.",
           type: "note_completion",
           questions: [
             {
-              prompt: "Background:",
+              prompt: "",
               question_text: [
                 {
                   number: 31,
-                  text: "31) * @ * in number of night workers because of 24-hour shopping/services.\n Need to examine effects of changing work and sleep habitsUS and British research found these lead to health problems ",
+                  text: "Scientists were asked to predict changes in their own field in the next 50 years",
                 },
               ],
             },
             {
-              prompt: "Main Causes:",
+              prompt: "Computer science:",
               question_text: [
+                {
+                  number: 31,
+                  text: "The invention of computers is as significant as the discovery of how to create and use 31) * @ *",
+                },
                 {
                   number: 32,
-                  text: "A) 32) * @ * - regulates daily life",
-                },
-                {
-                  number: 33,
-                  text: "- connected to behavioural patterns and cycles 33) * @ * and * @ * ",
-                },
-                {
-                  number: 33,
-                  text: "•	programmes us to be awake and asleep at certain times",
-                },
-                {
-                  number: 34,
-                  text: "B) Sleep Debt \n•	impossible to get enough sleep during daytir",
-                },
-                {
-                  number: 34,
-                  text: "C) 34) * @ * - different working / sleeping times, 'dislocation'",
+                  text: "Computer will be seen as being 32) * @ *",
                 },
               ],
             },
             {
-              prompt: "Effects: A) Physical",
+              prompt: "Psychology:",
               question_text: [
                 {
-                  number: 35,
-                  text: "35) * @ * problems and more minor illnesses, suggesting immunity is affected",
+                  number: 33,
+                  text: "Research will become much more 33) * @ *, and also more practical since more",
+                },
+                {
+                  number: 34,
+                  text: "34) * @ * will be working in the field",
                 },
                 {
                   number: 35,
-                  text: "•	more minor illnesses, suggesting that immunity of shift workers is affected",
+                  text: "Imaging devices will give information about the behaviour of the 35) * @ *",
                 },
               ],
             },
             {
-              prompt: "Effects: B) Psychological",
+              prompt: "Genetics:",
               question_text: [
                 {
                   number: 36,
-                  text: "36) * @ * is the most common",
+                  text: "With increased life expectancy, it is important to consider the 36) * @ * of elderly people's lives",
                 },
                 {
                   number: 37,
-                  text: "37) * @ * affected, e.g. decision-making,planning,which regulate our ",
+                  text: "Knowledge of a person's genome will indicate whether they are likely to be affected by a 37) * @ *",
                 },
                 {
                   number: 38,
-                  text: "38) * @ *",
+                  text: "The approach to treatment will be on an increasingly 38) * @ * basis",
                 },
               ],
             },
             {
-              prompt: "Effects: C) Social",
+              prompt: "Zoology:",
               question_text: [
                 {
                   number: 39,
-                  text: "Night shift work can lead to: •	destruction of 39) * @ * and other relationships,",
+                  text: "It is possible to see the results of the destruction of 39) * @ * in East Africa",
                 },
                 {
                   number: 40,
-                  text: "e.g 40) * @ *",
-                },
-                {
-                  number: 40,
-                  text: "•	eventually, for individuals: social isolation",
+                  text: "Such increased awareness should enable us to do more to look after the 40) * @ *",
                 },
               ],
             },
@@ -564,45 +438,45 @@ const test = {
     },
   ],
   answers: {
-    1: "C",
-    2: "A",
-    3: "B",
-    4: "A",
-    5: "B",
-    6: "C",
-    7: "C",
-    8: "A",
-    9: "Cotehele",
-    10: "SH121LQ",
-    11: "Share ideas",
-    12: "Much deeper research",
-    13: "Mountain building",
-    14: "17th May",
-    15: "29th May",
-    16: "30-40 minutes",
-    17: "Question(s) discussion",
-    18: "Journal",
-    19: "Internet",
-    20: "Photo copy",
-    21: "traveling",
-    22: "get good shoes",
-    23: "Wearing formal clothes",
-    24: "Large office",
-    25: "good pay",
-    26: "live nearly",
+    1: "517 4xcm",
+    2: "Summer",
+    3: "Pump",
+    4: "Bottle",
+    5: "Plates",
+    6: "Rubber",
+    7: "Baseball",
+    8: "Map",
+    9: "Taupo",
+    10: "25.50",
+    11: "B",
+    12: "C",
+    13: "A",
+    14: "C",
+    15: "H",
+    16: "F",
+    17: "G",
+    18: "D",
+    19: "E",
+    20: "C",
+    21: "C",
+    22: "A",
+    23: "C",
+    24: "B",
+    25: "B",
+    26: "C",
     27: "B",
-    28: "C",
-    29: "B",
+    28: "F",
+    29: "E",
     30: "A",
-    31: "Health increase",
-    32: "Internal clock",
-    33: "Light dark",
-    34: "Unsocial hours",
-    35: "Heart stomach",
-    36: "Depression",
-    37: "Mental ability",
-    38: "Performance",
-    39: "Family life",
-    40: "friends",
+    31: "File",
+    32: "Intelligent",
+    33: "Varied",
+    34: "Women",
+    35: "Brain",
+    36: "Quality",
+    37: "Disease",
+    38: "Personal",
+    39: "Forests",
+    40: "Planet",
   },
 };

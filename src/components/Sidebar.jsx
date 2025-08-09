@@ -27,12 +27,14 @@ const Sidebor = ({ display }) => {
               key={idx}
               onClick={() => setIndex(idx)}
               className={`${
-                index == idx ? "bg-red-400 text-white" : "text-gray-800"
-              } rounded-md border-1 border-red-500`}
+                index == idx
+                  ? "bg-red-400 border-2 border-blue-500  text-white"
+                  : "text-gray-800 border-1 border-red-500"
+              } rounded-md`}
             >
               <Link
                 to={`/listening/${idx + 1}`}
-                className="block px-4 py-2 rounded-md hover:bg-red-100 transition-all duration-200 font-mediu"
+                className="block px-4 py-2 rounded-md transition-all duration-200 font-mediu"
               >
                 {item.title}
               </Link>

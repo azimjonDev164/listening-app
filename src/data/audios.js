@@ -70,6 +70,14 @@ import lis18Part1 from "../audios/listening18/Part 1.m4a";
 import lis18Part2 from "../audios/listening18/Part 2.m4a";
 import lis18Part3 from "../audios/listening18/Part 3.m4a";
 import lis18Part4 from "../audios/listening18/Part 4.m4a";
+import lis19Part1 from "../audios/listening19/Part 1.mp3";
+import lis19Part2 from "../audios/listening19/Part 2.mp3";
+import lis19Part3 from "../audios/listening19/Part 3.mp3";
+import lis19Part4 from "../audios/listening19/Part 4.mp3";
+import lis20Part1 from "../audios/listening20/Part 1.mp3";
+import lis20Part2 from "../audios/listening20/Part 2.mp3";
+import lis20Part3 from "../audios/listening20/Part 3.mp3";
+import lis20Part4 from "../audios/listening20/Part 4.mp3";
 
 export default {
   lis1Part1,
@@ -144,4 +152,12 @@ export default {
   lis18Part2,
   lis18Part3,
   lis18Part4,
+  lis19Part1,
+  lis19Part2,
+  lis19Part3,
+  lis19Part4,
+  lis20Part1,
+  lis20Part2,
+  lis20Part3,
+  lis20Part4,
 };
